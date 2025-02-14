@@ -5,7 +5,7 @@ from tensorflow.keras.models import load_model
 import pickle
 
 # Load label encoder
-with open("src/models_checkpoint/label_encoder.pkl", "rb") as f:
+with open("models_checkpoint/label_encoder.pkl", "rb") as f:
     label_encoder = pickle.load(f)
 
 
@@ -283,7 +283,7 @@ def segment_text_with_components(binary_image):
     return text_segments
 
 # Load trained model
-ocr_model = load_model("src/models_checkpoint/bandungbondowoso.keras")
+ocr_model = load_model("models_checkpoint/bandungbondowoso.keras")
 
 def predict_text(segment):
     """Resizes and predicts text from a single segment."""
@@ -316,7 +316,7 @@ def reconstruct_text(predictions):
 
 if __name__ == "__main__":
     # Test
-    image_path = "src/input_image/niat_cropped.jpeg"  # Replace with your image
+    image_path = "input_image/niat_cropped.jpeg"  # Replace with your image
     binary_image = preprocess_image(image_path)
 
     plt.imshow(binary_image, cmap="gray")
