@@ -20,6 +20,7 @@ BATCH_SIZE = 32 # change this to reduce memory usage (the ideal value is 32)
 EPOCHS = 50
 AUTOTUNE = tf.data.experimental.AUTOTUNE
 CHECKPOINT_PATH = "models/best_model.h5"
+NEW_MODEL_PATH = "models/bandungbondowoso.keras"
 NUM_CLASSES = 64
 
 # **2️⃣ Data Loading Functions**
@@ -91,21 +92,42 @@ if __name__ == "__main__":
     print("Creating validation dataset")
     val_dataset = create_tf_dataset(VAL_CSV, BATCH_SIZE)
     
-    ocr_model = model.build_ocr_model(NUM_CLASSES)
-    ocr_model.summary()
-
-
-    # **4️⃣ Train the Model**
-    # Checkpoint to save best model
-    checkpoint = tf.keras.callbacks.ModelCheckpoint(CHECKPOINT_PATH, monitor="val_loss", save_best_only=True, verbose=1)
-
-    print("Training the model")
+    
+    # **Load Existing Model or Create New**
+    if os.path.exists(CHECKPOINT_PATH):
+        print(f"Loading existing model from {CHECKPOINT_PATH}...")
+        ocr_model = tf.keras.models.load_model(CHECKPOINT_PATH)
+    else:
+        print("No previous checkpoint found. Creating a new model...")
+        ocr_model = model.build_ocr_model(NUM_CLASSES)
+        ocr_model.summary()
+        
+    # **Compile the Model (Ensure it's compiled after loading)**
+    ocr_model.compile(optimizer="adam", loss="sparse_categorical_crossentropy", metrics=["accuracy"])
+    # **Define Checkpoints**
+    checkpoint = tf.keras.callbacks.ModelCheckpoint(NEW_MODEL_PATH, monitor="val_loss", save_best_only=True, verbose=1)
+    # **Continue Training**
     history = ocr_model.fit(
         train_dataset,
         validation_data=val_dataset,
         epochs=EPOCHS,
         callbacks=[checkpoint]
-    )
-    # **5️⃣ Save Final Model**
-    model.save("models/final_handwriting_model.h5")
-    print("✅ Training complete! Model saved.")
+        )
+        # **Save Final Model in `.keras` Format**
+    ocr_model.save(NEW_MODEL_PATH)
+    print(f"✅ Training complete! Model saved as {NEW_MODEL_PATH}")
+
+    # # **4️⃣ Train the Model**
+    # # Checkpoint to save best model
+    # checkpoint = tf.keras.callbacks.ModelCheckpoint(CHECKPOINT_PATH, monitor="val_loss", save_best_only=True, verbose=1)
+
+    # print("Training the model")
+    # history = ocr_model.fit(
+    #     train_dataset,
+    #     validation_data=val_dataset,
+    #     epochs=EPOCHS,
+    #     callbacks=[checkpoint]
+    # )
+    # # **5️⃣ Save Final Model**
+    # model.save("models/final_handwriting_model.h5")
+    # print("✅ Training complete! Model saved.")
