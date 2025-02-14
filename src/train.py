@@ -8,6 +8,7 @@ from tensorflow.keras.models import Model
 from tensorflow.keras import Input
 import model
 from sklearn.preprocessing import LabelEncoder
+import pickle
 
 # **1️⃣ Paths & Constants**
 DATA_DIR = "data/augmented"  # Change to "data/processed" if needed
@@ -32,6 +33,10 @@ def load_data(csv_path):
 
     label_encoder = LabelEncoder()
     labels = label_encoder.fit_transform(labels)  # Convert labels to indices
+    # Save the label encoder
+    with open("models/label_encoder.pkl", "wb") as f:
+        pickle.dump(label_encoder, f)
+
     num_classes = len(label_encoder.classes_)  # Get actual class count
 
     print(f"Max encoded label: {max(labels)}")

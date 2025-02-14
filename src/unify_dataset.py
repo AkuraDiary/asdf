@@ -86,6 +86,28 @@ def process_doctors_prescription():
 
     return data
 
+def process_ocr_dataset():
+    """Process character-based dataset from OCR_dataset."""
+    dataset_path = os.path.join(RAW_DIR, "OCR_dataset")
+    data = []
+
+    for data_folder in ["data/training_data", "data/testing_data", "data2/training_data", "data2/testing_data"]:
+        full_path = os.path.join(dataset_path, data_folder)
+        if not os.path.exists(full_path):
+            continue
+        
+        for char_folder in os.listdir(full_path):
+            char_folder_path = os.path.join(full_path, char_folder)
+            if os.path.isdir(char_folder_path):
+                for img_name in os.listdir(char_folder_path):
+                    src_path = os.path.join(char_folder_path, img_name)
+                    if os.path.exists(src_path):
+                        new_name = f"{char_folder}_{img_name}"
+                        dst_path = os.path.join(IMAGE_DIR, new_name)
+                        shutil.copy(src_path, dst_path)
+                        data.append((dst_path, char_folder))
+    
+    return data
 
 def main():
     ensure_dirs()
@@ -95,19 +117,23 @@ def main():
         print("✅ Processed dataset already exists. Only adding new data...")
     else:
         print("🚀 No processed dataset found. Processing from raw datasets...")
+        ocr_data = process_ocr_dataset()
+        all_data = ocr_data
+        df = pd.DataFrame(all_data, columns=["image_path", "label"])
+        df.to_csv(LABELS_CSV, index=False)
+        print(f"Dataset processing complete. {len(df)} images processed.")
 
-    # Process only new datasets
-    doctors_data = process_doctors_prescription()
-
-    if doctors_data:
-        # Append new data to existing CSV
-        df_existing = pd.read_csv(LABELS_CSV) if os.path.exists(LABELS_CSV) else pd.DataFrame(columns=["image_path", "label"])
-        df_new = pd.DataFrame(doctors_data, columns=["image_path", "label"])
-        df_combined = pd.concat([df_existing, df_new], ignore_index=True)
-        df_combined.to_csv(LABELS_CSV, index=False)
-        print(f"✅ Added {len(doctors_data)} new images. Total: {len(df_combined)}")
-    else:
-        print("📌 No new data found. Skipping CSV update.")
+    # # Process only new datasets
+    # doctors_data = process_doctors_prescription()
+    # if doctors_data:
+    #     # Append new data to existing CSV
+    #     df_existing = pd.read_csv(LABELS_CSV) if os.path.exists(LABELS_CSV) else pd.DataFrame(columns=["image_path", "label"])
+    #     df_new = pd.DataFrame(doctors_data, columns=["image_path", "label"])
+    #     df_combined = pd.concat([df_existing, df_new], ignore_index=True)
+    #     df_combined.to_csv(LABELS_CSV, index=False)
+    #     print(f"✅ Added {len(doctors_data)} new images. Total: {len(df_combined)}")
+    # else:
+    #     print("📌 No new data found. Skipping CSV update.")
 
 if __name__ == "__main__":
     main()
