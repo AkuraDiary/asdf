@@ -12,20 +12,28 @@ with open("src/models_checkpoint/label_encoder.pkl", "rb") as f:
 def preprocess_image(image_path):
     """Converts image to grayscale and applies adaptive thresholding."""
     image = cv2.imread(image_path, cv2.IMREAD_GRAYSCALE)
-
     # # Convert to grayscale
     # gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
+    # image = cv2.convertScaleAbs(image, alpha=1.5)
 
     # Apply median blur to remove small specks
-    denoised = cv2.medianBlur(image, 3)
+    denoised = cv2.medianBlur(image, 1)
 
     # Apply morphological closing to remove noise (dilation followed by erosion)
     kernel = np.ones((1,1), np.uint8)  # Adjust kernel size if needed
     clean = cv2.morphologyEx(denoised, cv2.MORPH_CLOSE, kernel)
 
-    blurred = cv2.GaussianBlur(clean, (5,5), 0)  # Reduce noise
+    blurred = cv2.GaussianBlur(clean, (1,1), 0)  # Reduce noise
     binary = cv2.adaptiveThreshold(blurred, 255, cv2.ADAPTIVE_THRESH_GAUSSIAN_C, 
-                                   cv2.THRESH_BINARY_INV, 11, 2)  # Invert colors
+                                   cv2.THRESH_BINARY_INV, 13, 4)  
+
+    # **Dilate the Text to Make It Thicker**
+    # dilation_kernel = np.ones((1, 1), np.uint8)  # Adjust size if needed
+    # thick_text = cv2.dilate(binary, dilation_kernel, iterations=1)
+
+    # plt.imshow(thick_text, cmap="gray")
+    # plt.show()
+
     return binary
 
 def find_text_contours(binary_image):
@@ -50,8 +58,8 @@ def extract_text_segments(image, contours):
     
 
     # **🔹 Morphological Operations (Dilation to Merge Broken Text)**
-    kernel = np.ones((1, 3), np.uint8)  # Adjust kernel size based on text thickness
-    thresh = cv2.dilate(thresh, kernel, iterations=1)  
+    # kernel = np.ones((1, 1), np.uint8)  # Adjust kernel size based on text thickness
+    # thresh = cv2.dilate(thresh, kernel, iterations=3)  
 
     # Find contours of potential text segments
     
@@ -63,12 +71,12 @@ def extract_text_segments(image, contours):
 
         # **🔹 Filter out horizontal lines**
         aspect_ratio = w / float(h)  # Width-to-height ratio
-        if aspect_ratio > 10:  # If it's too long and thin, it's likely a line
+        if aspect_ratio > 8:  # If it's too long and thin, it's likely a line
             continue  
 
         # If it's too little it's likely a speck 
         # **🔹 Filter out specks and tiny noise**
-        min_area = 30  # Adjust based on dataset (experiment!)
+        min_area = 50  # Adjust based on dataset (experiment!)
         if w * h < min_area:  # If the area is too small, it's likely noise
             continue  
 
@@ -84,9 +92,12 @@ def extract_text_segments(image, contours):
         text_segments.append(segment)
         bounding_boxes.append((x, y, w, h))
 
+  # 🔹 **Sort bounding boxes by natural reading order**
+    def sorting_criteria(box):
+        x, y, w, h = box
+        return (y // 10, x)  # Group by line (y) first, then left-to-right (x)
 
-    # **🔹 Sorting by natural reading order (top-to-bottom, then left-to-right)**
-    sorted_indices = sorted(range(len(bounding_boxes)), key=lambda i: (bounding_boxes[i][1], bounding_boxes[i][0]))
+    sorted_indices = sorted(range(len(bounding_boxes)), key=lambda i: sorting_criteria(bounding_boxes[i]))
     sorted_text_segments = [text_segments[i] for i in sorted_indices]
 
     return sorted_text_segments
