@@ -13,7 +13,7 @@ def build_ocr_model(NUM_CLASSES):
     input_img = keras.Input(shape=(IMG_HEIGHT, IMG_WIDTH, 1), name="image")
 
     # CNN feature extraction
-    x = layers.Conv2D(256, (3, 3), activation="relu", padding="same")(input_img)
+    x = layers.Conv2D(64, (3, 3), activation="relu", padding="same")(input_img)
     x = layers.MaxPooling2D(pool_size=(2, 2))(x)
     x = layers.Conv2D(128, (3, 3), activation="relu", padding="same")(x)
     x = layers.MaxPooling2D(pool_size=(2, 2))(x)
@@ -30,9 +30,9 @@ def build_ocr_model(NUM_CLASSES):
 
     # LSTM layers
     x = layers.Bidirectional(layers.LSTM(256, return_sequences=True))(x)
+    x = layers.Bidirectional(layers.LSTM(128, return_sequences=True))(x)
     x = layers.Bidirectional(layers.LSTM(256, return_sequences=True))(x)
-    x = layers.Bidirectional(layers.LSTM(256, return_sequences=True))(x)
-    x = layers.Bidirectional(layers.LSTM(256, return_sequences=True))(x)
+    x = layers.Bidirectional(layers.LSTM(128, return_sequences=True))(x)
     x = layers.Bidirectional(layers.LSTM(128, return_sequences=True))(x)  # New LSTM layer with fewer units
 
     # Attention Laye
@@ -48,7 +48,7 @@ def build_ocr_model(NUM_CLASSES):
     # outputs = layers.Dense(NUM_CLASSES, activation="softmax")(x) 
 
     # Model compilation
-    model = keras.Model(inputs=input_img, outputs=x, name="Doctor_OCR_Model")
+    model = keras.Model(inputs=input_img, outputs=x, name="BandungBondowoso")
     model.compile(optimizer="adam", loss="sparse_categorical_crossentropy", metrics=["accuracy"])
 
     return model

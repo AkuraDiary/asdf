@@ -75,9 +75,9 @@ def process_doctors_prescription():
         image_folder = os.path.join(dataset_path, folder)
 
         for _, row in tqdm(df.iterrows(), desc=f"Processing {csv_file}", total=len(df)):
-            src_path = os.path.join(image_folder, f"{row['image_path']}.png")
+            src_path = os.path.join(image_folder, f"{row['image_path']}")
             if os.path.exists(src_path):
-                new_name = f"{row['label']}_{row['image_path']}.png"
+                new_name = f"{row['label']}_{row['image_path']}"
                 dst_path = os.path.join(IMAGE_DIR, new_name)
                 shutil.copy(src_path, dst_path)
                 data.append((dst_path, row["label"]))

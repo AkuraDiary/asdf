@@ -1,0 +1,1873 @@
+image_path,label
+data/augmented/aug_0_Paracetamol_8.png,Paracetamol
+data/augmented/aug_1_Paracetamol_8.png,Paracetamol
+data/augmented/aug_2_Paracetamol_8.png,Paracetamol
+data/augmented/Paracetamol_8.png,Paracetamol
+data/augmented/aug_0_Paracetamol_6.png,Paracetamol
+data/augmented/aug_1_Paracetamol_6.png,Paracetamol
+data/augmented/aug_2_Paracetamol_6.png,Paracetamol
+data/augmented/Paracetamol_6.png,Paracetamol
+data/augmented/aug_0_Paracetamol_541.png,Paracetamol
+data/augmented/aug_1_Paracetamol_541.png,Paracetamol
+data/augmented/aug_2_Paracetamol_541.png,Paracetamol
+data/augmented/Paracetamol_541.png,Paracetamol
+data/augmented/aug_0_Clonazepam_243.png,Clonazepam
+data/augmented/aug_1_Clonazepam_243.png,Clonazepam
+data/augmented/aug_2_Clonazepam_243.png,Clonazepam
+data/augmented/Clonazepam_243.png,Clonazepam
+data/augmented/aug_0_Montelukast Sodium_2144.png,Montelukast Sodium
+data/augmented/aug_1_Montelukast Sodium_2144.png,Montelukast Sodium
+data/augmented/aug_2_Montelukast Sodium_2144.png,Montelukast Sodium
+data/augmented/Montelukast Sodium_2144.png,Montelukast Sodium
+data/augmented/aug_0_Metronidazole_151.png,Metronidazole
+data/augmented/aug_1_Metronidazole_151.png,Metronidazole
+data/augmented/aug_2_Metronidazole_151.png,Metronidazole
+data/augmented/Metronidazole_151.png,Metronidazole
+data/augmented/aug_0_Montelukast Sodium_2123.png,Montelukast Sodium
+data/augmented/aug_1_Montelukast Sodium_2123.png,Montelukast Sodium
+data/augmented/aug_2_Montelukast Sodium_2123.png,Montelukast Sodium
+data/augmented/Montelukast Sodium_2123.png,Montelukast Sodium
+data/augmented/aug_0_Fluconazole_373.png,Fluconazole
+data/augmented/aug_1_Fluconazole_373.png,Fluconazole
+data/augmented/aug_2_Fluconazole_373.png,Fluconazole
+data/augmented/Fluconazole_373.png,Fluconazole
+data/augmented/aug_0_Esomeprazole_1878.png,Esomeprazole
+data/augmented/aug_1_Esomeprazole_1878.png,Esomeprazole
+data/augmented/aug_2_Esomeprazole_1878.png,Esomeprazole
+data/augmented/Esomeprazole_1878.png,Esomeprazole
+data/augmented/aug_0_Ketoconazole (Tablet)_1618.png,Ketoconazole (Tablet)
+data/augmented/aug_1_Ketoconazole (Tablet)_1618.png,Ketoconazole (Tablet)
+data/augmented/aug_2_Ketoconazole (Tablet)_1618.png,Ketoconazole (Tablet)
+data/augmented/Ketoconazole (Tablet)_1618.png,Ketoconazole (Tablet)
+data/augmented/aug_0_Paracetamol_2218.png,Paracetamol
+data/augmented/aug_1_Paracetamol_2218.png,Paracetamol
+data/augmented/aug_2_Paracetamol_2218.png,Paracetamol
+data/augmented/Paracetamol_2218.png,Paracetamol
+data/augmented/aug_0_Esomeprazole_2509.png,Esomeprazole
+data/augmented/aug_1_Esomeprazole_2509.png,Esomeprazole
+data/augmented/aug_2_Esomeprazole_2509.png,Esomeprazole
+data/augmented/Esomeprazole_2509.png,Esomeprazole
+data/augmented/aug_0_Clonazepam_217.png,Clonazepam
+data/augmented/aug_1_Clonazepam_217.png,Clonazepam
+data/augmented/aug_2_Clonazepam_217.png,Clonazepam
+data/augmented/Clonazepam_217.png,Clonazepam
+data/augmented/aug_0_Paracetamol_73.png,Paracetamol
+data/augmented/aug_1_Paracetamol_73.png,Paracetamol
+data/augmented/aug_2_Paracetamol_73.png,Paracetamol
+data/augmented/Paracetamol_73.png,Paracetamol
+data/augmented/aug_0_Fexofenadine Hydrochloride_926.png,Fexofenadine Hydrochloride
+data/augmented/aug_1_Fexofenadine Hydrochloride_926.png,Fexofenadine Hydrochloride
+data/augmented/aug_2_Fexofenadine Hydrochloride_926.png,Fexofenadine Hydrochloride
+data/augmented/Fexofenadine Hydrochloride_926.png,Fexofenadine Hydrochloride
+data/augmented/aug_0_Cetirizine Hydrochloride_2661.png,Cetirizine Hydrochloride
+data/augmented/aug_1_Cetirizine Hydrochloride_2661.png,Cetirizine Hydrochloride
+data/augmented/aug_2_Cetirizine Hydrochloride_2661.png,Cetirizine Hydrochloride
+data/augmented/Cetirizine Hydrochloride_2661.png,Cetirizine Hydrochloride
+data/augmented/aug_0_Azithromycin Dihydrate_77.png,Azithromycin Dihydrate
+data/augmented/aug_1_Azithromycin Dihydrate_77.png,Azithromycin Dihydrate
+data/augmented/aug_2_Azithromycin Dihydrate_77.png,Azithromycin Dihydrate
+data/augmented/Azithromycin Dihydrate_77.png,Azithromycin Dihydrate
+data/augmented/aug_0_Montelukast Sodium_2598.png,Montelukast Sodium
+data/augmented/aug_1_Montelukast Sodium_2598.png,Montelukast Sodium
+data/augmented/aug_2_Montelukast Sodium_2598.png,Montelukast Sodium
+data/augmented/Montelukast Sodium_2598.png,Montelukast Sodium
+data/augmented/aug_0_Montelukast Sodium_501.png,Montelukast Sodium
+data/augmented/aug_1_Montelukast Sodium_501.png,Montelukast Sodium
+data/augmented/aug_2_Montelukast Sodium_501.png,Montelukast Sodium
+data/augmented/Montelukast Sodium_501.png,Montelukast Sodium
+data/augmented/aug_0_Montelukast Sodium_443.png,Montelukast Sodium
+data/augmented/aug_1_Montelukast Sodium_443.png,Montelukast Sodium
+data/augmented/aug_2_Montelukast Sodium_443.png,Montelukast Sodium
+data/augmented/Montelukast Sodium_443.png,Montelukast Sodium
+data/augmented/aug_0_Baclofen_534.png,Baclofen
+data/augmented/aug_1_Baclofen_534.png,Baclofen
+data/augmented/aug_2_Baclofen_534.png,Baclofen
+data/augmented/Baclofen_534.png,Baclofen
+data/augmented/aug_0_Metronidazole_2329.png,Metronidazole
+data/augmented/aug_1_Metronidazole_2329.png,Metronidazole
+data/augmented/aug_2_Metronidazole_2329.png,Metronidazole
+data/augmented/Metronidazole_2329.png,Metronidazole
+data/augmented/aug_0_Paracetamol_540.png,Paracetamol
+data/augmented/aug_1_Paracetamol_540.png,Paracetamol
+data/augmented/aug_2_Paracetamol_540.png,Paracetamol
+data/augmented/Paracetamol_540.png,Paracetamol
+data/augmented/aug_0_Fexofenadine Hydrochloride_763.png,Fexofenadine Hydrochloride
+data/augmented/aug_1_Fexofenadine Hydrochloride_763.png,Fexofenadine Hydrochloride
+data/augmented/aug_2_Fexofenadine Hydrochloride_763.png,Fexofenadine Hydrochloride
+data/augmented/Fexofenadine Hydrochloride_763.png,Fexofenadine Hydrochloride
+data/augmented/aug_0_Ketoconazole (Shampoo)_1650.png,Ketoconazole (Shampoo)
+data/augmented/aug_1_Ketoconazole (Shampoo)_1650.png,Ketoconazole (Shampoo)
+data/augmented/aug_2_Ketoconazole (Shampoo)_1650.png,Ketoconazole (Shampoo)
+data/augmented/Ketoconazole (Shampoo)_1650.png,Ketoconazole (Shampoo)
+data/augmented/aug_0_Montelukast Sodium_2572.png,Montelukast Sodium
+data/augmented/aug_1_Montelukast Sodium_2572.png,Montelukast Sodium
+data/augmented/aug_2_Montelukast Sodium_2572.png,Montelukast Sodium
+data/augmented/Montelukast Sodium_2572.png,Montelukast Sodium
+data/augmented/aug_0_Fexofenadine Hydrochloride_949.png,Fexofenadine Hydrochloride
+data/augmented/aug_1_Fexofenadine Hydrochloride_949.png,Fexofenadine Hydrochloride
+data/augmented/aug_2_Fexofenadine Hydrochloride_949.png,Fexofenadine Hydrochloride
+data/augmented/Fexofenadine Hydrochloride_949.png,Fexofenadine Hydrochloride
+data/augmented/aug_0_Ketoconazole (Shampoo)_829.png,Ketoconazole (Shampoo)
+data/augmented/aug_1_Ketoconazole (Shampoo)_829.png,Ketoconazole (Shampoo)
+data/augmented/aug_2_Ketoconazole (Shampoo)_829.png,Ketoconazole (Shampoo)
+data/augmented/Ketoconazole (Shampoo)_829.png,Ketoconazole (Shampoo)
+data/augmented/aug_0_Cetirizine Hydrochloride_179.png,Cetirizine Hydrochloride
+data/augmented/aug_1_Cetirizine Hydrochloride_179.png,Cetirizine Hydrochloride
+data/augmented/aug_2_Cetirizine Hydrochloride_179.png,Cetirizine Hydrochloride
+data/augmented/Cetirizine Hydrochloride_179.png,Cetirizine Hydrochloride
+data/augmented/aug_0_Esomeprazole_2559.png,Esomeprazole
+data/augmented/aug_1_Esomeprazole_2559.png,Esomeprazole
+data/augmented/aug_2_Esomeprazole_2559.png,Esomeprazole
+data/augmented/Esomeprazole_2559.png,Esomeprazole
+data/augmented/aug_0_Montelukast Sodium_2036.png,Montelukast Sodium
+data/augmented/aug_1_Montelukast Sodium_2036.png,Montelukast Sodium
+data/augmented/aug_2_Montelukast Sodium_2036.png,Montelukast Sodium
+data/augmented/Montelukast Sodium_2036.png,Montelukast Sodium
+data/augmented/aug_0_Azithromycin Dihydrate_776.png,Azithromycin Dihydrate
+data/augmented/aug_1_Azithromycin Dihydrate_776.png,Azithromycin Dihydrate
+data/augmented/aug_2_Azithromycin Dihydrate_776.png,Azithromycin Dihydrate
+data/augmented/Azithromycin Dihydrate_776.png,Azithromycin Dihydrate
+data/augmented/aug_0_Fexofenadine Hydrochloride_310.png,Fexofenadine Hydrochloride
+data/augmented/aug_1_Fexofenadine Hydrochloride_310.png,Fexofenadine Hydrochloride
+data/augmented/aug_2_Fexofenadine Hydrochloride_310.png,Fexofenadine Hydrochloride
+data/augmented/Fexofenadine Hydrochloride_310.png,Fexofenadine Hydrochloride
+data/augmented/aug_0_Paracetamol_659.png,Paracetamol
+data/augmented/aug_1_Paracetamol_659.png,Paracetamol
+data/augmented/aug_2_Paracetamol_659.png,Paracetamol
+data/augmented/Paracetamol_659.png,Paracetamol
+data/augmented/aug_0_Paracetamol_659.png,Paracetamol
+data/augmented/aug_1_Paracetamol_659.png,Paracetamol
+data/augmented/aug_2_Paracetamol_659.png,Paracetamol
+data/augmented/Paracetamol_659.png,Paracetamol
+data/augmented/aug_0_Fexofenadine Hydrochloride_1221.png,Fexofenadine Hydrochloride
+data/augmented/aug_1_Fexofenadine Hydrochloride_1221.png,Fexofenadine Hydrochloride
+data/augmented/aug_2_Fexofenadine Hydrochloride_1221.png,Fexofenadine Hydrochloride
+data/augmented/Fexofenadine Hydrochloride_1221.png,Fexofenadine Hydrochloride
+data/augmented/aug_0_Fluconazole_650.png,Fluconazole
+data/augmented/aug_1_Fluconazole_650.png,Fluconazole
+data/augmented/aug_2_Fluconazole_650.png,Fluconazole
+data/augmented/Fluconazole_650.png,Fluconazole
+data/augmented/aug_0_Fexofenadine Hydrochloride_1272.png,Fexofenadine Hydrochloride
+data/augmented/aug_1_Fexofenadine Hydrochloride_1272.png,Fexofenadine Hydrochloride
+data/augmented/aug_2_Fexofenadine Hydrochloride_1272.png,Fexofenadine Hydrochloride
+data/augmented/Fexofenadine Hydrochloride_1272.png,Fexofenadine Hydrochloride
+data/augmented/aug_0_Fexofenadine Hydrochloride_319.png,Fexofenadine Hydrochloride
+data/augmented/aug_1_Fexofenadine Hydrochloride_319.png,Fexofenadine Hydrochloride
+data/augmented/aug_2_Fexofenadine Hydrochloride_319.png,Fexofenadine Hydrochloride
+data/augmented/Fexofenadine Hydrochloride_319.png,Fexofenadine Hydrochloride
+data/augmented/aug_0_Clonazepam_1705.png,Clonazepam
+data/augmented/aug_1_Clonazepam_1705.png,Clonazepam
+data/augmented/aug_2_Clonazepam_1705.png,Clonazepam
+data/augmented/Clonazepam_1705.png,Clonazepam
+data/augmented/aug_0_Baclofen_91.png,Baclofen
+data/augmented/aug_1_Baclofen_91.png,Baclofen
+data/augmented/aug_2_Baclofen_91.png,Baclofen
+data/augmented/Baclofen_91.png,Baclofen
+data/augmented/aug_0_Fexofenadine Hydrochloride_3076.png,Fexofenadine Hydrochloride
+data/augmented/aug_1_Fexofenadine Hydrochloride_3076.png,Fexofenadine Hydrochloride
+data/augmented/aug_2_Fexofenadine Hydrochloride_3076.png,Fexofenadine Hydrochloride
+data/augmented/Fexofenadine Hydrochloride_3076.png,Fexofenadine Hydrochloride
+data/augmented/aug_0_Cetirizine Hydrochloride_46.png,Cetirizine Hydrochloride
+data/augmented/aug_1_Cetirizine Hydrochloride_46.png,Cetirizine Hydrochloride
+data/augmented/aug_2_Cetirizine Hydrochloride_46.png,Cetirizine Hydrochloride
+data/augmented/Cetirizine Hydrochloride_46.png,Cetirizine Hydrochloride
+data/augmented/aug_0_Fexofenadine Hydrochloride_760.png,Fexofenadine Hydrochloride
+data/augmented/aug_1_Fexofenadine Hydrochloride_760.png,Fexofenadine Hydrochloride
+data/augmented/aug_2_Fexofenadine Hydrochloride_760.png,Fexofenadine Hydrochloride
+data/augmented/Fexofenadine Hydrochloride_760.png,Fexofenadine Hydrochloride
+data/augmented/aug_0_Paracetamol_2620.png,Paracetamol
+data/augmented/aug_1_Paracetamol_2620.png,Paracetamol
+data/augmented/aug_2_Paracetamol_2620.png,Paracetamol
+data/augmented/Paracetamol_2620.png,Paracetamol
+data/augmented/aug_0_Clonazepam_871.png,Clonazepam
+data/augmented/aug_1_Clonazepam_871.png,Clonazepam
+data/augmented/aug_2_Clonazepam_871.png,Clonazepam
+data/augmented/Clonazepam_871.png,Clonazepam
+data/augmented/aug_0_Azithromycin Dihydrate_291.png,Azithromycin Dihydrate
+data/augmented/aug_1_Azithromycin Dihydrate_291.png,Azithromycin Dihydrate
+data/augmented/aug_2_Azithromycin Dihydrate_291.png,Azithromycin Dihydrate
+data/augmented/Azithromycin Dihydrate_291.png,Azithromycin Dihydrate
+data/augmented/aug_0_Montelukast Sodium_2031.png,Montelukast Sodium
+data/augmented/aug_1_Montelukast Sodium_2031.png,Montelukast Sodium
+data/augmented/aug_2_Montelukast Sodium_2031.png,Montelukast Sodium
+data/augmented/Montelukast Sodium_2031.png,Montelukast Sodium
+data/augmented/aug_0_Ketoconazole (Shampoo)_1539.png,Ketoconazole (Shampoo)
+data/augmented/aug_1_Ketoconazole (Shampoo)_1539.png,Ketoconazole (Shampoo)
+data/augmented/aug_2_Ketoconazole (Shampoo)_1539.png,Ketoconazole (Shampoo)
+data/augmented/Ketoconazole (Shampoo)_1539.png,Ketoconazole (Shampoo)
+data/augmented/aug_0_Esomeprazole_636.png,Esomeprazole
+data/augmented/aug_1_Esomeprazole_636.png,Esomeprazole
+data/augmented/aug_2_Esomeprazole_636.png,Esomeprazole
+data/augmented/Esomeprazole_636.png,Esomeprazole
+data/augmented/aug_0_Paracetamol_70.png,Paracetamol
+data/augmented/aug_1_Paracetamol_70.png,Paracetamol
+data/augmented/aug_2_Paracetamol_70.png,Paracetamol
+data/augmented/Paracetamol_70.png,Paracetamol
+data/augmented/aug_0_Azithromycin Dihydrate_296.png,Azithromycin Dihydrate
+data/augmented/aug_1_Azithromycin Dihydrate_296.png,Azithromycin Dihydrate
+data/augmented/aug_2_Azithromycin Dihydrate_296.png,Azithromycin Dihydrate
+data/augmented/Azithromycin Dihydrate_296.png,Azithromycin Dihydrate
+data/augmented/aug_0_Ketoconazole (Shampoo)_1666.png,Ketoconazole (Shampoo)
+data/augmented/aug_1_Ketoconazole (Shampoo)_1666.png,Ketoconazole (Shampoo)
+data/augmented/aug_2_Ketoconazole (Shampoo)_1666.png,Ketoconazole (Shampoo)
+data/augmented/Ketoconazole (Shampoo)_1666.png,Ketoconazole (Shampoo)
+data/augmented/aug_0_Metronidazole_1378.png,Metronidazole
+data/augmented/aug_1_Metronidazole_1378.png,Metronidazole
+data/augmented/aug_2_Metronidazole_1378.png,Metronidazole
+data/augmented/Metronidazole_1378.png,Metronidazole
+data/augmented/aug_0_Baclofen_1451.png,Baclofen
+data/augmented/aug_1_Baclofen_1451.png,Baclofen
+data/augmented/aug_2_Baclofen_1451.png,Baclofen
+data/augmented/Baclofen_1451.png,Baclofen
+data/augmented/aug_0_Paracetamol_6.png,Paracetamol
+data/augmented/aug_1_Paracetamol_6.png,Paracetamol
+data/augmented/aug_2_Paracetamol_6.png,Paracetamol
+data/augmented/Paracetamol_6.png,Paracetamol
+data/augmented/aug_0_Cetirizine Hydrochloride_166.png,Cetirizine Hydrochloride
+data/augmented/aug_1_Cetirizine Hydrochloride_166.png,Cetirizine Hydrochloride
+data/augmented/aug_2_Cetirizine Hydrochloride_166.png,Cetirizine Hydrochloride
+data/augmented/Cetirizine Hydrochloride_166.png,Cetirizine Hydrochloride
+data/augmented/aug_0_Paracetamol_61.png,Paracetamol
+data/augmented/aug_1_Paracetamol_61.png,Paracetamol
+data/augmented/aug_2_Paracetamol_61.png,Paracetamol
+data/augmented/Paracetamol_61.png,Paracetamol
+data/augmented/aug_0_Cetirizine Hydrochloride_742.png,Cetirizine Hydrochloride
+data/augmented/aug_1_Cetirizine Hydrochloride_742.png,Cetirizine Hydrochloride
+data/augmented/aug_2_Cetirizine Hydrochloride_742.png,Cetirizine Hydrochloride
+data/augmented/Cetirizine Hydrochloride_742.png,Cetirizine Hydrochloride
+data/augmented/aug_0_Clonazepam_424.png,Clonazepam
+data/augmented/aug_1_Clonazepam_424.png,Clonazepam
+data/augmented/aug_2_Clonazepam_424.png,Clonazepam
+data/augmented/Clonazepam_424.png,Clonazepam
+data/augmented/aug_0_Clonazepam_427.png,Clonazepam
+data/augmented/aug_1_Clonazepam_427.png,Clonazepam
+data/augmented/aug_2_Clonazepam_427.png,Clonazepam
+data/augmented/Clonazepam_427.png,Clonazepam
+data/augmented/aug_0_Esomeprazole_469.png,Esomeprazole
+data/augmented/aug_1_Esomeprazole_469.png,Esomeprazole
+data/augmented/aug_2_Esomeprazole_469.png,Esomeprazole
+data/augmented/Esomeprazole_469.png,Esomeprazole
+data/augmented/aug_0_Montelukast Sodium_2583.png,Montelukast Sodium
+data/augmented/aug_1_Montelukast Sodium_2583.png,Montelukast Sodium
+data/augmented/aug_2_Montelukast Sodium_2583.png,Montelukast Sodium
+data/augmented/Montelukast Sodium_2583.png,Montelukast Sodium
+data/augmented/aug_0_Esomeprazole_622.png,Esomeprazole
+data/augmented/aug_1_Esomeprazole_622.png,Esomeprazole
+data/augmented/aug_2_Esomeprazole_622.png,Esomeprazole
+data/augmented/Esomeprazole_622.png,Esomeprazole
+data/augmented/aug_0_Montelukast Sodium_2567.png,Montelukast Sodium
+data/augmented/aug_1_Montelukast Sodium_2567.png,Montelukast Sodium
+data/augmented/aug_2_Montelukast Sodium_2567.png,Montelukast Sodium
+data/augmented/Montelukast Sodium_2567.png,Montelukast Sodium
+data/augmented/aug_0_Ketoconazole (Cream)_2377.png,Ketoconazole (Cream)
+data/augmented/aug_1_Ketoconazole (Cream)_2377.png,Ketoconazole (Cream)
+data/augmented/aug_2_Ketoconazole (Cream)_2377.png,Ketoconazole (Cream)
+data/augmented/Ketoconazole (Cream)_2377.png,Ketoconazole (Cream)
+data/augmented/aug_0_Ketoconazole (Tablet)_1583.png,Ketoconazole (Tablet)
+data/augmented/aug_1_Ketoconazole (Tablet)_1583.png,Ketoconazole (Tablet)
+data/augmented/aug_2_Ketoconazole (Tablet)_1583.png,Ketoconazole (Tablet)
+data/augmented/Ketoconazole (Tablet)_1583.png,Ketoconazole (Tablet)
+data/augmented/aug_0_Baclofen_387.png,Baclofen
+data/augmented/aug_1_Baclofen_387.png,Baclofen
+data/augmented/aug_2_Baclofen_387.png,Baclofen
+data/augmented/Baclofen_387.png,Baclofen
+data/augmented/aug_0_Esomeprazole_1844.png,Esomeprazole
+data/augmented/aug_1_Esomeprazole_1844.png,Esomeprazole
+data/augmented/aug_2_Esomeprazole_1844.png,Esomeprazole
+data/augmented/Esomeprazole_1844.png,Esomeprazole
+data/augmented/aug_0_Azithromycin Dihydrate_297.png,Azithromycin Dihydrate
+data/augmented/aug_1_Azithromycin Dihydrate_297.png,Azithromycin Dihydrate
+data/augmented/aug_2_Azithromycin Dihydrate_297.png,Azithromycin Dihydrate
+data/augmented/Azithromycin Dihydrate_297.png,Azithromycin Dihydrate
+data/augmented/aug_0_Fluconazole_1512.png,Fluconazole
+data/augmented/aug_1_Fluconazole_1512.png,Fluconazole
+data/augmented/aug_2_Fluconazole_1512.png,Fluconazole
+data/augmented/Fluconazole_1512.png,Fluconazole
+data/augmented/aug_0_Paracetamol_17.png,Paracetamol
+data/augmented/aug_1_Paracetamol_17.png,Paracetamol
+data/augmented/aug_2_Paracetamol_17.png,Paracetamol
+data/augmented/Paracetamol_17.png,Paracetamol
+data/augmented/aug_0_Azithromycin Dihydrate_2991.png,Azithromycin Dihydrate
+data/augmented/aug_1_Azithromycin Dihydrate_2991.png,Azithromycin Dihydrate
+data/augmented/aug_2_Azithromycin Dihydrate_2991.png,Azithromycin Dihydrate
+data/augmented/Azithromycin Dihydrate_2991.png,Azithromycin Dihydrate
+data/augmented/aug_0_Fluconazole_1504.png,Fluconazole
+data/augmented/aug_1_Fluconazole_1504.png,Fluconazole
+data/augmented/aug_2_Fluconazole_1504.png,Fluconazole
+data/augmented/Fluconazole_1504.png,Fluconazole
+data/augmented/aug_0_Montelukast Sodium_2578.png,Montelukast Sodium
+data/augmented/aug_1_Montelukast Sodium_2578.png,Montelukast Sodium
+data/augmented/aug_2_Montelukast Sodium_2578.png,Montelukast Sodium
+data/augmented/Montelukast Sodium_2578.png,Montelukast Sodium
+data/augmented/aug_0_Cetirizine Hydrochloride_1102.png,Cetirizine Hydrochloride
+data/augmented/aug_1_Cetirizine Hydrochloride_1102.png,Cetirizine Hydrochloride
+data/augmented/aug_2_Cetirizine Hydrochloride_1102.png,Cetirizine Hydrochloride
+data/augmented/Cetirizine Hydrochloride_1102.png,Cetirizine Hydrochloride
+data/augmented/aug_0_Ketoconazole (Tablet)_1634.png,Ketoconazole (Tablet)
+data/augmented/aug_1_Ketoconazole (Tablet)_1634.png,Ketoconazole (Tablet)
+data/augmented/aug_2_Ketoconazole (Tablet)_1634.png,Ketoconazole (Tablet)
+data/augmented/Ketoconazole (Tablet)_1634.png,Ketoconazole (Tablet)
+data/augmented/aug_0_Baclofen_138.png,Baclofen
+data/augmented/aug_1_Baclofen_138.png,Baclofen
+data/augmented/aug_2_Baclofen_138.png,Baclofen
+data/augmented/Baclofen_138.png,Baclofen
+data/augmented/aug_0_Ketoconazole (Shampoo)_802.png,Ketoconazole (Shampoo)
+data/augmented/aug_1_Ketoconazole (Shampoo)_802.png,Ketoconazole (Shampoo)
+data/augmented/aug_2_Ketoconazole (Shampoo)_802.png,Ketoconazole (Shampoo)
+data/augmented/Ketoconazole (Shampoo)_802.png,Ketoconazole (Shampoo)
+data/augmented/aug_0_Esomeprazole_1061.png,Esomeprazole
+data/augmented/aug_1_Esomeprazole_1061.png,Esomeprazole
+data/augmented/aug_2_Esomeprazole_1061.png,Esomeprazole
+data/augmented/Esomeprazole_1061.png,Esomeprazole
+data/augmented/aug_0_Cetirizine Hydrochloride_2659.png,Cetirizine Hydrochloride
+data/augmented/aug_1_Cetirizine Hydrochloride_2659.png,Cetirizine Hydrochloride
+data/augmented/aug_2_Cetirizine Hydrochloride_2659.png,Cetirizine Hydrochloride
+data/augmented/Cetirizine Hydrochloride_2659.png,Cetirizine Hydrochloride
+data/augmented/aug_0_Fluconazole_907.png,Fluconazole
+data/augmented/aug_1_Fluconazole_907.png,Fluconazole
+data/augmented/aug_2_Fluconazole_907.png,Fluconazole
+data/augmented/Fluconazole_907.png,Fluconazole
+data/augmented/aug_0_Baclofen_414.png,Baclofen
+data/augmented/aug_1_Baclofen_414.png,Baclofen
+data/augmented/aug_2_Baclofen_414.png,Baclofen
+data/augmented/Baclofen_414.png,Baclofen
+data/augmented/aug_0_Montelukast Sodium_455.png,Montelukast Sodium
+data/augmented/aug_1_Montelukast Sodium_455.png,Montelukast Sodium
+data/augmented/aug_2_Montelukast Sodium_455.png,Montelukast Sodium
+data/augmented/Montelukast Sodium_455.png,Montelukast Sodium
+data/augmented/aug_0_Cetirizine Hydrochloride_188.png,Cetirizine Hydrochloride
+data/augmented/aug_1_Cetirizine Hydrochloride_188.png,Cetirizine Hydrochloride
+data/augmented/aug_2_Cetirizine Hydrochloride_188.png,Cetirizine Hydrochloride
+data/augmented/Cetirizine Hydrochloride_188.png,Cetirizine Hydrochloride
+data/augmented/aug_0_Clonazepam_245.png,Clonazepam
+data/augmented/aug_1_Clonazepam_245.png,Clonazepam
+data/augmented/aug_2_Clonazepam_245.png,Clonazepam
+data/augmented/Clonazepam_245.png,Clonazepam
+data/augmented/aug_0_Metronidazole_152.png,Metronidazole
+data/augmented/aug_1_Metronidazole_152.png,Metronidazole
+data/augmented/aug_2_Metronidazole_152.png,Metronidazole
+data/augmented/Metronidazole_152.png,Metronidazole
+data/augmented/aug_0_Metronidazole_35.png,Metronidazole
+data/augmented/aug_1_Metronidazole_35.png,Metronidazole
+data/augmented/aug_2_Metronidazole_35.png,Metronidazole
+data/augmented/Metronidazole_35.png,Metronidazole
+data/augmented/aug_0_Montelukast Sodium_1813.png,Montelukast Sodium
+data/augmented/aug_1_Montelukast Sodium_1813.png,Montelukast Sodium
+data/augmented/aug_2_Montelukast Sodium_1813.png,Montelukast Sodium
+data/augmented/Montelukast Sodium_1813.png,Montelukast Sodium
+data/augmented/aug_0_Cetirizine Hydrochloride_734.png,Cetirizine Hydrochloride
+data/augmented/aug_1_Cetirizine Hydrochloride_734.png,Cetirizine Hydrochloride
+data/augmented/aug_2_Cetirizine Hydrochloride_734.png,Cetirizine Hydrochloride
+data/augmented/Cetirizine Hydrochloride_734.png,Cetirizine Hydrochloride
+data/augmented/aug_0_Fexofenadine Hydrochloride_231.png,Fexofenadine Hydrochloride
+data/augmented/aug_1_Fexofenadine Hydrochloride_231.png,Fexofenadine Hydrochloride
+data/augmented/aug_2_Fexofenadine Hydrochloride_231.png,Fexofenadine Hydrochloride
+data/augmented/Fexofenadine Hydrochloride_231.png,Fexofenadine Hydrochloride
+data/augmented/aug_0_Metronidazole_493.png,Metronidazole
+data/augmented/aug_1_Metronidazole_493.png,Metronidazole
+data/augmented/aug_2_Metronidazole_493.png,Metronidazole
+data/augmented/Metronidazole_493.png,Metronidazole
+data/augmented/aug_0_Baclofen_101.png,Baclofen
+data/augmented/aug_1_Baclofen_101.png,Baclofen
+data/augmented/aug_2_Baclofen_101.png,Baclofen
+data/augmented/Baclofen_101.png,Baclofen
+data/augmented/aug_0_Esomeprazole_630.png,Esomeprazole
+data/augmented/aug_1_Esomeprazole_630.png,Esomeprazole
+data/augmented/aug_2_Esomeprazole_630.png,Esomeprazole
+data/augmented/Esomeprazole_630.png,Esomeprazole
+data/augmented/aug_0_Paracetamol_2917.png,Paracetamol
+data/augmented/aug_1_Paracetamol_2917.png,Paracetamol
+data/augmented/aug_2_Paracetamol_2917.png,Paracetamol
+data/augmented/Paracetamol_2917.png,Paracetamol
+data/augmented/aug_0_Montelukast Sodium_529.png,Montelukast Sodium
+data/augmented/aug_1_Montelukast Sodium_529.png,Montelukast Sodium
+data/augmented/aug_2_Montelukast Sodium_529.png,Montelukast Sodium
+data/augmented/Montelukast Sodium_529.png,Montelukast Sodium
+data/augmented/aug_0_Ketoconazole (Cream)_591.png,Ketoconazole (Cream)
+data/augmented/aug_1_Ketoconazole (Cream)_591.png,Ketoconazole (Cream)
+data/augmented/aug_2_Ketoconazole (Cream)_591.png,Ketoconazole (Cream)
+data/augmented/Ketoconazole (Cream)_591.png,Ketoconazole (Cream)
+data/augmented/aug_0_Esomeprazole_2525.png,Esomeprazole
+data/augmented/aug_1_Esomeprazole_2525.png,Esomeprazole
+data/augmented/aug_2_Esomeprazole_2525.png,Esomeprazole
+data/augmented/Esomeprazole_2525.png,Esomeprazole
+data/augmented/aug_0_Esomeprazole_2527.png,Esomeprazole
+data/augmented/aug_1_Esomeprazole_2527.png,Esomeprazole
+data/augmented/aug_2_Esomeprazole_2527.png,Esomeprazole
+data/augmented/Esomeprazole_2527.png,Esomeprazole
+data/augmented/aug_0_Montelukast Sodium_755.png,Montelukast Sodium
+data/augmented/aug_1_Montelukast Sodium_755.png,Montelukast Sodium
+data/augmented/aug_2_Montelukast Sodium_755.png,Montelukast Sodium
+data/augmented/Montelukast Sodium_755.png,Montelukast Sodium
+data/augmented/aug_0_Baclofen_584.png,Baclofen
+data/augmented/aug_1_Baclofen_584.png,Baclofen
+data/augmented/aug_2_Baclofen_584.png,Baclofen
+data/augmented/Baclofen_584.png,Baclofen
+data/augmented/aug_0_Clonazepam_960.png,Clonazepam
+data/augmented/aug_1_Clonazepam_960.png,Clonazepam
+data/augmented/aug_2_Clonazepam_960.png,Clonazepam
+data/augmented/Clonazepam_960.png,Clonazepam
+data/augmented/aug_0_Baclofen_1425.png,Baclofen
+data/augmented/aug_1_Baclofen_1425.png,Baclofen
+data/augmented/aug_2_Baclofen_1425.png,Baclofen
+data/augmented/Baclofen_1425.png,Baclofen
+data/augmented/aug_0_Ketoconazole (Shampoo)_381.png,Ketoconazole (Shampoo)
+data/augmented/aug_1_Ketoconazole (Shampoo)_381.png,Ketoconazole (Shampoo)
+data/augmented/aug_2_Ketoconazole (Shampoo)_381.png,Ketoconazole (Shampoo)
+data/augmented/Ketoconazole (Shampoo)_381.png,Ketoconazole (Shampoo)
+data/augmented/aug_0_Azithromycin Dihydrate_309.png,Azithromycin Dihydrate
+data/augmented/aug_1_Azithromycin Dihydrate_309.png,Azithromycin Dihydrate
+data/augmented/aug_2_Azithromycin Dihydrate_309.png,Azithromycin Dihydrate
+data/augmented/Azithromycin Dihydrate_309.png,Azithromycin Dihydrate
+data/augmented/aug_0_Paracetamol_2191.png,Paracetamol
+data/augmented/aug_1_Paracetamol_2191.png,Paracetamol
+data/augmented/aug_2_Paracetamol_2191.png,Paracetamol
+data/augmented/Paracetamol_2191.png,Paracetamol
+data/augmented/aug_0_Montelukast Sodium_524.png,Montelukast Sodium
+data/augmented/aug_1_Montelukast Sodium_524.png,Montelukast Sodium
+data/augmented/aug_2_Montelukast Sodium_524.png,Montelukast Sodium
+data/augmented/Montelukast Sodium_524.png,Montelukast Sodium
+data/augmented/aug_0_Baclofen_1413.png,Baclofen
+data/augmented/aug_1_Baclofen_1413.png,Baclofen
+data/augmented/aug_2_Baclofen_1413.png,Baclofen
+data/augmented/Baclofen_1413.png,Baclofen
+data/augmented/aug_0_Cetirizine Hydrochloride_662.png,Cetirizine Hydrochloride
+data/augmented/aug_1_Cetirizine Hydrochloride_662.png,Cetirizine Hydrochloride
+data/augmented/aug_2_Cetirizine Hydrochloride_662.png,Cetirizine Hydrochloride
+data/augmented/Cetirizine Hydrochloride_662.png,Cetirizine Hydrochloride
+data/augmented/aug_0_Fexofenadine Hydrochloride_1210.png,Fexofenadine Hydrochloride
+data/augmented/aug_1_Fexofenadine Hydrochloride_1210.png,Fexofenadine Hydrochloride
+data/augmented/aug_2_Fexofenadine Hydrochloride_1210.png,Fexofenadine Hydrochloride
+data/augmented/Fexofenadine Hydrochloride_1210.png,Fexofenadine Hydrochloride
+data/augmented/aug_0_Cetirizine Hydrochloride_1084.png,Cetirizine Hydrochloride
+data/augmented/aug_1_Cetirizine Hydrochloride_1084.png,Cetirizine Hydrochloride
+data/augmented/aug_2_Cetirizine Hydrochloride_1084.png,Cetirizine Hydrochloride
+data/augmented/Cetirizine Hydrochloride_1084.png,Cetirizine Hydrochloride
+data/augmented/aug_0_Fluconazole_1741.png,Fluconazole
+data/augmented/aug_1_Fluconazole_1741.png,Fluconazole
+data/augmented/aug_2_Fluconazole_1741.png,Fluconazole
+data/augmented/Fluconazole_1741.png,Fluconazole
+data/augmented/aug_0_Montelukast Sodium_527.png,Montelukast Sodium
+data/augmented/aug_1_Montelukast Sodium_527.png,Montelukast Sodium
+data/augmented/aug_2_Montelukast Sodium_527.png,Montelukast Sodium
+data/augmented/Montelukast Sodium_527.png,Montelukast Sodium
+data/augmented/aug_0_Paracetamol_17.png,Paracetamol
+data/augmented/aug_1_Paracetamol_17.png,Paracetamol
+data/augmented/aug_2_Paracetamol_17.png,Paracetamol
+data/augmented/Paracetamol_17.png,Paracetamol
+data/augmented/aug_0_Fluconazole_2441.png,Fluconazole
+data/augmented/aug_1_Fluconazole_2441.png,Fluconazole
+data/augmented/aug_2_Fluconazole_2441.png,Fluconazole
+data/augmented/Fluconazole_2441.png,Fluconazole
+data/augmented/aug_0_Fluconazole_2447.png,Fluconazole
+data/augmented/aug_1_Fluconazole_2447.png,Fluconazole
+data/augmented/aug_2_Fluconazole_2447.png,Fluconazole
+data/augmented/Fluconazole_2447.png,Fluconazole
+data/augmented/aug_0_Esomeprazole_289.png,Esomeprazole
+data/augmented/aug_1_Esomeprazole_289.png,Esomeprazole
+data/augmented/aug_2_Esomeprazole_289.png,Esomeprazole
+data/augmented/Esomeprazole_289.png,Esomeprazole
+data/augmented/aug_0_Ketoconazole (Cream)_595.png,Ketoconazole (Cream)
+data/augmented/aug_1_Ketoconazole (Cream)_595.png,Ketoconazole (Cream)
+data/augmented/aug_2_Ketoconazole (Cream)_595.png,Ketoconazole (Cream)
+data/augmented/Ketoconazole (Cream)_595.png,Ketoconazole (Cream)
+data/augmented/aug_0_Azithromycin Dihydrate_772.png,Azithromycin Dihydrate
+data/augmented/aug_1_Azithromycin Dihydrate_772.png,Azithromycin Dihydrate
+data/augmented/aug_2_Azithromycin Dihydrate_772.png,Azithromycin Dihydrate
+data/augmented/Azithromycin Dihydrate_772.png,Azithromycin Dihydrate
+data/augmented/aug_0_Ketoconazole (Cream)_2367.png,Ketoconazole (Cream)
+data/augmented/aug_1_Ketoconazole (Cream)_2367.png,Ketoconazole (Cream)
+data/augmented/aug_2_Ketoconazole (Cream)_2367.png,Ketoconazole (Cream)
+data/augmented/Ketoconazole (Cream)_2367.png,Ketoconazole (Cream)
+data/augmented/aug_0_Baclofen_362.png,Baclofen
+data/augmented/aug_1_Baclofen_362.png,Baclofen
+data/augmented/aug_2_Baclofen_362.png,Baclofen
+data/augmented/Baclofen_362.png,Baclofen
+data/augmented/aug_0_Fexofenadine Hydrochloride_2680.png,Fexofenadine Hydrochloride
+data/augmented/aug_1_Fexofenadine Hydrochloride_2680.png,Fexofenadine Hydrochloride
+data/augmented/aug_2_Fexofenadine Hydrochloride_2680.png,Fexofenadine Hydrochloride
+data/augmented/Fexofenadine Hydrochloride_2680.png,Fexofenadine Hydrochloride
+data/augmented/aug_0_Paracetamol_2910.png,Paracetamol
+data/augmented/aug_1_Paracetamol_2910.png,Paracetamol
+data/augmented/aug_2_Paracetamol_2910.png,Paracetamol
+data/augmented/Paracetamol_2910.png,Paracetamol
+data/augmented/aug_0_Fluconazole_175.png,Fluconazole
+data/augmented/aug_1_Fluconazole_175.png,Fluconazole
+data/augmented/aug_2_Fluconazole_175.png,Fluconazole
+data/augmented/Fluconazole_175.png,Fluconazole
+data/augmented/aug_0_Metronidazole_587.png,Metronidazole
+data/augmented/aug_1_Metronidazole_587.png,Metronidazole
+data/augmented/aug_2_Metronidazole_587.png,Metronidazole
+data/augmented/Metronidazole_587.png,Metronidazole
+data/augmented/aug_0_Baclofen_530.png,Baclofen
+data/augmented/aug_1_Baclofen_530.png,Baclofen
+data/augmented/aug_2_Baclofen_530.png,Baclofen
+data/augmented/Baclofen_530.png,Baclofen
+data/augmented/aug_0_Cetirizine Hydrochloride_184.png,Cetirizine Hydrochloride
+data/augmented/aug_1_Cetirizine Hydrochloride_184.png,Cetirizine Hydrochloride
+data/augmented/aug_2_Cetirizine Hydrochloride_184.png,Cetirizine Hydrochloride
+data/augmented/Cetirizine Hydrochloride_184.png,Cetirizine Hydrochloride
+data/augmented/aug_0_Fluconazole_376.png,Fluconazole
+data/augmented/aug_1_Fluconazole_376.png,Fluconazole
+data/augmented/aug_2_Fluconazole_376.png,Fluconazole
+data/augmented/Fluconazole_376.png,Fluconazole
+data/augmented/aug_0_Montelukast Sodium_2053.png,Montelukast Sodium
+data/augmented/aug_1_Montelukast Sodium_2053.png,Montelukast Sodium
+data/augmented/aug_2_Montelukast Sodium_2053.png,Montelukast Sodium
+data/augmented/Montelukast Sodium_2053.png,Montelukast Sodium
+data/augmented/aug_0_Azithromycin Dihydrate_290.png,Azithromycin Dihydrate
+data/augmented/aug_1_Azithromycin Dihydrate_290.png,Azithromycin Dihydrate
+data/augmented/aug_2_Azithromycin Dihydrate_290.png,Azithromycin Dihydrate
+data/augmented/Azithromycin Dihydrate_290.png,Azithromycin Dihydrate
+data/augmented/aug_0_Fexofenadine Hydrochloride_1255.png,Fexofenadine Hydrochloride
+data/augmented/aug_1_Fexofenadine Hydrochloride_1255.png,Fexofenadine Hydrochloride
+data/augmented/aug_2_Fexofenadine Hydrochloride_1255.png,Fexofenadine Hydrochloride
+data/augmented/Fexofenadine Hydrochloride_1255.png,Fexofenadine Hydrochloride
+data/augmented/aug_0_Fluconazole_198.png,Fluconazole
+data/augmented/aug_1_Fluconazole_198.png,Fluconazole
+data/augmented/aug_2_Fluconazole_198.png,Fluconazole
+data/augmented/Fluconazole_198.png,Fluconazole
+data/augmented/aug_0_Baclofen_426.png,Baclofen
+data/augmented/aug_1_Baclofen_426.png,Baclofen
+data/augmented/aug_2_Baclofen_426.png,Baclofen
+data/augmented/Baclofen_426.png,Baclofen
+data/augmented/aug_0_Baclofen_106.png,Baclofen
+data/augmented/aug_1_Baclofen_106.png,Baclofen
+data/augmented/aug_2_Baclofen_106.png,Baclofen
+data/augmented/Baclofen_106.png,Baclofen
+data/augmented/aug_0_Vitamin B Complex + Zinc_633.png,Vitamin B Complex + Zinc
+data/augmented/aug_1_Vitamin B Complex + Zinc_633.png,Vitamin B Complex + Zinc
+data/augmented/aug_2_Vitamin B Complex + Zinc_633.png,Vitamin B Complex + Zinc
+data/augmented/Vitamin B Complex + Zinc_633.png,Vitamin B Complex + Zinc
+data/augmented/aug_0_Vitamin B Complex + Zinc_605.png,Vitamin B Complex + Zinc
+data/augmented/aug_1_Vitamin B Complex + Zinc_605.png,Vitamin B Complex + Zinc
+data/augmented/aug_2_Vitamin B Complex + Zinc_605.png,Vitamin B Complex + Zinc
+data/augmented/Vitamin B Complex + Zinc_605.png,Vitamin B Complex + Zinc
+data/augmented/aug_0_Fluconazole_896.png,Fluconazole
+data/augmented/aug_1_Fluconazole_896.png,Fluconazole
+data/augmented/aug_2_Fluconazole_896.png,Fluconazole
+data/augmented/Fluconazole_896.png,Fluconazole
+data/augmented/aug_0_Esomeprazole_1896.png,Esomeprazole
+data/augmented/aug_1_Esomeprazole_1896.png,Esomeprazole
+data/augmented/aug_2_Esomeprazole_1896.png,Esomeprazole
+data/augmented/Esomeprazole_1896.png,Esomeprazole
+data/augmented/aug_0_Fluconazole_2471.png,Fluconazole
+data/augmented/aug_1_Fluconazole_2471.png,Fluconazole
+data/augmented/aug_2_Fluconazole_2471.png,Fluconazole
+data/augmented/Fluconazole_2471.png,Fluconazole
+data/augmented/aug_0_Fluconazole_790.png,Fluconazole
+data/augmented/aug_1_Fluconazole_790.png,Fluconazole
+data/augmented/aug_2_Fluconazole_790.png,Fluconazole
+data/augmented/Fluconazole_790.png,Fluconazole
+data/augmented/aug_0_Metronidazole_1361.png,Metronidazole
+data/augmented/aug_1_Metronidazole_1361.png,Metronidazole
+data/augmented/aug_2_Metronidazole_1361.png,Metronidazole
+data/augmented/Metronidazole_1361.png,Metronidazole
+data/augmented/aug_0_Metronidazole_144.png,Metronidazole
+data/augmented/aug_1_Metronidazole_144.png,Metronidazole
+data/augmented/aug_2_Metronidazole_144.png,Metronidazole
+data/augmented/Metronidazole_144.png,Metronidazole
+data/augmented/aug_0_Azithromycin Dihydrate_351.png,Azithromycin Dihydrate
+data/augmented/aug_1_Azithromycin Dihydrate_351.png,Azithromycin Dihydrate
+data/augmented/aug_2_Azithromycin Dihydrate_351.png,Azithromycin Dihydrate
+data/augmented/Azithromycin Dihydrate_351.png,Azithromycin Dihydrate
+data/augmented/aug_0_Azithromycin Dihydrate_2805.png,Azithromycin Dihydrate
+data/augmented/aug_1_Azithromycin Dihydrate_2805.png,Azithromycin Dihydrate
+data/augmented/aug_2_Azithromycin Dihydrate_2805.png,Azithromycin Dihydrate
+data/augmented/Azithromycin Dihydrate_2805.png,Azithromycin Dihydrate
+data/augmented/aug_0_Azithromycin Dihydrate (Ophthalmic)_697.png,Azithromycin Dihydrate (Ophthalmic)
+data/augmented/aug_1_Azithromycin Dihydrate (Ophthalmic)_697.png,Azithromycin Dihydrate (Ophthalmic)
+data/augmented/aug_2_Azithromycin Dihydrate (Ophthalmic)_697.png,Azithromycin Dihydrate (Ophthalmic)
+data/augmented/Azithromycin Dihydrate (Ophthalmic)_697.png,Azithromycin Dihydrate (Ophthalmic)
+data/augmented/aug_0_Baclofen_494.png,Baclofen
+data/augmented/aug_1_Baclofen_494.png,Baclofen
+data/augmented/aug_2_Baclofen_494.png,Baclofen
+data/augmented/Baclofen_494.png,Baclofen
+data/augmented/aug_0_Azithromycin Dihydrate_315.png,Azithromycin Dihydrate
+data/augmented/aug_1_Azithromycin Dihydrate_315.png,Azithromycin Dihydrate
+data/augmented/aug_2_Azithromycin Dihydrate_315.png,Azithromycin Dihydrate
+data/augmented/Azithromycin Dihydrate_315.png,Azithromycin Dihydrate
+data/augmented/aug_0_Azithromycin Dihydrate_2984.png,Azithromycin Dihydrate
+data/augmented/aug_1_Azithromycin Dihydrate_2984.png,Azithromycin Dihydrate
+data/augmented/aug_2_Azithromycin Dihydrate_2984.png,Azithromycin Dihydrate
+data/augmented/Azithromycin Dihydrate_2984.png,Azithromycin Dihydrate
+data/augmented/aug_0_Paracetamol_8.png,Paracetamol
+data/augmented/aug_1_Paracetamol_8.png,Paracetamol
+data/augmented/aug_2_Paracetamol_8.png,Paracetamol
+data/augmented/Paracetamol_8.png,Paracetamol
+data/augmented/aug_0_Esomeprazole_2535.png,Esomeprazole
+data/augmented/aug_1_Esomeprazole_2535.png,Esomeprazole
+data/augmented/aug_2_Esomeprazole_2535.png,Esomeprazole
+data/augmented/Esomeprazole_2535.png,Esomeprazole
+data/augmented/aug_0_Montelukast Sodium_644.png,Montelukast Sodium
+data/augmented/aug_1_Montelukast Sodium_644.png,Montelukast Sodium
+data/augmented/aug_2_Montelukast Sodium_644.png,Montelukast Sodium
+data/augmented/Montelukast Sodium_644.png,Montelukast Sodium
+data/augmented/aug_0_Fluconazole_1497.png,Fluconazole
+data/augmented/aug_1_Fluconazole_1497.png,Fluconazole
+data/augmented/aug_2_Fluconazole_1497.png,Fluconazole
+data/augmented/Fluconazole_1497.png,Fluconazole
+data/augmented/aug_0_Esomeprazole_569.png,Esomeprazole
+data/augmented/aug_1_Esomeprazole_569.png,Esomeprazole
+data/augmented/aug_2_Esomeprazole_569.png,Esomeprazole
+data/augmented/Esomeprazole_569.png,Esomeprazole
+data/augmented/aug_0_Esomeprazole_1877.png,Esomeprazole
+data/augmented/aug_1_Esomeprazole_1877.png,Esomeprazole
+data/augmented/aug_2_Esomeprazole_1877.png,Esomeprazole
+data/augmented/Esomeprazole_1877.png,Esomeprazole
+data/augmented/aug_0_Fexofenadine Hydrochloride_1231.png,Fexofenadine Hydrochloride
+data/augmented/aug_1_Fexofenadine Hydrochloride_1231.png,Fexofenadine Hydrochloride
+data/augmented/aug_2_Fexofenadine Hydrochloride_1231.png,Fexofenadine Hydrochloride
+data/augmented/Fexofenadine Hydrochloride_1231.png,Fexofenadine Hydrochloride
+data/augmented/aug_0_Paracetamol_2177.png,Paracetamol
+data/augmented/aug_1_Paracetamol_2177.png,Paracetamol
+data/augmented/aug_2_Paracetamol_2177.png,Paracetamol
+data/augmented/Paracetamol_2177.png,Paracetamol
+data/augmented/aug_0_Azithromycin Dihydrate (Ophthalmic)_693.png,Azithromycin Dihydrate (Ophthalmic)
+data/augmented/aug_1_Azithromycin Dihydrate (Ophthalmic)_693.png,Azithromycin Dihydrate (Ophthalmic)
+data/augmented/aug_2_Azithromycin Dihydrate (Ophthalmic)_693.png,Azithromycin Dihydrate (Ophthalmic)
+data/augmented/Azithromycin Dihydrate (Ophthalmic)_693.png,Azithromycin Dihydrate (Ophthalmic)
+data/augmented/aug_0_Baclofen_353.png,Baclofen
+data/augmented/aug_1_Baclofen_353.png,Baclofen
+data/augmented/aug_2_Baclofen_353.png,Baclofen
+data/augmented/Baclofen_353.png,Baclofen
+data/augmented/aug_0_Paracetamol_43.png,Paracetamol
+data/augmented/aug_1_Paracetamol_43.png,Paracetamol
+data/augmented/aug_2_Paracetamol_43.png,Paracetamol
+data/augmented/Paracetamol_43.png,Paracetamol
+data/augmented/aug_0_Montelukast Sodium_3010.png,Montelukast Sodium
+data/augmented/aug_1_Montelukast Sodium_3010.png,Montelukast Sodium
+data/augmented/aug_2_Montelukast Sodium_3010.png,Montelukast Sodium
+data/augmented/Montelukast Sodium_3010.png,Montelukast Sodium
+data/augmented/aug_0_Baclofen_495.png,Baclofen
+data/augmented/aug_1_Baclofen_495.png,Baclofen
+data/augmented/aug_2_Baclofen_495.png,Baclofen
+data/augmented/Baclofen_495.png,Baclofen
+data/augmented/aug_0_Cetirizine Hydrochloride_667.png,Cetirizine Hydrochloride
+data/augmented/aug_1_Cetirizine Hydrochloride_667.png,Cetirizine Hydrochloride
+data/augmented/aug_2_Cetirizine Hydrochloride_667.png,Cetirizine Hydrochloride
+data/augmented/Cetirizine Hydrochloride_667.png,Cetirizine Hydrochloride
+data/augmented/aug_0_Cetirizine Hydrochloride_1113.png,Cetirizine Hydrochloride
+data/augmented/aug_1_Cetirizine Hydrochloride_1113.png,Cetirizine Hydrochloride
+data/augmented/aug_2_Cetirizine Hydrochloride_1113.png,Cetirizine Hydrochloride
+data/augmented/Cetirizine Hydrochloride_1113.png,Cetirizine Hydrochloride
+data/augmented/aug_0_Baclofen_533.png,Baclofen
+data/augmented/aug_1_Baclofen_533.png,Baclofen
+data/augmented/aug_2_Baclofen_533.png,Baclofen
+data/augmented/Baclofen_533.png,Baclofen
+data/augmented/aug_0_Ketoconazole (Tablet)_407.png,Ketoconazole (Tablet)
+data/augmented/aug_1_Ketoconazole (Tablet)_407.png,Ketoconazole (Tablet)
+data/augmented/aug_2_Ketoconazole (Tablet)_407.png,Ketoconazole (Tablet)
+data/augmented/Ketoconazole (Tablet)_407.png,Ketoconazole (Tablet)
+data/augmented/aug_0_Fexofenadine Hydrochloride_2948.png,Fexofenadine Hydrochloride
+data/augmented/aug_1_Fexofenadine Hydrochloride_2948.png,Fexofenadine Hydrochloride
+data/augmented/aug_2_Fexofenadine Hydrochloride_2948.png,Fexofenadine Hydrochloride
+data/augmented/Fexofenadine Hydrochloride_2948.png,Fexofenadine Hydrochloride
+data/augmented/aug_0_Montelukast Sodium_1784.png,Montelukast Sodium
+data/augmented/aug_1_Montelukast Sodium_1784.png,Montelukast Sodium
+data/augmented/aug_2_Montelukast Sodium_1784.png,Montelukast Sodium
+data/augmented/Montelukast Sodium_1784.png,Montelukast Sodium
+data/augmented/aug_0_Fexofenadine Hydrochloride_1270.png,Fexofenadine Hydrochloride
+data/augmented/aug_1_Fexofenadine Hydrochloride_1270.png,Fexofenadine Hydrochloride
+data/augmented/aug_2_Fexofenadine Hydrochloride_1270.png,Fexofenadine Hydrochloride
+data/augmented/Fexofenadine Hydrochloride_1270.png,Fexofenadine Hydrochloride
+data/augmented/aug_0_Esomeprazole_2536.png,Esomeprazole
+data/augmented/aug_1_Esomeprazole_2536.png,Esomeprazole
+data/augmented/aug_2_Esomeprazole_2536.png,Esomeprazole
+data/augmented/Esomeprazole_2536.png,Esomeprazole
+data/augmented/aug_0_Fluconazole_191.png,Fluconazole
+data/augmented/aug_1_Fluconazole_191.png,Fluconazole
+data/augmented/aug_2_Fluconazole_191.png,Fluconazole
+data/augmented/Fluconazole_191.png,Fluconazole
+data/augmented/aug_0_Clonazepam_248.png,Clonazepam
+data/augmented/aug_1_Clonazepam_248.png,Clonazepam
+data/augmented/aug_2_Clonazepam_248.png,Clonazepam
+data/augmented/Clonazepam_248.png,Clonazepam
+data/augmented/aug_0_Montelukast Sodium_2407.png,Montelukast Sodium
+data/augmented/aug_1_Montelukast Sodium_2407.png,Montelukast Sodium
+data/augmented/aug_2_Montelukast Sodium_2407.png,Montelukast Sodium
+data/augmented/Montelukast Sodium_2407.png,Montelukast Sodium
+data/augmented/aug_0_Metronidazole_32.png,Metronidazole
+data/augmented/aug_1_Metronidazole_32.png,Metronidazole
+data/augmented/aug_2_Metronidazole_32.png,Metronidazole
+data/augmented/Metronidazole_32.png,Metronidazole
+data/augmented/aug_0_Esomeprazole_2520.png,Esomeprazole
+data/augmented/aug_1_Esomeprazole_2520.png,Esomeprazole
+data/augmented/aug_2_Esomeprazole_2520.png,Esomeprazole
+data/augmented/Esomeprazole_2520.png,Esomeprazole
+data/augmented/aug_0_Ketoconazole (Shampoo)_418.png,Ketoconazole (Shampoo)
+data/augmented/aug_1_Ketoconazole (Shampoo)_418.png,Ketoconazole (Shampoo)
+data/augmented/aug_2_Ketoconazole (Shampoo)_418.png,Ketoconazole (Shampoo)
+data/augmented/Ketoconazole (Shampoo)_418.png,Ketoconazole (Shampoo)
+data/augmented/aug_0_Paracetamol_2184.png,Paracetamol
+data/augmented/aug_1_Paracetamol_2184.png,Paracetamol
+data/augmented/aug_2_Paracetamol_2184.png,Paracetamol
+data/augmented/Paracetamol_2184.png,Paracetamol
+data/augmented/aug_0_Fexofenadine Hydrochloride_1161.png,Fexofenadine Hydrochloride
+data/augmented/aug_1_Fexofenadine Hydrochloride_1161.png,Fexofenadine Hydrochloride
+data/augmented/aug_2_Fexofenadine Hydrochloride_1161.png,Fexofenadine Hydrochloride
+data/augmented/Fexofenadine Hydrochloride_1161.png,Fexofenadine Hydrochloride
+data/augmented/aug_0_Esomeprazole_1864.png,Esomeprazole
+data/augmented/aug_1_Esomeprazole_1864.png,Esomeprazole
+data/augmented/aug_2_Esomeprazole_1864.png,Esomeprazole
+data/augmented/Esomeprazole_1864.png,Esomeprazole
+data/augmented/aug_0_Paracetamol_652.png,Paracetamol
+data/augmented/aug_1_Paracetamol_652.png,Paracetamol
+data/augmented/aug_2_Paracetamol_652.png,Paracetamol
+data/augmented/Paracetamol_652.png,Paracetamol
+data/augmented/aug_0_Cetirizine Hydrochloride_746.png,Cetirizine Hydrochloride
+data/augmented/aug_1_Cetirizine Hydrochloride_746.png,Cetirizine Hydrochloride
+data/augmented/aug_2_Cetirizine Hydrochloride_746.png,Cetirizine Hydrochloride
+data/augmented/Cetirizine Hydrochloride_746.png,Cetirizine Hydrochloride
+data/augmented/aug_0_Metronidazole_1397.png,Metronidazole
+data/augmented/aug_1_Metronidazole_1397.png,Metronidazole
+data/augmented/aug_2_Metronidazole_1397.png,Metronidazole
+data/augmented/Metronidazole_1397.png,Metronidazole
+data/augmented/aug_0_Cetirizine Hydrochloride_96.png,Cetirizine Hydrochloride
+data/augmented/aug_1_Cetirizine Hydrochloride_96.png,Cetirizine Hydrochloride
+data/augmented/aug_2_Cetirizine Hydrochloride_96.png,Cetirizine Hydrochloride
+data/augmented/Cetirizine Hydrochloride_96.png,Cetirizine Hydrochloride
+data/augmented/aug_0_Esomeprazole_479.png,Esomeprazole
+data/augmented/aug_1_Esomeprazole_479.png,Esomeprazole
+data/augmented/aug_2_Esomeprazole_479.png,Esomeprazole
+data/augmented/Esomeprazole_479.png,Esomeprazole
+data/augmented/aug_0_Azithromycin Dihydrate_2836.png,Azithromycin Dihydrate
+data/augmented/aug_1_Azithromycin Dihydrate_2836.png,Azithromycin Dihydrate
+data/augmented/aug_2_Azithromycin Dihydrate_2836.png,Azithromycin Dihydrate
+data/augmented/Azithromycin Dihydrate_2836.png,Azithromycin Dihydrate
+data/augmented/aug_0_Baclofen_371.png,Baclofen
+data/augmented/aug_1_Baclofen_371.png,Baclofen
+data/augmented/aug_2_Baclofen_371.png,Baclofen
+data/augmented/Baclofen_371.png,Baclofen
+data/augmented/aug_0_Esomeprazole_2244.png,Esomeprazole
+data/augmented/aug_1_Esomeprazole_2244.png,Esomeprazole
+data/augmented/aug_2_Esomeprazole_2244.png,Esomeprazole
+data/augmented/Esomeprazole_2244.png,Esomeprazole
+data/augmented/aug_0_Paracetamol_2887.png,Paracetamol
+data/augmented/aug_1_Paracetamol_2887.png,Paracetamol
+data/augmented/aug_2_Paracetamol_2887.png,Paracetamol
+data/augmented/Paracetamol_2887.png,Paracetamol
+data/augmented/aug_0_Baclofen_136.png,Baclofen
+data/augmented/aug_1_Baclofen_136.png,Baclofen
+data/augmented/aug_2_Baclofen_136.png,Baclofen
+data/augmented/Baclofen_136.png,Baclofen
+data/augmented/aug_0_Paracetamol_19.png,Paracetamol
+data/augmented/aug_1_Paracetamol_19.png,Paracetamol
+data/augmented/aug_2_Paracetamol_19.png,Paracetamol
+data/augmented/Paracetamol_19.png,Paracetamol
+data/augmented/aug_0_Cetirizine Hydrochloride_168.png,Cetirizine Hydrochloride
+data/augmented/aug_1_Cetirizine Hydrochloride_168.png,Cetirizine Hydrochloride
+data/augmented/aug_2_Cetirizine Hydrochloride_168.png,Cetirizine Hydrochloride
+data/augmented/Cetirizine Hydrochloride_168.png,Cetirizine Hydrochloride
+data/augmented/aug_0_Metronidazole_1972.png,Metronidazole
+data/augmented/aug_1_Metronidazole_1972.png,Metronidazole
+data/augmented/aug_2_Metronidazole_1972.png,Metronidazole
+data/augmented/Metronidazole_1972.png,Metronidazole
+data/augmented/aug_0_Metronidazole_39.png,Metronidazole
+data/augmented/aug_1_Metronidazole_39.png,Metronidazole
+data/augmented/aug_2_Metronidazole_39.png,Metronidazole
+data/augmented/Metronidazole_39.png,Metronidazole
+data/augmented/aug_0_Metronidazole_1983.png,Metronidazole
+data/augmented/aug_1_Metronidazole_1983.png,Metronidazole
+data/augmented/aug_2_Metronidazole_1983.png,Metronidazole
+data/augmented/Metronidazole_1983.png,Metronidazole
+data/augmented/aug_0_Fluconazole_915.png,Fluconazole
+data/augmented/aug_1_Fluconazole_915.png,Fluconazole
+data/augmented/aug_2_Fluconazole_915.png,Fluconazole
+data/augmented/Fluconazole_915.png,Fluconazole
+data/augmented/aug_0_Ketoconazole (Shampoo)_415.png,Ketoconazole (Shampoo)
+data/augmented/aug_1_Ketoconazole (Shampoo)_415.png,Ketoconazole (Shampoo)
+data/augmented/aug_2_Ketoconazole (Shampoo)_415.png,Ketoconazole (Shampoo)
+data/augmented/Ketoconazole (Shampoo)_415.png,Ketoconazole (Shampoo)
+data/augmented/aug_0_Fexofenadine Hydrochloride_1212.png,Fexofenadine Hydrochloride
+data/augmented/aug_1_Fexofenadine Hydrochloride_1212.png,Fexofenadine Hydrochloride
+data/augmented/aug_2_Fexofenadine Hydrochloride_1212.png,Fexofenadine Hydrochloride
+data/augmented/Fexofenadine Hydrochloride_1212.png,Fexofenadine Hydrochloride
+data/augmented/aug_0_Ketoconazole (Cream)_2374.png,Ketoconazole (Cream)
+data/augmented/aug_1_Ketoconazole (Cream)_2374.png,Ketoconazole (Cream)
+data/augmented/aug_2_Ketoconazole (Cream)_2374.png,Ketoconazole (Cream)
+data/augmented/Ketoconazole (Cream)_2374.png,Ketoconazole (Cream)
+data/augmented/aug_0_Fexofenadine Hydrochloride_3075.png,Fexofenadine Hydrochloride
+data/augmented/aug_1_Fexofenadine Hydrochloride_3075.png,Fexofenadine Hydrochloride
+data/augmented/aug_2_Fexofenadine Hydrochloride_3075.png,Fexofenadine Hydrochloride
+data/augmented/Fexofenadine Hydrochloride_3075.png,Fexofenadine Hydrochloride
+data/augmented/aug_0_Esomeprazole_2240.png,Esomeprazole
+data/augmented/aug_1_Esomeprazole_2240.png,Esomeprazole
+data/augmented/aug_2_Esomeprazole_2240.png,Esomeprazole
+data/augmented/Esomeprazole_2240.png,Esomeprazole
+data/augmented/aug_0_Fluconazole_668.png,Fluconazole
+data/augmented/aug_1_Fluconazole_668.png,Fluconazole
+data/augmented/aug_2_Fluconazole_668.png,Fluconazole
+data/augmented/Fluconazole_668.png,Fluconazole
+data/augmented/aug_0_Baclofen_1438.png,Baclofen
+data/augmented/aug_1_Baclofen_1438.png,Baclofen
+data/augmented/aug_2_Baclofen_1438.png,Baclofen
+data/augmented/Baclofen_1438.png,Baclofen
+data/augmented/aug_0_Ketoconazole (Shampoo)_1532.png,Ketoconazole (Shampoo)
+data/augmented/aug_1_Ketoconazole (Shampoo)_1532.png,Ketoconazole (Shampoo)
+data/augmented/aug_2_Ketoconazole (Shampoo)_1532.png,Ketoconazole (Shampoo)
+data/augmented/Ketoconazole (Shampoo)_1532.png,Ketoconazole (Shampoo)
+data/augmented/aug_0_Montelukast Sodium_3017.png,Montelukast Sodium
+data/augmented/aug_1_Montelukast Sodium_3017.png,Montelukast Sodium
+data/augmented/aug_2_Montelukast Sodium_3017.png,Montelukast Sodium
+data/augmented/Montelukast Sodium_3017.png,Montelukast Sodium
+data/augmented/aug_0_Montelukast Sodium_2099.png,Montelukast Sodium
+data/augmented/aug_1_Montelukast Sodium_2099.png,Montelukast Sodium
+data/augmented/aug_2_Montelukast Sodium_2099.png,Montelukast Sodium
+data/augmented/Montelukast Sodium_2099.png,Montelukast Sodium
+data/augmented/aug_0_Esomeprazole_1893.png,Esomeprazole
+data/augmented/aug_1_Esomeprazole_1893.png,Esomeprazole
+data/augmented/aug_2_Esomeprazole_1893.png,Esomeprazole
+data/augmented/Esomeprazole_1893.png,Esomeprazole
+data/augmented/aug_0_Esomeprazole_561.png,Esomeprazole
+data/augmented/aug_1_Esomeprazole_561.png,Esomeprazole
+data/augmented/aug_2_Esomeprazole_561.png,Esomeprazole
+data/augmented/Esomeprazole_561.png,Esomeprazole
+data/augmented/aug_0_Fexofenadine Hydrochloride_1196.png,Fexofenadine Hydrochloride
+data/augmented/aug_1_Fexofenadine Hydrochloride_1196.png,Fexofenadine Hydrochloride
+data/augmented/aug_2_Fexofenadine Hydrochloride_1196.png,Fexofenadine Hydrochloride
+data/augmented/Fexofenadine Hydrochloride_1196.png,Fexofenadine Hydrochloride
+data/augmented/aug_0_Esomeprazole_1867.png,Esomeprazole
+data/augmented/aug_1_Esomeprazole_1867.png,Esomeprazole
+data/augmented/aug_2_Esomeprazole_1867.png,Esomeprazole
+data/augmented/Esomeprazole_1867.png,Esomeprazole
+data/augmented/aug_0_Paracetamol_650.png,Paracetamol
+data/augmented/aug_1_Paracetamol_650.png,Paracetamol
+data/augmented/aug_2_Paracetamol_650.png,Paracetamol
+data/augmented/Paracetamol_650.png,Paracetamol
+data/augmented/aug_0_Montelukast Sodium_518.png,Montelukast Sodium
+data/augmented/aug_1_Montelukast Sodium_518.png,Montelukast Sodium
+data/augmented/aug_2_Montelukast Sodium_518.png,Montelukast Sodium
+data/augmented/Montelukast Sodium_518.png,Montelukast Sodium
+data/augmented/aug_0_Paracetamol_724.png,Paracetamol
+data/augmented/aug_1_Paracetamol_724.png,Paracetamol
+data/augmented/aug_2_Paracetamol_724.png,Paracetamol
+data/augmented/Paracetamol_724.png,Paracetamol
+data/augmented/aug_0_Fexofenadine Hydrochloride_2937.png,Fexofenadine Hydrochloride
+data/augmented/aug_1_Fexofenadine Hydrochloride_2937.png,Fexofenadine Hydrochloride
+data/augmented/aug_2_Fexofenadine Hydrochloride_2937.png,Fexofenadine Hydrochloride
+data/augmented/Fexofenadine Hydrochloride_2937.png,Fexofenadine Hydrochloride
+data/augmented/aug_0_Montelukast Sodium_2570.png,Montelukast Sodium
+data/augmented/aug_1_Montelukast Sodium_2570.png,Montelukast Sodium
+data/augmented/aug_2_Montelukast Sodium_2570.png,Montelukast Sodium
+data/augmented/Montelukast Sodium_2570.png,Montelukast Sodium
+data/augmented/aug_0_Ketoconazole (Shampoo)_1665.png,Ketoconazole (Shampoo)
+data/augmented/aug_1_Ketoconazole (Shampoo)_1665.png,Ketoconazole (Shampoo)
+data/augmented/aug_2_Ketoconazole (Shampoo)_1665.png,Ketoconazole (Shampoo)
+data/augmented/Ketoconazole (Shampoo)_1665.png,Ketoconazole (Shampoo)
+data/augmented/aug_0_Fluconazole_2463.png,Fluconazole
+data/augmented/aug_1_Fluconazole_2463.png,Fluconazole
+data/augmented/aug_2_Fluconazole_2463.png,Fluconazole
+data/augmented/Fluconazole_2463.png,Fluconazole
+data/augmented/aug_0_Fexofenadine Hydrochloride_2929.png,Fexofenadine Hydrochloride
+data/augmented/aug_1_Fexofenadine Hydrochloride_2929.png,Fexofenadine Hydrochloride
+data/augmented/aug_2_Fexofenadine Hydrochloride_2929.png,Fexofenadine Hydrochloride
+data/augmented/Fexofenadine Hydrochloride_2929.png,Fexofenadine Hydrochloride
+data/augmented/aug_0_Azithromycin Dihydrate_72.png,Azithromycin Dihydrate
+data/augmented/aug_1_Azithromycin Dihydrate_72.png,Azithromycin Dihydrate
+data/augmented/aug_2_Azithromycin Dihydrate_72.png,Azithromycin Dihydrate
+data/augmented/Azithromycin Dihydrate_72.png,Azithromycin Dihydrate
+data/augmented/aug_0_Azithromycin Dihydrate (Ophthalmic)_2775.png,Azithromycin Dihydrate (Ophthalmic)
+data/augmented/aug_1_Azithromycin Dihydrate (Ophthalmic)_2775.png,Azithromycin Dihydrate (Ophthalmic)
+data/augmented/aug_2_Azithromycin Dihydrate (Ophthalmic)_2775.png,Azithromycin Dihydrate (Ophthalmic)
+data/augmented/Azithromycin Dihydrate (Ophthalmic)_2775.png,Azithromycin Dihydrate (Ophthalmic)
+data/augmented/aug_0_Azithromycin Dihydrate (Ophthalmic)_2796.png,Azithromycin Dihydrate (Ophthalmic)
+data/augmented/aug_1_Azithromycin Dihydrate (Ophthalmic)_2796.png,Azithromycin Dihydrate (Ophthalmic)
+data/augmented/aug_2_Azithromycin Dihydrate (Ophthalmic)_2796.png,Azithromycin Dihydrate (Ophthalmic)
+data/augmented/Azithromycin Dihydrate (Ophthalmic)_2796.png,Azithromycin Dihydrate (Ophthalmic)
+data/augmented/aug_0_Esomeprazole_469.png,Esomeprazole
+data/augmented/aug_1_Esomeprazole_469.png,Esomeprazole
+data/augmented/aug_2_Esomeprazole_469.png,Esomeprazole
+data/augmented/Esomeprazole_469.png,Esomeprazole
+data/augmented/aug_0_Clonazepam_859.png,Clonazepam
+data/augmented/aug_1_Clonazepam_859.png,Clonazepam
+data/augmented/aug_2_Clonazepam_859.png,Clonazepam
+data/augmented/Clonazepam_859.png,Clonazepam
+data/augmented/aug_0_Ketoconazole (Shampoo)_1644.png,Ketoconazole (Shampoo)
+data/augmented/aug_1_Ketoconazole (Shampoo)_1644.png,Ketoconazole (Shampoo)
+data/augmented/aug_2_Ketoconazole (Shampoo)_1644.png,Ketoconazole (Shampoo)
+data/augmented/Ketoconazole (Shampoo)_1644.png,Ketoconazole (Shampoo)
+data/augmented/aug_0_Baclofen_497.png,Baclofen
+data/augmented/aug_1_Baclofen_497.png,Baclofen
+data/augmented/aug_2_Baclofen_497.png,Baclofen
+data/augmented/Baclofen_497.png,Baclofen
+data/augmented/aug_0_Baclofen_410.png,Baclofen
+data/augmented/aug_1_Baclofen_410.png,Baclofen
+data/augmented/aug_2_Baclofen_410.png,Baclofen
+data/augmented/Baclofen_410.png,Baclofen
+data/augmented/aug_0_Azithromycin Dihydrate_254.png,Azithromycin Dihydrate
+data/augmented/aug_1_Azithromycin Dihydrate_254.png,Azithromycin Dihydrate
+data/augmented/aug_2_Azithromycin Dihydrate_254.png,Azithromycin Dihydrate
+data/augmented/Azithromycin Dihydrate_254.png,Azithromycin Dihydrate
+data/augmented/aug_0_Montelukast Sodium_2422.png,Montelukast Sodium
+data/augmented/aug_1_Montelukast Sodium_2422.png,Montelukast Sodium
+data/augmented/aug_2_Montelukast Sodium_2422.png,Montelukast Sodium
+data/augmented/Montelukast Sodium_2422.png,Montelukast Sodium
+data/augmented/aug_0_Esomeprazole_2522.png,Esomeprazole
+data/augmented/aug_1_Esomeprazole_2522.png,Esomeprazole
+data/augmented/aug_2_Esomeprazole_2522.png,Esomeprazole
+data/augmented/Esomeprazole_2522.png,Esomeprazole
+data/augmented/aug_0_Fexofenadine Hydrochloride_1338.png,Fexofenadine Hydrochloride
+data/augmented/aug_1_Fexofenadine Hydrochloride_1338.png,Fexofenadine Hydrochloride
+data/augmented/aug_2_Fexofenadine Hydrochloride_1338.png,Fexofenadine Hydrochloride
+data/augmented/Fexofenadine Hydrochloride_1338.png,Fexofenadine Hydrochloride
+data/augmented/aug_0_Cetirizine Hydrochloride_2673.png,Cetirizine Hydrochloride
+data/augmented/aug_1_Cetirizine Hydrochloride_2673.png,Cetirizine Hydrochloride
+data/augmented/aug_2_Cetirizine Hydrochloride_2673.png,Cetirizine Hydrochloride
+data/augmented/Cetirizine Hydrochloride_2673.png,Cetirizine Hydrochloride
+data/augmented/aug_0_Cetirizine Hydrochloride_113.png,Cetirizine Hydrochloride
+data/augmented/aug_1_Cetirizine Hydrochloride_113.png,Cetirizine Hydrochloride
+data/augmented/aug_2_Cetirizine Hydrochloride_113.png,Cetirizine Hydrochloride
+data/augmented/Cetirizine Hydrochloride_113.png,Cetirizine Hydrochloride
+data/augmented/aug_0_Baclofen_1420.png,Baclofen
+data/augmented/aug_1_Baclofen_1420.png,Baclofen
+data/augmented/aug_2_Baclofen_1420.png,Baclofen
+data/augmented/Baclofen_1420.png,Baclofen
+data/augmented/aug_0_Baclofen_594.png,Baclofen
+data/augmented/aug_1_Baclofen_594.png,Baclofen
+data/augmented/aug_2_Baclofen_594.png,Baclofen
+data/augmented/Baclofen_594.png,Baclofen
+data/augmented/aug_0_Ketoconazole (Tablet)_1586.png,Ketoconazole (Tablet)
+data/augmented/aug_1_Ketoconazole (Tablet)_1586.png,Ketoconazole (Tablet)
+data/augmented/aug_2_Ketoconazole (Tablet)_1586.png,Ketoconazole (Tablet)
+data/augmented/Ketoconazole (Tablet)_1586.png,Ketoconazole (Tablet)
+data/augmented/aug_0_Baclofen_141.png,Baclofen
+data/augmented/aug_1_Baclofen_141.png,Baclofen
+data/augmented/aug_2_Baclofen_141.png,Baclofen
+data/augmented/Baclofen_141.png,Baclofen
+data/augmented/aug_0_Esomeprazole_1842.png,Esomeprazole
+data/augmented/aug_1_Esomeprazole_1842.png,Esomeprazole
+data/augmented/aug_2_Esomeprazole_1842.png,Esomeprazole
+data/augmented/Esomeprazole_1842.png,Esomeprazole
+data/augmented/aug_0_Montelukast Sodium_502.png,Montelukast Sodium
+data/augmented/aug_1_Montelukast Sodium_502.png,Montelukast Sodium
+data/augmented/aug_2_Montelukast Sodium_502.png,Montelukast Sodium
+data/augmented/Montelukast Sodium_502.png,Montelukast Sodium
+data/augmented/aug_0_Montelukast Sodium_2562.png,Montelukast Sodium
+data/augmented/aug_1_Montelukast Sodium_2562.png,Montelukast Sodium
+data/augmented/aug_2_Montelukast Sodium_2562.png,Montelukast Sodium
+data/augmented/Montelukast Sodium_2562.png,Montelukast Sodium
+data/augmented/aug_0_Baclofen_577.png,Baclofen
+data/augmented/aug_1_Baclofen_577.png,Baclofen
+data/augmented/aug_2_Baclofen_577.png,Baclofen
+data/augmented/Baclofen_577.png,Baclofen
+data/augmented/aug_0_Montelukast Sodium_640.png,Montelukast Sodium
+data/augmented/aug_1_Montelukast Sodium_640.png,Montelukast Sodium
+data/augmented/aug_2_Montelukast Sodium_640.png,Montelukast Sodium
+data/augmented/Montelukast Sodium_640.png,Montelukast Sodium
+data/augmented/aug_0_Azithromycin Dihydrate_274.png,Azithromycin Dihydrate
+data/augmented/aug_1_Azithromycin Dihydrate_274.png,Azithromycin Dihydrate
+data/augmented/aug_2_Azithromycin Dihydrate_274.png,Azithromycin Dihydrate
+data/augmented/Azithromycin Dihydrate_274.png,Azithromycin Dihydrate
+data/augmented/aug_0_Montelukast Sodium_2591.png,Montelukast Sodium
+data/augmented/aug_1_Montelukast Sodium_2591.png,Montelukast Sodium
+data/augmented/aug_2_Montelukast Sodium_2591.png,Montelukast Sodium
+data/augmented/Montelukast Sodium_2591.png,Montelukast Sodium
+data/augmented/aug_0_Vitamin B Complex + Zinc_159.png,Vitamin B Complex + Zinc
+data/augmented/aug_1_Vitamin B Complex + Zinc_159.png,Vitamin B Complex + Zinc
+data/augmented/aug_2_Vitamin B Complex + Zinc_159.png,Vitamin B Complex + Zinc
+data/augmented/Vitamin B Complex + Zinc_159.png,Vitamin B Complex + Zinc
+data/augmented/aug_0_Fexofenadine Hydrochloride_3058.png,Fexofenadine Hydrochloride
+data/augmented/aug_1_Fexofenadine Hydrochloride_3058.png,Fexofenadine Hydrochloride
+data/augmented/aug_2_Fexofenadine Hydrochloride_3058.png,Fexofenadine Hydrochloride
+data/augmented/Fexofenadine Hydrochloride_3058.png,Fexofenadine Hydrochloride
+data/augmented/aug_0_Esomeprazole_1041.png,Esomeprazole
+data/augmented/aug_1_Esomeprazole_1041.png,Esomeprazole
+data/augmented/aug_2_Esomeprazole_1041.png,Esomeprazole
+data/augmented/Esomeprazole_1041.png,Esomeprazole
+data/augmented/aug_0_Fluconazole_191.png,Fluconazole
+data/augmented/aug_1_Fluconazole_191.png,Fluconazole
+data/augmented/aug_2_Fluconazole_191.png,Fluconazole
+data/augmented/Fluconazole_191.png,Fluconazole
+data/augmented/aug_0_Vitamin B Complex + Zinc_156.png,Vitamin B Complex + Zinc
+data/augmented/aug_1_Vitamin B Complex + Zinc_156.png,Vitamin B Complex + Zinc
+data/augmented/aug_2_Vitamin B Complex + Zinc_156.png,Vitamin B Complex + Zinc
+data/augmented/Vitamin B Complex + Zinc_156.png,Vitamin B Complex + Zinc
+data/augmented/aug_0_Baclofen_124.png,Baclofen
+data/augmented/aug_1_Baclofen_124.png,Baclofen
+data/augmented/aug_2_Baclofen_124.png,Baclofen
+data/augmented/Baclofen_124.png,Baclofen
+data/augmented/aug_0_Metronidazole_132.png,Metronidazole
+data/augmented/aug_1_Metronidazole_132.png,Metronidazole
+data/augmented/aug_2_Metronidazole_132.png,Metronidazole
+data/augmented/Metronidazole_132.png,Metronidazole
+data/augmented/aug_0_Vitamin B Complex + Zinc_618.png,Vitamin B Complex + Zinc
+data/augmented/aug_1_Vitamin B Complex + Zinc_618.png,Vitamin B Complex + Zinc
+data/augmented/aug_2_Vitamin B Complex + Zinc_618.png,Vitamin B Complex + Zinc
+data/augmented/Vitamin B Complex + Zinc_618.png,Vitamin B Complex + Zinc
+data/augmented/aug_0_Cetirizine Hydrochloride_111.png,Cetirizine Hydrochloride
+data/augmented/aug_1_Cetirizine Hydrochloride_111.png,Cetirizine Hydrochloride
+data/augmented/aug_2_Cetirizine Hydrochloride_111.png,Cetirizine Hydrochloride
+data/augmented/Cetirizine Hydrochloride_111.png,Cetirizine Hydrochloride
+data/augmented/aug_0_Azithromycin Dihydrate_68.png,Azithromycin Dihydrate
+data/augmented/aug_1_Azithromycin Dihydrate_68.png,Azithromycin Dihydrate
+data/augmented/aug_2_Azithromycin Dihydrate_68.png,Azithromycin Dihydrate
+data/augmented/Azithromycin Dihydrate_68.png,Azithromycin Dihydrate
+data/augmented/aug_0_Fluconazole_431.png,Fluconazole
+data/augmented/aug_1_Fluconazole_431.png,Fluconazole
+data/augmented/aug_2_Fluconazole_431.png,Fluconazole
+data/augmented/Fluconazole_431.png,Fluconazole
+data/augmented/aug_0_Fluconazole_434.png,Fluconazole
+data/augmented/aug_1_Fluconazole_434.png,Fluconazole
+data/augmented/aug_2_Fluconazole_434.png,Fluconazole
+data/augmented/Fluconazole_434.png,Fluconazole
+data/augmented/aug_0_Cetirizine Hydrochloride_1103.png,Cetirizine Hydrochloride
+data/augmented/aug_1_Cetirizine Hydrochloride_1103.png,Cetirizine Hydrochloride
+data/augmented/aug_2_Cetirizine Hydrochloride_1103.png,Cetirizine Hydrochloride
+data/augmented/Cetirizine Hydrochloride_1103.png,Cetirizine Hydrochloride
+data/augmented/aug_0_Esomeprazole_282.png,Esomeprazole
+data/augmented/aug_1_Esomeprazole_282.png,Esomeprazole
+data/augmented/aug_2_Esomeprazole_282.png,Esomeprazole
+data/augmented/Esomeprazole_282.png,Esomeprazole
+data/augmented/aug_0_Cetirizine Hydrochloride_2676.png,Cetirizine Hydrochloride
+data/augmented/aug_1_Cetirizine Hydrochloride_2676.png,Cetirizine Hydrochloride
+data/augmented/aug_2_Cetirizine Hydrochloride_2676.png,Cetirizine Hydrochloride
+data/augmented/Cetirizine Hydrochloride_2676.png,Cetirizine Hydrochloride
+data/augmented/aug_0_Baclofen_127.png,Baclofen
+data/augmented/aug_1_Baclofen_127.png,Baclofen
+data/augmented/aug_2_Baclofen_127.png,Baclofen
+data/augmented/Baclofen_127.png,Baclofen
+data/augmented/aug_0_Azithromycin Dihydrate_83.png,Azithromycin Dihydrate
+data/augmented/aug_1_Azithromycin Dihydrate_83.png,Azithromycin Dihydrate
+data/augmented/aug_2_Azithromycin Dihydrate_83.png,Azithromycin Dihydrate
+data/augmented/Azithromycin Dihydrate_83.png,Azithromycin Dihydrate
+data/augmented/aug_0_Azithromycin Dihydrate_2812.png,Azithromycin Dihydrate
+data/augmented/aug_1_Azithromycin Dihydrate_2812.png,Azithromycin Dihydrate
+data/augmented/aug_2_Azithromycin Dihydrate_2812.png,Azithromycin Dihydrate
+data/augmented/Azithromycin Dihydrate_2812.png,Azithromycin Dihydrate
+data/augmented/aug_0_Azithromycin Dihydrate_252.png,Azithromycin Dihydrate
+data/augmented/aug_1_Azithromycin Dihydrate_252.png,Azithromycin Dihydrate
+data/augmented/aug_2_Azithromycin Dihydrate_252.png,Azithromycin Dihydrate
+data/augmented/Azithromycin Dihydrate_252.png,Azithromycin Dihydrate
+data/augmented/aug_0_Cetirizine Hydrochloride_731.png,Cetirizine Hydrochloride
+data/augmented/aug_1_Cetirizine Hydrochloride_731.png,Cetirizine Hydrochloride
+data/augmented/aug_2_Cetirizine Hydrochloride_731.png,Cetirizine Hydrochloride
+data/augmented/Cetirizine Hydrochloride_731.png,Cetirizine Hydrochloride
+data/augmented/aug_0_Clonazepam_420.png,Clonazepam
+data/augmented/aug_1_Clonazepam_420.png,Clonazepam
+data/augmented/aug_2_Clonazepam_420.png,Clonazepam
+data/augmented/Clonazepam_420.png,Clonazepam
+data/augmented/aug_0_Baclofen_136.png,Baclofen
+data/augmented/aug_1_Baclofen_136.png,Baclofen
+data/augmented/aug_2_Baclofen_136.png,Baclofen
+data/augmented/Baclofen_136.png,Baclofen
+data/augmented/aug_0_Esomeprazole_2840.png,Esomeprazole
+data/augmented/aug_1_Esomeprazole_2840.png,Esomeprazole
+data/augmented/aug_2_Esomeprazole_2840.png,Esomeprazole
+data/augmented/Esomeprazole_2840.png,Esomeprazole
+data/augmented/aug_0_Azithromycin Dihydrate_86.png,Azithromycin Dihydrate
+data/augmented/aug_1_Azithromycin Dihydrate_86.png,Azithromycin Dihydrate
+data/augmented/aug_2_Azithromycin Dihydrate_86.png,Azithromycin Dihydrate
+data/augmented/Azithromycin Dihydrate_86.png,Azithromycin Dihydrate
+data/augmented/aug_0_Metronidazole_323.png,Metronidazole
+data/augmented/aug_1_Metronidazole_323.png,Metronidazole
+data/augmented/aug_2_Metronidazole_323.png,Metronidazole
+data/augmented/Metronidazole_323.png,Metronidazole
+data/augmented/aug_0_Baclofen_1411.png,Baclofen
+data/augmented/aug_1_Baclofen_1411.png,Baclofen
+data/augmented/aug_2_Baclofen_1411.png,Baclofen
+data/augmented/Baclofen_1411.png,Baclofen
+data/augmented/aug_0_Fluconazole_615.png,Fluconazole
+data/augmented/aug_1_Fluconazole_615.png,Fluconazole
+data/augmented/aug_2_Fluconazole_615.png,Fluconazole
+data/augmented/Fluconazole_615.png,Fluconazole
+data/augmented/aug_0_Azithromycin Dihydrate_700.png,Azithromycin Dihydrate
+data/augmented/aug_1_Azithromycin Dihydrate_700.png,Azithromycin Dihydrate
+data/augmented/aug_2_Azithromycin Dihydrate_700.png,Azithromycin Dihydrate
+data/augmented/Azithromycin Dihydrate_700.png,Azithromycin Dihydrate
+data/augmented/aug_0_Ketoconazole (Shampoo)_388.png,Ketoconazole (Shampoo)
+data/augmented/aug_1_Ketoconazole (Shampoo)_388.png,Ketoconazole (Shampoo)
+data/augmented/aug_2_Ketoconazole (Shampoo)_388.png,Ketoconazole (Shampoo)
+data/augmented/Ketoconazole (Shampoo)_388.png,Ketoconazole (Shampoo)
+data/augmented/aug_0_Cetirizine Hydrochloride_175.png,Cetirizine Hydrochloride
+data/augmented/aug_1_Cetirizine Hydrochloride_175.png,Cetirizine Hydrochloride
+data/augmented/aug_2_Cetirizine Hydrochloride_175.png,Cetirizine Hydrochloride
+data/augmented/Cetirizine Hydrochloride_175.png,Cetirizine Hydrochloride
+data/augmented/aug_0_Baclofen_369.png,Baclofen
+data/augmented/aug_1_Baclofen_369.png,Baclofen
+data/augmented/aug_2_Baclofen_369.png,Baclofen
+data/augmented/Baclofen_369.png,Baclofen
+data/augmented/aug_0_Montelukast Sodium_3035.png,Montelukast Sodium
+data/augmented/aug_1_Montelukast Sodium_3035.png,Montelukast Sodium
+data/augmented/aug_2_Montelukast Sodium_3035.png,Montelukast Sodium
+data/augmented/Montelukast Sodium_3035.png,Montelukast Sodium
+data/augmented/aug_0_Esomeprazole_1075.png,Esomeprazole
+data/augmented/aug_1_Esomeprazole_1075.png,Esomeprazole
+data/augmented/aug_2_Esomeprazole_1075.png,Esomeprazole
+data/augmented/Esomeprazole_1075.png,Esomeprazole
+data/augmented/aug_0_Esomeprazole_287.png,Esomeprazole
+data/augmented/aug_1_Esomeprazole_287.png,Esomeprazole
+data/augmented/aug_2_Esomeprazole_287.png,Esomeprazole
+data/augmented/Esomeprazole_287.png,Esomeprazole
+data/augmented/aug_0_Metronidazole_1374.png,Metronidazole
+data/augmented/aug_1_Metronidazole_1374.png,Metronidazole
+data/augmented/aug_2_Metronidazole_1374.png,Metronidazole
+data/augmented/Metronidazole_1374.png,Metronidazole
+data/augmented/aug_0_Esomeprazole_2517.png,Esomeprazole
+data/augmented/aug_1_Esomeprazole_2517.png,Esomeprazole
+data/augmented/aug_2_Esomeprazole_2517.png,Esomeprazole
+data/augmented/Esomeprazole_2517.png,Esomeprazole
+data/augmented/aug_0_Fluconazole_168.png,Fluconazole
+data/augmented/aug_1_Fluconazole_168.png,Fluconazole
+data/augmented/aug_2_Fluconazole_168.png,Fluconazole
+data/augmented/Fluconazole_168.png,Fluconazole
+data/augmented/aug_0_Fexofenadine Hydrochloride_769.png,Fexofenadine Hydrochloride
+data/augmented/aug_1_Fexofenadine Hydrochloride_769.png,Fexofenadine Hydrochloride
+data/augmented/aug_2_Fexofenadine Hydrochloride_769.png,Fexofenadine Hydrochloride
+data/augmented/Fexofenadine Hydrochloride_769.png,Fexofenadine Hydrochloride
+data/augmented/aug_0_Ketoconazole (Shampoo)_803.png,Ketoconazole (Shampoo)
+data/augmented/aug_1_Ketoconazole (Shampoo)_803.png,Ketoconazole (Shampoo)
+data/augmented/aug_2_Ketoconazole (Shampoo)_803.png,Ketoconazole (Shampoo)
+data/augmented/Ketoconazole (Shampoo)_803.png,Ketoconazole (Shampoo)
+data/augmented/aug_0_Clonazepam_964.png,Clonazepam
+data/augmented/aug_1_Clonazepam_964.png,Clonazepam
+data/augmented/aug_2_Clonazepam_964.png,Clonazepam
+data/augmented/Clonazepam_964.png,Clonazepam
+data/augmented/aug_0_Azithromycin Dihydrate_65.png,Azithromycin Dihydrate
+data/augmented/aug_1_Azithromycin Dihydrate_65.png,Azithromycin Dihydrate
+data/augmented/aug_2_Azithromycin Dihydrate_65.png,Azithromycin Dihydrate
+data/augmented/Azithromycin Dihydrate_65.png,Azithromycin Dihydrate
+data/augmented/aug_0_Clonazepam_2758.png,Clonazepam
+data/augmented/aug_1_Clonazepam_2758.png,Clonazepam
+data/augmented/aug_2_Clonazepam_2758.png,Clonazepam
+data/augmented/Clonazepam_2758.png,Clonazepam
+data/augmented/aug_0_Clonazepam_683.png,Clonazepam
+data/augmented/aug_1_Clonazepam_683.png,Clonazepam
+data/augmented/aug_2_Clonazepam_683.png,Clonazepam
+data/augmented/Clonazepam_683.png,Clonazepam
+data/augmented/aug_0_Cetirizine Hydrochloride_80.png,Cetirizine Hydrochloride
+data/augmented/aug_1_Cetirizine Hydrochloride_80.png,Cetirizine Hydrochloride
+data/augmented/aug_2_Cetirizine Hydrochloride_80.png,Cetirizine Hydrochloride
+data/augmented/Cetirizine Hydrochloride_80.png,Cetirizine Hydrochloride
+data/augmented/aug_0_Metronidazole_485.png,Metronidazole
+data/augmented/aug_1_Metronidazole_485.png,Metronidazole
+data/augmented/aug_2_Metronidazole_485.png,Metronidazole
+data/augmented/Metronidazole_485.png,Metronidazole
+data/augmented/aug_0_Fluconazole_765.png,Fluconazole
+data/augmented/aug_1_Fluconazole_765.png,Fluconazole
+data/augmented/aug_2_Fluconazole_765.png,Fluconazole
+data/augmented/Fluconazole_765.png,Fluconazole
+data/augmented/aug_0_Fexofenadine Hydrochloride_2939.png,Fexofenadine Hydrochloride
+data/augmented/aug_1_Fexofenadine Hydrochloride_2939.png,Fexofenadine Hydrochloride
+data/augmented/aug_2_Fexofenadine Hydrochloride_2939.png,Fexofenadine Hydrochloride
+data/augmented/Fexofenadine Hydrochloride_2939.png,Fexofenadine Hydrochloride
+data/augmented/aug_0_Cetirizine Hydrochloride_23.png,Cetirizine Hydrochloride
+data/augmented/aug_1_Cetirizine Hydrochloride_23.png,Cetirizine Hydrochloride
+data/augmented/aug_2_Cetirizine Hydrochloride_23.png,Cetirizine Hydrochloride
+data/augmented/Cetirizine Hydrochloride_23.png,Cetirizine Hydrochloride
+data/augmented/aug_0_Ketoconazole (Shampoo)_800.png,Ketoconazole (Shampoo)
+data/augmented/aug_1_Ketoconazole (Shampoo)_800.png,Ketoconazole (Shampoo)
+data/augmented/aug_2_Ketoconazole (Shampoo)_800.png,Ketoconazole (Shampoo)
+data/augmented/Ketoconazole (Shampoo)_800.png,Ketoconazole (Shampoo)
+data/augmented/aug_0_Montelukast Sodium_2118.png,Montelukast Sodium
+data/augmented/aug_1_Montelukast Sodium_2118.png,Montelukast Sodium
+data/augmented/aug_2_Montelukast Sodium_2118.png,Montelukast Sodium
+data/augmented/Montelukast Sodium_2118.png,Montelukast Sodium
+data/augmented/aug_0_Ketoconazole (Tablet)_404.png,Ketoconazole (Tablet)
+data/augmented/aug_1_Ketoconazole (Tablet)_404.png,Ketoconazole (Tablet)
+data/augmented/aug_2_Ketoconazole (Tablet)_404.png,Ketoconazole (Tablet)
+data/augmented/Ketoconazole (Tablet)_404.png,Ketoconazole (Tablet)
+data/augmented/aug_0_Fluconazole_225.png,Fluconazole
+data/augmented/aug_1_Fluconazole_225.png,Fluconazole
+data/augmented/aug_2_Fluconazole_225.png,Fluconazole
+data/augmented/Fluconazole_225.png,Fluconazole
+data/augmented/aug_0_Azithromycin Dihydrate_314.png,Azithromycin Dihydrate
+data/augmented/aug_1_Azithromycin Dihydrate_314.png,Azithromycin Dihydrate
+data/augmented/aug_2_Azithromycin Dihydrate_314.png,Azithromycin Dihydrate
+data/augmented/Azithromycin Dihydrate_314.png,Azithromycin Dihydrate
+data/augmented/aug_0_Metronidazole_1375.png,Metronidazole
+data/augmented/aug_1_Metronidazole_1375.png,Metronidazole
+data/augmented/aug_2_Metronidazole_1375.png,Metronidazole
+data/augmented/Metronidazole_1375.png,Metronidazole
+data/augmented/aug_0_Fluconazole_787.png,Fluconazole
+data/augmented/aug_1_Fluconazole_787.png,Fluconazole
+data/augmented/aug_2_Fluconazole_787.png,Fluconazole
+data/augmented/Fluconazole_787.png,Fluconazole
+data/augmented/aug_0_Esomeprazole_466.png,Esomeprazole
+data/augmented/aug_1_Esomeprazole_466.png,Esomeprazole
+data/augmented/aug_2_Esomeprazole_466.png,Esomeprazole
+data/augmented/Esomeprazole_466.png,Esomeprazole
+data/augmented/aug_0_Ketoconazole (Cream)_2364.png,Ketoconazole (Cream)
+data/augmented/aug_1_Ketoconazole (Cream)_2364.png,Ketoconazole (Cream)
+data/augmented/aug_2_Ketoconazole (Cream)_2364.png,Ketoconazole (Cream)
+data/augmented/Ketoconazole (Cream)_2364.png,Ketoconazole (Cream)
+data/augmented/aug_0_Paracetamol_79.png,Paracetamol
+data/augmented/aug_1_Paracetamol_79.png,Paracetamol
+data/augmented/aug_2_Paracetamol_79.png,Paracetamol
+data/augmented/Paracetamol_79.png,Paracetamol
+data/augmented/aug_0_Esomeprazole_578.png,Esomeprazole
+data/augmented/aug_1_Esomeprazole_578.png,Esomeprazole
+data/augmented/aug_2_Esomeprazole_578.png,Esomeprazole
+data/augmented/Esomeprazole_578.png,Esomeprazole
+data/augmented/aug_0_Azithromycin Dihydrate_709.png,Azithromycin Dihydrate
+data/augmented/aug_1_Azithromycin Dihydrate_709.png,Azithromycin Dihydrate
+data/augmented/aug_2_Azithromycin Dihydrate_709.png,Azithromycin Dihydrate
+data/augmented/Azithromycin Dihydrate_709.png,Azithromycin Dihydrate
+data/augmented/aug_0_Montelukast Sodium_1767.png,Montelukast Sodium
+data/augmented/aug_1_Montelukast Sodium_1767.png,Montelukast Sodium
+data/augmented/aug_2_Montelukast Sodium_1767.png,Montelukast Sodium
+data/augmented/Montelukast Sodium_1767.png,Montelukast Sodium
+data/augmented/aug_0_Clonazepam_1699.png,Clonazepam
+data/augmented/aug_1_Clonazepam_1699.png,Clonazepam
+data/augmented/aug_2_Clonazepam_1699.png,Clonazepam
+data/augmented/Clonazepam_1699.png,Clonazepam
+data/augmented/aug_0_Esomeprazole_574.png,Esomeprazole
+data/augmented/aug_1_Esomeprazole_574.png,Esomeprazole
+data/augmented/aug_2_Esomeprazole_574.png,Esomeprazole
+data/augmented/Esomeprazole_574.png,Esomeprazole
+data/augmented/aug_0_Metronidazole_2325.png,Metronidazole
+data/augmented/aug_1_Metronidazole_2325.png,Metronidazole
+data/augmented/aug_2_Metronidazole_2325.png,Metronidazole
+data/augmented/Metronidazole_2325.png,Metronidazole
+data/augmented/aug_0_Fluconazole_2442.png,Fluconazole
+data/augmented/aug_1_Fluconazole_2442.png,Fluconazole
+data/augmented/aug_2_Fluconazole_2442.png,Fluconazole
+data/augmented/Fluconazole_2442.png,Fluconazole
+data/augmented/aug_0_Montelukast Sodium_2034.png,Montelukast Sodium
+data/augmented/aug_1_Montelukast Sodium_2034.png,Montelukast Sodium
+data/augmented/aug_2_Montelukast Sodium_2034.png,Montelukast Sodium
+data/augmented/Montelukast Sodium_2034.png,Montelukast Sodium
+data/augmented/aug_0_Baclofen_465.png,Baclofen
+data/augmented/aug_1_Baclofen_465.png,Baclofen
+data/augmented/aug_2_Baclofen_465.png,Baclofen
+data/augmented/Baclofen_465.png,Baclofen
+data/augmented/aug_0_Cetirizine Hydrochloride_180.png,Cetirizine Hydrochloride
+data/augmented/aug_1_Cetirizine Hydrochloride_180.png,Cetirizine Hydrochloride
+data/augmented/aug_2_Cetirizine Hydrochloride_180.png,Cetirizine Hydrochloride
+data/augmented/Cetirizine Hydrochloride_180.png,Cetirizine Hydrochloride
+data/augmented/aug_0_Esomeprazole_259.png,Esomeprazole
+data/augmented/aug_1_Esomeprazole_259.png,Esomeprazole
+data/augmented/aug_2_Esomeprazole_259.png,Esomeprazole
+data/augmented/Esomeprazole_259.png,Esomeprazole
+data/augmented/aug_0_Esomeprazole_250.png,Esomeprazole
+data/augmented/aug_1_Esomeprazole_250.png,Esomeprazole
+data/augmented/aug_2_Esomeprazole_250.png,Esomeprazole
+data/augmented/Esomeprazole_250.png,Esomeprazole
+data/augmented/aug_0_Paracetamol_2627.png,Paracetamol
+data/augmented/aug_1_Paracetamol_2627.png,Paracetamol
+data/augmented/aug_2_Paracetamol_2627.png,Paracetamol
+data/augmented/Paracetamol_2627.png,Paracetamol
+data/augmented/aug_0_Baclofen_432.png,Baclofen
+data/augmented/aug_1_Baclofen_432.png,Baclofen
+data/augmented/aug_2_Baclofen_432.png,Baclofen
+data/augmented/Baclofen_432.png,Baclofen
+data/augmented/aug_0_Fexofenadine Hydrochloride_239.png,Fexofenadine Hydrochloride
+data/augmented/aug_1_Fexofenadine Hydrochloride_239.png,Fexofenadine Hydrochloride
+data/augmented/aug_2_Fexofenadine Hydrochloride_239.png,Fexofenadine Hydrochloride
+data/augmented/Fexofenadine Hydrochloride_239.png,Fexofenadine Hydrochloride
+data/augmented/aug_0_Cetirizine Hydrochloride_90.png,Cetirizine Hydrochloride
+data/augmented/aug_1_Cetirizine Hydrochloride_90.png,Cetirizine Hydrochloride
+data/augmented/aug_2_Cetirizine Hydrochloride_90.png,Cetirizine Hydrochloride
+data/augmented/Cetirizine Hydrochloride_90.png,Cetirizine Hydrochloride
+data/augmented/aug_0_Metronidazole_139.png,Metronidazole
+data/augmented/aug_1_Metronidazole_139.png,Metronidazole
+data/augmented/aug_2_Metronidazole_139.png,Metronidazole
+data/augmented/Metronidazole_139.png,Metronidazole
+data/augmented/aug_0_Esomeprazole_2496.png,Esomeprazole
+data/augmented/aug_1_Esomeprazole_2496.png,Esomeprazole
+data/augmented/aug_2_Esomeprazole_2496.png,Esomeprazole
+data/augmented/Esomeprazole_2496.png,Esomeprazole
+data/augmented/aug_0_Clonazepam_2725.png,Clonazepam
+data/augmented/aug_1_Clonazepam_2725.png,Clonazepam
+data/augmented/aug_2_Clonazepam_2725.png,Clonazepam
+data/augmented/Clonazepam_2725.png,Clonazepam
+data/augmented/aug_0_Ketoconazole (Tablet)_395.png,Ketoconazole (Tablet)
+data/augmented/aug_1_Ketoconazole (Tablet)_395.png,Ketoconazole (Tablet)
+data/augmented/aug_2_Ketoconazole (Tablet)_395.png,Ketoconazole (Tablet)
+data/augmented/Ketoconazole (Tablet)_395.png,Ketoconazole (Tablet)
+data/augmented/aug_0_Esomeprazole_2314.png,Esomeprazole
+data/augmented/aug_1_Esomeprazole_2314.png,Esomeprazole
+data/augmented/aug_2_Esomeprazole_2314.png,Esomeprazole
+data/augmented/Esomeprazole_2314.png,Esomeprazole
+data/augmented/aug_0_Ketoconazole (Tablet)_400.png,Ketoconazole (Tablet)
+data/augmented/aug_1_Ketoconazole (Tablet)_400.png,Ketoconazole (Tablet)
+data/augmented/aug_2_Ketoconazole (Tablet)_400.png,Ketoconazole (Tablet)
+data/augmented/Ketoconazole (Tablet)_400.png,Ketoconazole (Tablet)
+data/augmented/aug_0_Montelukast Sodium_455.png,Montelukast Sodium
+data/augmented/aug_1_Montelukast Sodium_455.png,Montelukast Sodium
+data/augmented/aug_2_Montelukast Sodium_455.png,Montelukast Sodium
+data/augmented/Montelukast Sodium_455.png,Montelukast Sodium
+data/augmented/aug_0_Baclofen_354.png,Baclofen
+data/augmented/aug_1_Baclofen_354.png,Baclofen
+data/augmented/aug_2_Baclofen_354.png,Baclofen
+data/augmented/Baclofen_354.png,Baclofen
+data/augmented/aug_0_Baclofen_567.png,Baclofen
+data/augmented/aug_1_Baclofen_567.png,Baclofen
+data/augmented/aug_2_Baclofen_567.png,Baclofen
+data/augmented/Baclofen_567.png,Baclofen
+data/augmented/aug_0_Baclofen_368.png,Baclofen
+data/augmented/aug_1_Baclofen_368.png,Baclofen
+data/augmented/aug_2_Baclofen_368.png,Baclofen
+data/augmented/Baclofen_368.png,Baclofen
+data/augmented/aug_0_Metronidazole_38.png,Metronidazole
+data/augmented/aug_1_Metronidazole_38.png,Metronidazole
+data/augmented/aug_2_Metronidazole_38.png,Metronidazole
+data/augmented/Metronidazole_38.png,Metronidazole
+data/augmented/aug_0_Paracetamol_23.png,Paracetamol
+data/augmented/aug_1_Paracetamol_23.png,Paracetamol
+data/augmented/aug_2_Paracetamol_23.png,Paracetamol
+data/augmented/Paracetamol_23.png,Paracetamol
+data/augmented/aug_0_Paracetamol_543.png,Paracetamol
+data/augmented/aug_1_Paracetamol_543.png,Paracetamol
+data/augmented/aug_2_Paracetamol_543.png,Paracetamol
+data/augmented/Paracetamol_543.png,Paracetamol
+data/augmented/aug_0_Baclofen_555.png,Baclofen
+data/augmented/aug_1_Baclofen_555.png,Baclofen
+data/augmented/aug_2_Baclofen_555.png,Baclofen
+data/augmented/Baclofen_555.png,Baclofen
+data/augmented/aug_0_Fluconazole_2465.png,Fluconazole
+data/augmented/aug_1_Fluconazole_2465.png,Fluconazole
+data/augmented/aug_2_Fluconazole_2465.png,Fluconazole
+data/augmented/Fluconazole_2465.png,Fluconazole
+data/augmented/aug_0_Montelukast Sodium_2594.png,Montelukast Sodium
+data/augmented/aug_1_Montelukast Sodium_2594.png,Montelukast Sodium
+data/augmented/aug_2_Montelukast Sodium_2594.png,Montelukast Sodium
+data/augmented/Montelukast Sodium_2594.png,Montelukast Sodium
+data/augmented/aug_0_Azithromycin Dihydrate_740.png,Azithromycin Dihydrate
+data/augmented/aug_1_Azithromycin Dihydrate_740.png,Azithromycin Dihydrate
+data/augmented/aug_2_Azithromycin Dihydrate_740.png,Azithromycin Dihydrate
+data/augmented/Azithromycin Dihydrate_740.png,Azithromycin Dihydrate
+data/augmented/aug_0_Montelukast Sodium_3014.png,Montelukast Sodium
+data/augmented/aug_1_Montelukast Sodium_3014.png,Montelukast Sodium
+data/augmented/aug_2_Montelukast Sodium_3014.png,Montelukast Sodium
+data/augmented/Montelukast Sodium_3014.png,Montelukast Sodium
+data/augmented/aug_0_Fluconazole_798.png,Fluconazole
+data/augmented/aug_1_Fluconazole_798.png,Fluconazole
+data/augmented/aug_2_Fluconazole_798.png,Fluconazole
+data/augmented/Fluconazole_798.png,Fluconazole
+data/augmented/aug_0_Baclofen_535.png,Baclofen
+data/augmented/aug_1_Baclofen_535.png,Baclofen
+data/augmented/aug_2_Baclofen_535.png,Baclofen
+data/augmented/Baclofen_535.png,Baclofen
+data/augmented/aug_0_Esomeprazole_1001.png,Esomeprazole
+data/augmented/aug_1_Esomeprazole_1001.png,Esomeprazole
+data/augmented/aug_2_Esomeprazole_1001.png,Esomeprazole
+data/augmented/Esomeprazole_1001.png,Esomeprazole
+data/augmented/aug_0_Cetirizine Hydrochloride_2653.png,Cetirizine Hydrochloride
+data/augmented/aug_1_Cetirizine Hydrochloride_2653.png,Cetirizine Hydrochloride
+data/augmented/aug_2_Cetirizine Hydrochloride_2653.png,Cetirizine Hydrochloride
+data/augmented/Cetirizine Hydrochloride_2653.png,Cetirizine Hydrochloride
+data/augmented/aug_0_Azithromycin Dihydrate_3101.png,Azithromycin Dihydrate
+data/augmented/aug_1_Azithromycin Dihydrate_3101.png,Azithromycin Dihydrate
+data/augmented/aug_2_Azithromycin Dihydrate_3101.png,Azithromycin Dihydrate
+data/augmented/Azithromycin Dihydrate_3101.png,Azithromycin Dihydrate
+data/augmented/aug_0_Montelukast Sodium_648.png,Montelukast Sodium
+data/augmented/aug_1_Montelukast Sodium_648.png,Montelukast Sodium
+data/augmented/aug_2_Montelukast Sodium_648.png,Montelukast Sodium
+data/augmented/Montelukast Sodium_648.png,Montelukast Sodium
+data/augmented/aug_0_Metronidazole_1392.png,Metronidazole
+data/augmented/aug_1_Metronidazole_1392.png,Metronidazole
+data/augmented/aug_2_Metronidazole_1392.png,Metronidazole
+data/augmented/Metronidazole_1392.png,Metronidazole
+data/augmented/aug_0_Montelukast Sodium_1788.png,Montelukast Sodium
+data/augmented/aug_1_Montelukast Sodium_1788.png,Montelukast Sodium
+data/augmented/aug_2_Montelukast Sodium_1788.png,Montelukast Sodium
+data/augmented/Montelukast Sodium_1788.png,Montelukast Sodium
+data/augmented/aug_0_Cetirizine Hydrochloride_177.png,Cetirizine Hydrochloride
+data/augmented/aug_1_Cetirizine Hydrochloride_177.png,Cetirizine Hydrochloride
+data/augmented/aug_2_Cetirizine Hydrochloride_177.png,Cetirizine Hydrochloride
+data/augmented/Cetirizine Hydrochloride_177.png,Cetirizine Hydrochloride
+data/augmented/aug_0_Fluconazole_178.png,Fluconazole
+data/augmented/aug_1_Fluconazole_178.png,Fluconazole
+data/augmented/aug_2_Fluconazole_178.png,Fluconazole
+data/augmented/Fluconazole_178.png,Fluconazole
+data/augmented/aug_0_Baclofen_501.png,Baclofen
+data/augmented/aug_1_Baclofen_501.png,Baclofen
+data/augmented/aug_2_Baclofen_501.png,Baclofen
+data/augmented/Baclofen_501.png,Baclofen
+data/augmented/aug_0_Fluconazole_657.png,Fluconazole
+data/augmented/aug_1_Fluconazole_657.png,Fluconazole
+data/augmented/aug_2_Fluconazole_657.png,Fluconazole
+data/augmented/Fluconazole_657.png,Fluconazole
+data/augmented/aug_0_Fexofenadine Hydrochloride_1189.png,Fexofenadine Hydrochloride
+data/augmented/aug_1_Fexofenadine Hydrochloride_1189.png,Fexofenadine Hydrochloride
+data/augmented/aug_2_Fexofenadine Hydrochloride_1189.png,Fexofenadine Hydrochloride
+data/augmented/Fexofenadine Hydrochloride_1189.png,Fexofenadine Hydrochloride
+data/augmented/aug_0_Azithromycin Dihydrate_60.png,Azithromycin Dihydrate
+data/augmented/aug_1_Azithromycin Dihydrate_60.png,Azithromycin Dihydrate
+data/augmented/aug_2_Azithromycin Dihydrate_60.png,Azithromycin Dihydrate
+data/augmented/Azithromycin Dihydrate_60.png,Azithromycin Dihydrate
+data/augmented/aug_0_Fexofenadine Hydrochloride_316.png,Fexofenadine Hydrochloride
+data/augmented/aug_1_Fexofenadine Hydrochloride_316.png,Fexofenadine Hydrochloride
+data/augmented/aug_2_Fexofenadine Hydrochloride_316.png,Fexofenadine Hydrochloride
+data/augmented/Fexofenadine Hydrochloride_316.png,Fexofenadine Hydrochloride
+data/augmented/aug_0_Clonazepam_210.png,Clonazepam
+data/augmented/aug_1_Clonazepam_210.png,Clonazepam
+data/augmented/aug_2_Clonazepam_210.png,Clonazepam
+data/augmented/Clonazepam_210.png,Clonazepam
+data/augmented/aug_0_Paracetamol_2638.png,Paracetamol
+data/augmented/aug_1_Paracetamol_2638.png,Paracetamol
+data/augmented/aug_2_Paracetamol_2638.png,Paracetamol
+data/augmented/Paracetamol_2638.png,Paracetamol
+data/augmented/aug_0_Esomeprazole_561.png,Esomeprazole
+data/augmented/aug_1_Esomeprazole_561.png,Esomeprazole
+data/augmented/aug_2_Esomeprazole_561.png,Esomeprazole
+data/augmented/Esomeprazole_561.png,Esomeprazole
+data/augmented/aug_0_Montelukast Sodium_2574.png,Montelukast Sodium
+data/augmented/aug_1_Montelukast Sodium_2574.png,Montelukast Sodium
+data/augmented/aug_2_Montelukast Sodium_2574.png,Montelukast Sodium
+data/augmented/Montelukast Sodium_2574.png,Montelukast Sodium
+data/augmented/aug_0_Metronidazole_582.png,Metronidazole
+data/augmented/aug_1_Metronidazole_582.png,Metronidazole
+data/augmented/aug_2_Metronidazole_582.png,Metronidazole
+data/augmented/Metronidazole_582.png,Metronidazole
+data/augmented/aug_0_Esomeprazole_1840.png,Esomeprazole
+data/augmented/aug_1_Esomeprazole_1840.png,Esomeprazole
+data/augmented/aug_2_Esomeprazole_1840.png,Esomeprazole
+data/augmented/Esomeprazole_1840.png,Esomeprazole
+data/augmented/aug_0_Clonazepam_843.png,Clonazepam
+data/augmented/aug_1_Clonazepam_843.png,Clonazepam
+data/augmented/aug_2_Clonazepam_843.png,Clonazepam
+data/augmented/Clonazepam_843.png,Clonazepam
+data/augmented/aug_0_Montelukast Sodium_444.png,Montelukast Sodium
+data/augmented/aug_1_Montelukast Sodium_444.png,Montelukast Sodium
+data/augmented/aug_2_Montelukast Sodium_444.png,Montelukast Sodium
+data/augmented/Montelukast Sodium_444.png,Montelukast Sodium
+data/augmented/aug_0_Metronidazole_1360.png,Metronidazole
+data/augmented/aug_1_Metronidazole_1360.png,Metronidazole
+data/augmented/aug_2_Metronidazole_1360.png,Metronidazole
+data/augmented/Metronidazole_1360.png,Metronidazole
+data/augmented/aug_0_Metronidazole_1988.png,Metronidazole
+data/augmented/aug_1_Metronidazole_1988.png,Metronidazole
+data/augmented/aug_2_Metronidazole_1988.png,Metronidazole
+data/augmented/Metronidazole_1988.png,Metronidazole
+data/augmented/aug_0_Metronidazole_1991.png,Metronidazole
+data/augmented/aug_1_Metronidazole_1991.png,Metronidazole
+data/augmented/aug_2_Metronidazole_1991.png,Metronidazole
+data/augmented/Metronidazole_1991.png,Metronidazole
+data/augmented/aug_0_Fexofenadine Hydrochloride_220.png,Fexofenadine Hydrochloride
+data/augmented/aug_1_Fexofenadine Hydrochloride_220.png,Fexofenadine Hydrochloride
+data/augmented/aug_2_Fexofenadine Hydrochloride_220.png,Fexofenadine Hydrochloride
+data/augmented/Fexofenadine Hydrochloride_220.png,Fexofenadine Hydrochloride
+data/augmented/aug_0_Cetirizine Hydrochloride_270.png,Cetirizine Hydrochloride
+data/augmented/aug_1_Cetirizine Hydrochloride_270.png,Cetirizine Hydrochloride
+data/augmented/aug_2_Cetirizine Hydrochloride_270.png,Cetirizine Hydrochloride
+data/augmented/Cetirizine Hydrochloride_270.png,Cetirizine Hydrochloride
+data/augmented/aug_0_Esomeprazole_2521.png,Esomeprazole
+data/augmented/aug_1_Esomeprazole_2521.png,Esomeprazole
+data/augmented/aug_2_Esomeprazole_2521.png,Esomeprazole
+data/augmented/Esomeprazole_2521.png,Esomeprazole
+data/augmented/aug_0_Esomeprazole_2858.png,Esomeprazole
+data/augmented/aug_1_Esomeprazole_2858.png,Esomeprazole
+data/augmented/aug_2_Esomeprazole_2858.png,Esomeprazole
+data/augmented/Esomeprazole_2858.png,Esomeprazole
+data/augmented/aug_0_Fluconazole_2462.png,Fluconazole
+data/augmented/aug_1_Fluconazole_2462.png,Fluconazole
+data/augmented/aug_2_Fluconazole_2462.png,Fluconazole
+data/augmented/Fluconazole_2462.png,Fluconazole
+data/augmented/aug_0_Baclofen_527.png,Baclofen
+data/augmented/aug_1_Baclofen_527.png,Baclofen
+data/augmented/aug_2_Baclofen_527.png,Baclofen
+data/augmented/Baclofen_527.png,Baclofen
+data/augmented/aug_0_Clonazepam_877.png,Clonazepam
+data/augmented/aug_1_Clonazepam_877.png,Clonazepam
+data/augmented/aug_2_Clonazepam_877.png,Clonazepam
+data/augmented/Clonazepam_877.png,Clonazepam
+data/augmented/aug_0_Esomeprazole_1010.png,Esomeprazole
+data/augmented/aug_1_Esomeprazole_1010.png,Esomeprazole
+data/augmented/aug_2_Esomeprazole_1010.png,Esomeprazole
+data/augmented/Esomeprazole_1010.png,Esomeprazole
+data/augmented/aug_0_Esomeprazole_474.png,Esomeprazole
+data/augmented/aug_1_Esomeprazole_474.png,Esomeprazole
+data/augmented/aug_2_Esomeprazole_474.png,Esomeprazole
+data/augmented/Esomeprazole_474.png,Esomeprazole
+data/augmented/aug_0_Fexofenadine Hydrochloride_298.png,Fexofenadine Hydrochloride
+data/augmented/aug_1_Fexofenadine Hydrochloride_298.png,Fexofenadine Hydrochloride
+data/augmented/aug_2_Fexofenadine Hydrochloride_298.png,Fexofenadine Hydrochloride
+data/augmented/Fexofenadine Hydrochloride_298.png,Fexofenadine Hydrochloride
+data/augmented/aug_0_Azithromycin Dihydrate_298.png,Azithromycin Dihydrate
+data/augmented/aug_1_Azithromycin Dihydrate_298.png,Azithromycin Dihydrate
+data/augmented/aug_2_Azithromycin Dihydrate_298.png,Azithromycin Dihydrate
+data/augmented/Azithromycin Dihydrate_298.png,Azithromycin Dihydrate
+data/augmented/aug_0_Metronidazole_1309.png,Metronidazole
+data/augmented/aug_1_Metronidazole_1309.png,Metronidazole
+data/augmented/aug_2_Metronidazole_1309.png,Metronidazole
+data/augmented/Metronidazole_1309.png,Metronidazole
+data/augmented/aug_0_Metronidazole_1992.png,Metronidazole
+data/augmented/aug_1_Metronidazole_1992.png,Metronidazole
+data/augmented/aug_2_Metronidazole_1992.png,Metronidazole
+data/augmented/Metronidazole_1992.png,Metronidazole
+data/augmented/aug_0_Paracetamol_2195.png,Paracetamol
+data/augmented/aug_1_Paracetamol_2195.png,Paracetamol
+data/augmented/aug_2_Paracetamol_2195.png,Paracetamol
+data/augmented/Paracetamol_2195.png,Paracetamol
+data/augmented/aug_0_Clonazepam_2755.png,Clonazepam
+data/augmented/aug_1_Clonazepam_2755.png,Clonazepam
+data/augmented/aug_2_Clonazepam_2755.png,Clonazepam
+data/augmented/Clonazepam_2755.png,Clonazepam
+data/augmented/aug_0_Esomeprazole_1892.png,Esomeprazole
+data/augmented/aug_1_Esomeprazole_1892.png,Esomeprazole
+data/augmented/aug_2_Esomeprazole_1892.png,Esomeprazole
+data/augmented/Esomeprazole_1892.png,Esomeprazole
+data/augmented/aug_0_Baclofen_505.png,Baclofen
+data/augmented/aug_1_Baclofen_505.png,Baclofen
+data/augmented/aug_2_Baclofen_505.png,Baclofen
+data/augmented/Baclofen_505.png,Baclofen
+data/augmented/aug_0_Baclofen_438.png,Baclofen
+data/augmented/aug_1_Baclofen_438.png,Baclofen
+data/augmented/aug_2_Baclofen_438.png,Baclofen
+data/augmented/Baclofen_438.png,Baclofen
+data/augmented/aug_0_Montelukast Sodium_2429.png,Montelukast Sodium
+data/augmented/aug_1_Montelukast Sodium_2429.png,Montelukast Sodium
+data/augmented/aug_2_Montelukast Sodium_2429.png,Montelukast Sodium
+data/augmented/Montelukast Sodium_2429.png,Montelukast Sodium
+data/augmented/aug_0_Vitamin B Complex + Zinc_150.png,Vitamin B Complex + Zinc
+data/augmented/aug_1_Vitamin B Complex + Zinc_150.png,Vitamin B Complex + Zinc
+data/augmented/aug_2_Vitamin B Complex + Zinc_150.png,Vitamin B Complex + Zinc
+data/augmented/Vitamin B Complex + Zinc_150.png,Vitamin B Complex + Zinc
+data/augmented/aug_0_Esomeprazole_2856.png,Esomeprazole
+data/augmented/aug_1_Esomeprazole_2856.png,Esomeprazole
+data/augmented/aug_2_Esomeprazole_2856.png,Esomeprazole
+data/augmented/Esomeprazole_2856.png,Esomeprazole
+data/augmented/aug_0_Fexofenadine Hydrochloride_1323.png,Fexofenadine Hydrochloride
+data/augmented/aug_1_Fexofenadine Hydrochloride_1323.png,Fexofenadine Hydrochloride
+data/augmented/aug_2_Fexofenadine Hydrochloride_1323.png,Fexofenadine Hydrochloride
+data/augmented/Fexofenadine Hydrochloride_1323.png,Fexofenadine Hydrochloride
+data/augmented/aug_0_Azithromycin Dihydrate_2992.png,Azithromycin Dihydrate
+data/augmented/aug_1_Azithromycin Dihydrate_2992.png,Azithromycin Dihydrate
+data/augmented/aug_2_Azithromycin Dihydrate_2992.png,Azithromycin Dihydrate
+data/augmented/Azithromycin Dihydrate_2992.png,Azithromycin Dihydrate
+data/augmented/aug_0_Esomeprazole_2250.png,Esomeprazole
+data/augmented/aug_1_Esomeprazole_2250.png,Esomeprazole
+data/augmented/aug_2_Esomeprazole_2250.png,Esomeprazole
+data/augmented/Esomeprazole_2250.png,Esomeprazole
+data/augmented/aug_0_Cetirizine Hydrochloride_199.png,Cetirizine Hydrochloride
+data/augmented/aug_1_Cetirizine Hydrochloride_199.png,Cetirizine Hydrochloride
+data/augmented/aug_2_Cetirizine Hydrochloride_199.png,Cetirizine Hydrochloride
+data/augmented/Cetirizine Hydrochloride_199.png,Cetirizine Hydrochloride
+data/augmented/aug_0_Azithromycin Dihydrate (Ophthalmic)_2798.png,Azithromycin Dihydrate (Ophthalmic)
+data/augmented/aug_1_Azithromycin Dihydrate (Ophthalmic)_2798.png,Azithromycin Dihydrate (Ophthalmic)
+data/augmented/aug_2_Azithromycin Dihydrate (Ophthalmic)_2798.png,Azithromycin Dihydrate (Ophthalmic)
+data/augmented/Azithromycin Dihydrate (Ophthalmic)_2798.png,Azithromycin Dihydrate (Ophthalmic)
+data/augmented/aug_0_Paracetamol_558.png,Paracetamol
+data/augmented/aug_1_Paracetamol_558.png,Paracetamol
+data/augmented/aug_2_Paracetamol_558.png,Paracetamol
+data/augmented/Paracetamol_558.png,Paracetamol
+data/augmented/aug_0_Paracetamol_33.png,Paracetamol
+data/augmented/aug_1_Paracetamol_33.png,Paracetamol
+data/augmented/aug_2_Paracetamol_33.png,Paracetamol
+data/augmented/Paracetamol_33.png,Paracetamol
+data/augmented/aug_0_Fluconazole_789.png,Fluconazole
+data/augmented/aug_1_Fluconazole_789.png,Fluconazole
+data/augmented/aug_2_Fluconazole_789.png,Fluconazole
+data/augmented/Fluconazole_789.png,Fluconazole
+data/augmented/aug_0_Cetirizine Hydrochloride_2651.png,Cetirizine Hydrochloride
+data/augmented/aug_1_Cetirizine Hydrochloride_2651.png,Cetirizine Hydrochloride
+data/augmented/aug_2_Cetirizine Hydrochloride_2651.png,Cetirizine Hydrochloride
+data/augmented/Cetirizine Hydrochloride_2651.png,Cetirizine Hydrochloride
+data/augmented/aug_0_Montelukast Sodium_503.png,Montelukast Sodium
+data/augmented/aug_1_Montelukast Sodium_503.png,Montelukast Sodium
+data/augmented/aug_2_Montelukast Sodium_503.png,Montelukast Sodium
+data/augmented/Montelukast Sodium_503.png,Montelukast Sodium
+data/augmented/aug_0_Esomeprazole_252.png,Esomeprazole
+data/augmented/aug_1_Esomeprazole_252.png,Esomeprazole
+data/augmented/aug_2_Esomeprazole_252.png,Esomeprazole
+data/augmented/Esomeprazole_252.png,Esomeprazole
+data/augmented/aug_0_Baclofen_416.png,Baclofen
+data/augmented/aug_1_Baclofen_416.png,Baclofen
+data/augmented/aug_2_Baclofen_416.png,Baclofen
+data/augmented/Baclofen_416.png,Baclofen
+data/augmented/aug_0_Fexofenadine Hydrochloride_679.png,Fexofenadine Hydrochloride
+data/augmented/aug_1_Fexofenadine Hydrochloride_679.png,Fexofenadine Hydrochloride
+data/augmented/aug_2_Fexofenadine Hydrochloride_679.png,Fexofenadine Hydrochloride
+data/augmented/Fexofenadine Hydrochloride_679.png,Fexofenadine Hydrochloride
+data/augmented/aug_0_Baclofen_415.png,Baclofen
+data/augmented/aug_1_Baclofen_415.png,Baclofen
+data/augmented/aug_2_Baclofen_415.png,Baclofen
+data/augmented/Baclofen_415.png,Baclofen
+data/augmented/aug_0_Baclofen_486.png,Baclofen
+data/augmented/aug_1_Baclofen_486.png,Baclofen
+data/augmented/aug_2_Baclofen_486.png,Baclofen
+data/augmented/Baclofen_486.png,Baclofen
+data/augmented/aug_0_Vitamin B Complex + Zinc_625.png,Vitamin B Complex + Zinc
+data/augmented/aug_1_Vitamin B Complex + Zinc_625.png,Vitamin B Complex + Zinc
+data/augmented/aug_2_Vitamin B Complex + Zinc_625.png,Vitamin B Complex + Zinc
+data/augmented/Vitamin B Complex + Zinc_625.png,Vitamin B Complex + Zinc
+data/augmented/aug_0_Fluconazole_1485.png,Fluconazole
+data/augmented/aug_1_Fluconazole_1485.png,Fluconazole
+data/augmented/aug_2_Fluconazole_1485.png,Fluconazole
+data/augmented/Fluconazole_1485.png,Fluconazole
+data/augmented/aug_0_Montelukast Sodium_440.png,Montelukast Sodium
+data/augmented/aug_1_Montelukast Sodium_440.png,Montelukast Sodium
+data/augmented/aug_2_Montelukast Sodium_440.png,Montelukast Sodium
+data/augmented/Montelukast Sodium_440.png,Montelukast Sodium
+data/augmented/aug_0_Metronidazole_1973.png,Metronidazole
+data/augmented/aug_1_Metronidazole_1973.png,Metronidazole
+data/augmented/aug_2_Metronidazole_1973.png,Metronidazole
+data/augmented/Metronidazole_1973.png,Metronidazole
+data/augmented/aug_0_Fexofenadine Hydrochloride_203.png,Fexofenadine Hydrochloride
+data/augmented/aug_1_Fexofenadine Hydrochloride_203.png,Fexofenadine Hydrochloride
+data/augmented/aug_2_Fexofenadine Hydrochloride_203.png,Fexofenadine Hydrochloride
+data/augmented/Fexofenadine Hydrochloride_203.png,Fexofenadine Hydrochloride
+data/augmented/aug_0_Ketoconazole (Shampoo)_417.png,Ketoconazole (Shampoo)
+data/augmented/aug_1_Ketoconazole (Shampoo)_417.png,Ketoconazole (Shampoo)
+data/augmented/aug_2_Ketoconazole (Shampoo)_417.png,Ketoconazole (Shampoo)
+data/augmented/Ketoconazole (Shampoo)_417.png,Ketoconazole (Shampoo)
+data/augmented/aug_0_Azithromycin Dihydrate_2970.png,Azithromycin Dihydrate
+data/augmented/aug_1_Azithromycin Dihydrate_2970.png,Azithromycin Dihydrate
+data/augmented/aug_2_Azithromycin Dihydrate_2970.png,Azithromycin Dihydrate
+data/augmented/Azithromycin Dihydrate_2970.png,Azithromycin Dihydrate
+data/augmented/aug_0_Fluconazole_893.png,Fluconazole
+data/augmented/aug_1_Fluconazole_893.png,Fluconazole
+data/augmented/aug_2_Fluconazole_893.png,Fluconazole
+data/augmented/Fluconazole_893.png,Fluconazole
+data/augmented/aug_0_Cetirizine Hydrochloride_756.png,Cetirizine Hydrochloride
+data/augmented/aug_1_Cetirizine Hydrochloride_756.png,Cetirizine Hydrochloride
+data/augmented/aug_2_Cetirizine Hydrochloride_756.png,Cetirizine Hydrochloride
+data/augmented/Cetirizine Hydrochloride_756.png,Cetirizine Hydrochloride
+data/augmented/aug_0_Fluconazole_1728.png,Fluconazole
+data/augmented/aug_1_Fluconazole_1728.png,Fluconazole
+data/augmented/aug_2_Fluconazole_1728.png,Fluconazole
+data/augmented/Fluconazole_1728.png,Fluconazole
+data/augmented/aug_0_Fexofenadine Hydrochloride_931.png,Fexofenadine Hydrochloride
+data/augmented/aug_1_Fexofenadine Hydrochloride_931.png,Fexofenadine Hydrochloride
+data/augmented/aug_2_Fexofenadine Hydrochloride_931.png,Fexofenadine Hydrochloride
+data/augmented/Fexofenadine Hydrochloride_931.png,Fexofenadine Hydrochloride
+data/augmented/aug_0_Esomeprazole_1052.png,Esomeprazole
+data/augmented/aug_1_Esomeprazole_1052.png,Esomeprazole
+data/augmented/aug_2_Esomeprazole_1052.png,Esomeprazole
+data/augmented/Esomeprazole_1052.png,Esomeprazole
+data/augmented/aug_0_Cetirizine Hydrochloride_1117.png,Cetirizine Hydrochloride
+data/augmented/aug_1_Cetirizine Hydrochloride_1117.png,Cetirizine Hydrochloride
+data/augmented/aug_2_Cetirizine Hydrochloride_1117.png,Cetirizine Hydrochloride
+data/augmented/Cetirizine Hydrochloride_1117.png,Cetirizine Hydrochloride
+data/augmented/aug_0_Ketoconazole (Shampoo)_1557.png,Ketoconazole (Shampoo)
+data/augmented/aug_1_Ketoconazole (Shampoo)_1557.png,Ketoconazole (Shampoo)
+data/augmented/aug_2_Ketoconazole (Shampoo)_1557.png,Ketoconazole (Shampoo)
+data/augmented/Ketoconazole (Shampoo)_1557.png,Ketoconazole (Shampoo)
+data/augmented/aug_0_Esomeprazole_575.png,Esomeprazole
+data/augmented/aug_1_Esomeprazole_575.png,Esomeprazole
+data/augmented/aug_2_Esomeprazole_575.png,Esomeprazole
+data/augmented/Esomeprazole_575.png,Esomeprazole
+data/augmented/aug_0_Montelukast Sodium_3007.png,Montelukast Sodium
+data/augmented/aug_1_Montelukast Sodium_3007.png,Montelukast Sodium
+data/augmented/aug_2_Montelukast Sodium_3007.png,Montelukast Sodium
+data/augmented/Montelukast Sodium_3007.png,Montelukast Sodium
+data/augmented/aug_0_Fluconazole_776.png,Fluconazole
+data/augmented/aug_1_Fluconazole_776.png,Fluconazole
+data/augmented/aug_2_Fluconazole_776.png,Fluconazole
+data/augmented/Fluconazole_776.png,Fluconazole
+data/augmented/aug_0_Esomeprazole_463.png,Esomeprazole
+data/augmented/aug_1_Esomeprazole_463.png,Esomeprazole
+data/augmented/aug_2_Esomeprazole_463.png,Esomeprazole
+data/augmented/Esomeprazole_463.png,Esomeprazole
+data/augmented/aug_0_Azithromycin Dihydrate_2834.png,Azithromycin Dihydrate
+data/augmented/aug_1_Azithromycin Dihydrate_2834.png,Azithromycin Dihydrate
+data/augmented/aug_2_Azithromycin Dihydrate_2834.png,Azithromycin Dihydrate
+data/augmented/Azithromycin Dihydrate_2834.png,Azithromycin Dihydrate
+data/augmented/aug_0_Ketoconazole (Shampoo)_810.png,Ketoconazole (Shampoo)
+data/augmented/aug_1_Ketoconazole (Shampoo)_810.png,Ketoconazole (Shampoo)
+data/augmented/aug_2_Ketoconazole (Shampoo)_810.png,Ketoconazole (Shampoo)
+data/augmented/Ketoconazole (Shampoo)_810.png,Ketoconazole (Shampoo)
+data/augmented/aug_0_Montelukast Sodium_756.png,Montelukast Sodium
+data/augmented/aug_1_Montelukast Sodium_756.png,Montelukast Sodium
+data/augmented/aug_2_Montelukast Sodium_756.png,Montelukast Sodium
+data/augmented/Montelukast Sodium_756.png,Montelukast Sodium
+data/augmented/aug_0_Montelukast Sodium_440.png,Montelukast Sodium
+data/augmented/aug_1_Montelukast Sodium_440.png,Montelukast Sodium
+data/augmented/aug_2_Montelukast Sodium_440.png,Montelukast Sodium
+data/augmented/Montelukast Sodium_440.png,Montelukast Sodium
+data/augmented/aug_0_Azithromycin Dihydrate (Ophthalmic)_2772.png,Azithromycin Dihydrate (Ophthalmic)
+data/augmented/aug_1_Azithromycin Dihydrate (Ophthalmic)_2772.png,Azithromycin Dihydrate (Ophthalmic)
+data/augmented/aug_2_Azithromycin Dihydrate (Ophthalmic)_2772.png,Azithromycin Dihydrate (Ophthalmic)
+data/augmented/Azithromycin Dihydrate (Ophthalmic)_2772.png,Azithromycin Dihydrate (Ophthalmic)
+data/augmented/aug_0_Montelukast Sodium_538.png,Montelukast Sodium
+data/augmented/aug_1_Montelukast Sodium_538.png,Montelukast Sodium
+data/augmented/aug_2_Montelukast Sodium_538.png,Montelukast Sodium
+data/augmented/Montelukast Sodium_538.png,Montelukast Sodium
+data/augmented/aug_0_Vitamin B Complex + Zinc_602.png,Vitamin B Complex + Zinc
+data/augmented/aug_1_Vitamin B Complex + Zinc_602.png,Vitamin B Complex + Zinc
+data/augmented/aug_2_Vitamin B Complex + Zinc_602.png,Vitamin B Complex + Zinc
+data/augmented/Vitamin B Complex + Zinc_602.png,Vitamin B Complex + Zinc
+data/augmented/aug_0_Metronidazole_1937.png,Metronidazole
+data/augmented/aug_1_Metronidazole_1937.png,Metronidazole
+data/augmented/aug_2_Metronidazole_1937.png,Metronidazole
+data/augmented/Metronidazole_1937.png,Metronidazole
+data/augmented/aug_0_Esomeprazole_571.png,Esomeprazole
+data/augmented/aug_1_Esomeprazole_571.png,Esomeprazole
+data/augmented/aug_2_Esomeprazole_571.png,Esomeprazole
+data/augmented/Esomeprazole_571.png,Esomeprazole
+data/augmented/aug_0_Esomeprazole_2860.png,Esomeprazole
+data/augmented/aug_1_Esomeprazole_2860.png,Esomeprazole
+data/augmented/aug_2_Esomeprazole_2860.png,Esomeprazole
+data/augmented/Esomeprazole_2860.png,Esomeprazole
+data/augmented/aug_0_Baclofen_135.png,Baclofen
+data/augmented/aug_1_Baclofen_135.png,Baclofen
+data/augmented/aug_2_Baclofen_135.png,Baclofen
+data/augmented/Baclofen_135.png,Baclofen
+data/augmented/aug_0_Ketoconazole (Tablet)_1612.png,Ketoconazole (Tablet)
+data/augmented/aug_1_Ketoconazole (Tablet)_1612.png,Ketoconazole (Tablet)
+data/augmented/aug_2_Ketoconazole (Tablet)_1612.png,Ketoconazole (Tablet)
+data/augmented/Ketoconazole (Tablet)_1612.png,Ketoconazole (Tablet)
+data/augmented/aug_0_Esomeprazole_1032.png,Esomeprazole
+data/augmented/aug_1_Esomeprazole_1032.png,Esomeprazole
+data/augmented/aug_2_Esomeprazole_1032.png,Esomeprazole
+data/augmented/Esomeprazole_1032.png,Esomeprazole
+data/augmented/aug_0_Ketoconazole (Shampoo)_1672.png,Ketoconazole (Shampoo)
+data/augmented/aug_1_Ketoconazole (Shampoo)_1672.png,Ketoconazole (Shampoo)
+data/augmented/aug_2_Ketoconazole (Shampoo)_1672.png,Ketoconazole (Shampoo)
+data/augmented/Ketoconazole (Shampoo)_1672.png,Ketoconazole (Shampoo)
+data/augmented/aug_0_Paracetamol_45.png,Paracetamol
+data/augmented/aug_1_Paracetamol_45.png,Paracetamol
+data/augmented/aug_2_Paracetamol_45.png,Paracetamol
+data/augmented/Paracetamol_45.png,Paracetamol
+data/augmented/aug_0_Baclofen_365.png,Baclofen
+data/augmented/aug_1_Baclofen_365.png,Baclofen
+data/augmented/aug_2_Baclofen_365.png,Baclofen
+data/augmented/Baclofen_365.png,Baclofen
+data/augmented/aug_0_Azithromycin Dihydrate_87.png,Azithromycin Dihydrate
+data/augmented/aug_1_Azithromycin Dihydrate_87.png,Azithromycin Dihydrate
+data/augmented/aug_2_Azithromycin Dihydrate_87.png,Azithromycin Dihydrate
+data/augmented/Azithromycin Dihydrate_87.png,Azithromycin Dihydrate
+data/augmented/aug_0_Clonazepam_689.png,Clonazepam
+data/augmented/aug_1_Clonazepam_689.png,Clonazepam
+data/augmented/aug_2_Clonazepam_689.png,Clonazepam
+data/augmented/Clonazepam_689.png,Clonazepam
+data/augmented/aug_0_Clonazepam_421.png,Clonazepam
+data/augmented/aug_1_Clonazepam_421.png,Clonazepam
+data/augmented/aug_2_Clonazepam_421.png,Clonazepam
+data/augmented/Clonazepam_421.png,Clonazepam
+data/augmented/aug_0_Fexofenadine Hydrochloride_211.png,Fexofenadine Hydrochloride
+data/augmented/aug_1_Fexofenadine Hydrochloride_211.png,Fexofenadine Hydrochloride
+data/augmented/aug_2_Fexofenadine Hydrochloride_211.png,Fexofenadine Hydrochloride
+data/augmented/Fexofenadine Hydrochloride_211.png,Fexofenadine Hydrochloride
+data/augmented/aug_0_Esomeprazole_1027.png,Esomeprazole
+data/augmented/aug_1_Esomeprazole_1027.png,Esomeprazole
+data/augmented/aug_2_Esomeprazole_1027.png,Esomeprazole
+data/augmented/Esomeprazole_1027.png,Esomeprazole
+data/augmented/aug_0_Fexofenadine Hydrochloride_1258.png,Fexofenadine Hydrochloride
+data/augmented/aug_1_Fexofenadine Hydrochloride_1258.png,Fexofenadine Hydrochloride
+data/augmented/aug_2_Fexofenadine Hydrochloride_1258.png,Fexofenadine Hydrochloride
+data/augmented/Fexofenadine Hydrochloride_1258.png,Fexofenadine Hydrochloride
+data/augmented/aug_0_Paracetamol_2606.png,Paracetamol
+data/augmented/aug_1_Paracetamol_2606.png,Paracetamol
+data/augmented/aug_2_Paracetamol_2606.png,Paracetamol
+data/augmented/Paracetamol_2606.png,Paracetamol
+data/augmented/aug_0_Montelukast Sodium_2414.png,Montelukast Sodium
+data/augmented/aug_1_Montelukast Sodium_2414.png,Montelukast Sodium
+data/augmented/aug_2_Montelukast Sodium_2414.png,Montelukast Sodium
+data/augmented/Montelukast Sodium_2414.png,Montelukast Sodium
+data/augmented/aug_0_Paracetamol_2622.png,Paracetamol
+data/augmented/aug_1_Paracetamol_2622.png,Paracetamol
+data/augmented/aug_2_Paracetamol_2622.png,Paracetamol
+data/augmented/Paracetamol_2622.png,Paracetamol
+data/augmented/aug_0_Fluconazole_1519.png,Fluconazole
+data/augmented/aug_1_Fluconazole_1519.png,Fluconazole
+data/augmented/aug_2_Fluconazole_1519.png,Fluconazole
+data/augmented/Fluconazole_1519.png,Fluconazole
+data/augmented/aug_0_Metronidazole_1964.png,Metronidazole
+data/augmented/aug_1_Metronidazole_1964.png,Metronidazole
+data/augmented/aug_2_Metronidazole_1964.png,Metronidazole
+data/augmented/Metronidazole_1964.png,Metronidazole
+data/augmented/aug_0_Clonazepam_216.png,Clonazepam
+data/augmented/aug_1_Clonazepam_216.png,Clonazepam
+data/augmented/aug_2_Clonazepam_216.png,Clonazepam
+data/augmented/Clonazepam_216.png,Clonazepam
+data/augmented/aug_0_Cetirizine Hydrochloride_2655.png,Cetirizine Hydrochloride
+data/augmented/aug_1_Cetirizine Hydrochloride_2655.png,Cetirizine Hydrochloride
+data/augmented/aug_2_Cetirizine Hydrochloride_2655.png,Cetirizine Hydrochloride
+data/augmented/Cetirizine Hydrochloride_2655.png,Cetirizine Hydrochloride
+data/augmented/aug_0_Fexofenadine Hydrochloride_1192.png,Fexofenadine Hydrochloride
+data/augmented/aug_1_Fexofenadine Hydrochloride_1192.png,Fexofenadine Hydrochloride
+data/augmented/aug_2_Fexofenadine Hydrochloride_1192.png,Fexofenadine Hydrochloride
+data/augmented/Fexofenadine Hydrochloride_1192.png,Fexofenadine Hydrochloride
+data/augmented/aug_0_Azithromycin Dihydrate_779.png,Azithromycin Dihydrate
+data/augmented/aug_1_Azithromycin Dihydrate_779.png,Azithromycin Dihydrate
+data/augmented/aug_2_Azithromycin Dihydrate_779.png,Azithromycin Dihydrate
+data/augmented/Azithromycin Dihydrate_779.png,Azithromycin Dihydrate
+data/augmented/aug_0_Ketoconazole (Shampoo)_414.png,Ketoconazole (Shampoo)
+data/augmented/aug_1_Ketoconazole (Shampoo)_414.png,Ketoconazole (Shampoo)
+data/augmented/aug_2_Ketoconazole (Shampoo)_414.png,Ketoconazole (Shampoo)
+data/augmented/Ketoconazole (Shampoo)_414.png,Ketoconazole (Shampoo)
+data/augmented/aug_0_Azithromycin Dihydrate_289.png,Azithromycin Dihydrate
+data/augmented/aug_1_Azithromycin Dihydrate_289.png,Azithromycin Dihydrate
+data/augmented/aug_2_Azithromycin Dihydrate_289.png,Azithromycin Dihydrate
+data/augmented/Azithromycin Dihydrate_289.png,Azithromycin Dihydrate
+data/augmented/aug_0_Metronidazole_2344.png,Metronidazole
+data/augmented/aug_1_Metronidazole_2344.png,Metronidazole
+data/augmented/aug_2_Metronidazole_2344.png,Metronidazole
+data/augmented/Metronidazole_2344.png,Metronidazole
+data/augmented/aug_0_Cetirizine Hydrochloride_99.png,Cetirizine Hydrochloride
+data/augmented/aug_1_Cetirizine Hydrochloride_99.png,Cetirizine Hydrochloride
+data/augmented/aug_2_Cetirizine Hydrochloride_99.png,Cetirizine Hydrochloride
+data/augmented/Cetirizine Hydrochloride_99.png,Cetirizine Hydrochloride
+data/augmented/aug_0_Montelukast Sodium_443.png,Montelukast Sodium
+data/augmented/aug_1_Montelukast Sodium_443.png,Montelukast Sodium
+data/augmented/aug_2_Montelukast Sodium_443.png,Montelukast Sodium
+data/augmented/Montelukast Sodium_443.png,Montelukast Sodium
+data/augmented/aug_0_Azithromycin Dihydrate_702.png,Azithromycin Dihydrate
+data/augmented/aug_1_Azithromycin Dihydrate_702.png,Azithromycin Dihydrate
+data/augmented/aug_2_Azithromycin Dihydrate_702.png,Azithromycin Dihydrate
+data/augmented/Azithromycin Dihydrate_702.png,Azithromycin Dihydrate
+data/augmented/aug_0_Fexofenadine Hydrochloride_2936.png,Fexofenadine Hydrochloride
+data/augmented/aug_1_Fexofenadine Hydrochloride_2936.png,Fexofenadine Hydrochloride
+data/augmented/aug_2_Fexofenadine Hydrochloride_2936.png,Fexofenadine Hydrochloride
+data/augmented/Fexofenadine Hydrochloride_2936.png,Fexofenadine Hydrochloride
+data/augmented/aug_0_Montelukast Sodium_647.png,Montelukast Sodium
+data/augmented/aug_1_Montelukast Sodium_647.png,Montelukast Sodium
+data/augmented/aug_2_Montelukast Sodium_647.png,Montelukast Sodium
+data/augmented/Montelukast Sodium_647.png,Montelukast Sodium
+data/augmented/aug_0_Fexofenadine Hydrochloride_295.png,Fexofenadine Hydrochloride
+data/augmented/aug_1_Fexofenadine Hydrochloride_295.png,Fexofenadine Hydrochloride
+data/augmented/aug_2_Fexofenadine Hydrochloride_295.png,Fexofenadine Hydrochloride
+data/augmented/Fexofenadine Hydrochloride_295.png,Fexofenadine Hydrochloride
+data/augmented/aug_0_Montelukast Sodium_450.png,Montelukast Sodium
+data/augmented/aug_1_Montelukast Sodium_450.png,Montelukast Sodium
+data/augmented/aug_2_Montelukast Sodium_450.png,Montelukast Sodium
+data/augmented/Montelukast Sodium_450.png,Montelukast Sodium
+data/augmented/aug_0_Montelukast Sodium_1787.png,Montelukast Sodium
+data/augmented/aug_1_Montelukast Sodium_1787.png,Montelukast Sodium
+data/augmented/aug_2_Montelukast Sodium_1787.png,Montelukast Sodium
+data/augmented/Montelukast Sodium_1787.png,Montelukast Sodium
+data/augmented/aug_0_Baclofen_472.png,Baclofen
+data/augmented/aug_1_Baclofen_472.png,Baclofen
+data/augmented/aug_2_Baclofen_472.png,Baclofen
+data/augmented/Baclofen_472.png,Baclofen
+data/augmented/aug_0_Metronidazole_135.png,Metronidazole
+data/augmented/aug_1_Metronidazole_135.png,Metronidazole
+data/augmented/aug_2_Metronidazole_135.png,Metronidazole
+data/augmented/Metronidazole_135.png,Metronidazole
+data/augmented/aug_0_Fluconazole_1491.png,Fluconazole
+data/augmented/aug_1_Fluconazole_1491.png,Fluconazole
+data/augmented/aug_2_Fluconazole_1491.png,Fluconazole
+data/augmented/Fluconazole_1491.png,Fluconazole
+data/augmented/aug_0_Azithromycin Dihydrate_322.png,Azithromycin Dihydrate
+data/augmented/aug_1_Azithromycin Dihydrate_322.png,Azithromycin Dihydrate
+data/augmented/aug_2_Azithromycin Dihydrate_322.png,Azithromycin Dihydrate
+data/augmented/Azithromycin Dihydrate_322.png,Azithromycin Dihydrate
+data/augmented/aug_0_Montelukast Sodium_757.png,Montelukast Sodium
+data/augmented/aug_1_Montelukast Sodium_757.png,Montelukast Sodium
+data/augmented/aug_2_Montelukast Sodium_757.png,Montelukast Sodium
+data/augmented/Montelukast Sodium_757.png,Montelukast Sodium
+data/augmented/aug_0_Baclofen_373.png,Baclofen
+data/augmented/aug_1_Baclofen_373.png,Baclofen
+data/augmented/aug_2_Baclofen_373.png,Baclofen
+data/augmented/Baclofen_373.png,Baclofen
+data/augmented/aug_0_Montelukast Sodium_2420.png,Montelukast Sodium
+data/augmented/aug_1_Montelukast Sodium_2420.png,Montelukast Sodium
+data/augmented/aug_2_Montelukast Sodium_2420.png,Montelukast Sodium
+data/augmented/Montelukast Sodium_2420.png,Montelukast Sodium
+data/augmented/aug_0_Montelukast Sodium_753.png,Montelukast Sodium
+data/augmented/aug_1_Montelukast Sodium_753.png,Montelukast Sodium
+data/augmented/aug_2_Montelukast Sodium_753.png,Montelukast Sodium
+data/augmented/Montelukast Sodium_753.png,Montelukast Sodium
+data/augmented/aug_0_Baclofen_105.png,Baclofen
+data/augmented/aug_1_Baclofen_105.png,Baclofen
+data/augmented/aug_2_Baclofen_105.png,Baclofen
+data/augmented/Baclofen_105.png,Baclofen
+data/augmented/aug_0_Baclofen_586.png,Baclofen
+data/augmented/aug_1_Baclofen_586.png,Baclofen
+data/augmented/aug_2_Baclofen_586.png,Baclofen
+data/augmented/Baclofen_586.png,Baclofen
+data/augmented/aug_0_Paracetamol_3.png,Paracetamol
+data/augmented/aug_1_Paracetamol_3.png,Paracetamol
+data/augmented/aug_2_Paracetamol_3.png,Paracetamol
+data/augmented/Paracetamol_3.png,Paracetamol
+data/augmented/aug_0_Baclofen_1412.png,Baclofen
+data/augmented/aug_1_Baclofen_1412.png,Baclofen
+data/augmented/aug_2_Baclofen_1412.png,Baclofen
+data/augmented/Baclofen_1412.png,Baclofen
+data/augmented/aug_0_Fexofenadine Hydrochloride_230.png,Fexofenadine Hydrochloride
+data/augmented/aug_1_Fexofenadine Hydrochloride_230.png,Fexofenadine Hydrochloride
+data/augmented/aug_2_Fexofenadine Hydrochloride_230.png,Fexofenadine Hydrochloride
+data/augmented/Fexofenadine Hydrochloride_230.png,Fexofenadine Hydrochloride
