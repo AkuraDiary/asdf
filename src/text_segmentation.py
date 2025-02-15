@@ -4,35 +4,33 @@ import matplotlib.pyplot as plt
 from tensorflow.keras.models import load_model
 import pickle
 
-# Load label encoder
-with open("models_checkpoint/label_encoder.pkl", "rb") as f:
-    label_encoder = pickle.load(f)
-
-
 def preprocess_image(image_path):
     """Converts image to grayscale and applies adaptive thresholding."""
     image = cv2.imread(image_path, cv2.IMREAD_GRAYSCALE)
-    # # Convert to grayscale
-    # gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
-    # image = cv2.convertScaleAbs(image, alpha=1.5)
 
+    print("preprocess")
     # Apply median blur to remove small specks
     denoised = cv2.medianBlur(image, 1)
 
+    print("denoised")
+    plt.imshow(denoised)
+    plt.show()
+
     # Apply morphological closing to remove noise (dilation followed by erosion)
-    kernel = np.ones((1,1), np.uint8)  # Adjust kernel size if needed
+    kernel = np.ones((1,3), np.uint8)  # Adjust kernel size if needed
     clean = cv2.morphologyEx(denoised, cv2.MORPH_CLOSE, kernel)
 
+    print("clean")
+    plt.imshow(clean)
+    plt.show()
+
     blurred = cv2.GaussianBlur(clean, (1,1), 0)  # Reduce noise
-    binary = cv2.adaptiveThreshold(blurred, 255, cv2.ADAPTIVE_THRESH_GAUSSIAN_C, 
-                                   cv2.THRESH_BINARY_INV, 13, 4)  
 
-    # **Dilate the Text to Make It Thicker**
-    # dilation_kernel = np.ones((1, 1), np.uint8)  # Adjust size if needed
-    # thick_text = cv2.dilate(binary, dilation_kernel, iterations=1)
+    print("blur")
+    plt.imshow(blurred)
+    plt.show()
 
-    # plt.imshow(thick_text, cmap="gray")
-    # plt.show()
+    binary = cv2.adaptiveThreshold(blurred, 255, cv2.ADAPTIVE_THRESH_GAUSSIAN_C, cv2.THRESH_BINARY_INV, 15, 5)  
 
     return binary
 
@@ -41,7 +39,6 @@ def find_text_contours(binary_image):
     # Find all external contours (ignore nested ones)
     contours, _ = cv2.findContours(binary_image, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
     return contours
-import numpy as np
 
 def sort_text_segments(text_segments):
     """Sorts text segments into natural reading order: top-to-bottom, then left-to-right."""
@@ -87,9 +84,6 @@ def sort_text_segments(text_segments):
     # Step 4: Preserve full structure for debugging
     sorted_boxes = [tuple(box) for line in lines for box in line]
 
-    # Extract only segments for OCR
-    # sorted_segments = [segment for _, _, _, _, segment in sorted_boxes]
-
     return sorted_boxes
 
 def extract_text_segments(image, contours):
@@ -108,11 +102,11 @@ def extract_text_segments(image, contours):
         
         # **🔹 Remove horizontal/vertical lines**
         aspect_ratio = w / float(h)  
-        if aspect_ratio > 8 or aspect_ratio < 0.2:
+        if aspect_ratio > 7 or aspect_ratio < 0.16:
             continue  # Likely a long line or a very tall shape (not text)
 
         # **🔹 Expand bounding box slightly for better segmentation**
-        padding = 5
+        padding = 7
         x = max(0, x - padding)
         y = max(0, y - padding)
         w = min(image.shape[1] - x, w + 2 * padding)
@@ -122,73 +116,12 @@ def extract_text_segments(image, contours):
         bounding_boxes.append((x, y, w, h, segment))  # Store bounding box info
 
     # **🔹 Sort in natural reading order**
-    sorted_boxes = sort_text_segments(bounding_boxes)
+    sorted_boxes = sort_segments_by_line(bounding_boxes)
 
     # # **🔹 Extract sorted text segments**
     text_segments = [segment for  _, _, _, _, segment in sorted_boxes]
     
     return text_segments
-
-# def extract_text_segments(image, contours):
-#     """Extracts and sorts text segments from an image."""
-#     """Detects text regions but filters out notebook lines."""
-
-#     # **🔹 Ensure the image is grayscale**
-#     if len(image.shape) == 3:  # If it's RGB/BGR (3 channels)
-#         gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
-#     else:
-#         gray = image  # Already grayscale
-
-#     _, thresh = cv2.threshold(gray, 0, 255, cv2.THRESH_BINARY_INV + cv2.THRESH_OTSU)  # Binarization
-
-#     # Alternative (try if OTSU is not working well):
-#     # thresh = cv2.adaptiveThreshold(gray, 255, cv2.ADAPTIVE_THRESH_MEAN_C, cv2.THRESH_BINARY_INV, 11, 2)  
-    
-
-#     # **🔹 Morphological Operations (Dilation to Merge Broken Text)**
-#     # kernel = np.ones((1, 1), np.uint8)  # Adjust kernel size based on text thickness
-#     # thresh = cv2.dilate(thresh, kernel, iterations=3)  
-
-#     # Find contours of potential text segments
-    
-#     text_segments = []
-#     bounding_boxes = []
-
-#     for cnt in contours:
-#         x, y, w, h = cv2.boundingRect(cnt)
-
-#         # **🔹 Filter out horizontal lines**
-#         aspect_ratio = w / float(h)  # Width-to-height ratio
-#         if aspect_ratio > 8:  # If it's too long and thin, it's likely a line
-#             continue  
-
-#         # If it's too little it's likely a speck 
-#         # **🔹 Filter out specks and tiny noise**
-#         min_area = 50  # Adjust based on dataset (experiment!)
-#         if w * h < min_area:  # If the area is too small, it's likely noise
-#             continue  
-
-
-#         # **🔹 Resize segment slightly larger**
-#         padding = 5  # Increase the box size a bit
-#         x = max(0, x - padding)
-#         y = max(0, y - padding)
-#         w = min(image.shape[1] - x, w + 2 * padding)
-#         h = min(image.shape[0] - y, h + 2 * padding)
-
-#         segment = image[y:y+h, x:x+w]
-#         text_segments.append(segment)
-#         bounding_boxes.append((x, y, w, h))
-
-#   # 🔹 **Sort bounding boxes by natural reading order**
-#     def sorting_criteria(box):
-#         x, y, w, h = box
-#         return (y // 10, x)  # Group by line (y) first, then left-to-right (x)
-
-#     sorted_indices = sorted(range(len(bounding_boxes)), key=lambda i: sorting_criteria(bounding_boxes[i]))
-#     sorted_text_segments = [text_segments[i] for i in sorted_indices]
-
-#     return sorted_text_segments
 
 def display_segments(text_segments, cols=5):
     """Displays all detected text segments in a single grid, ensuring they are valid images."""
@@ -228,7 +161,6 @@ def display_segments(text_segments, cols=5):
 
     plt.show()
 
-
 def sort_segments_by_line(text_segments, line_threshold=15):
     """Sorts text segments into natural reading order (row-by-row, left-to-right)."""
     
@@ -262,31 +194,44 @@ def sort_segments_by_line(text_segments, line_threshold=15):
     
     return sorted_segments
 
+if __name__ == "__main__":
+    # Test
+    image_path = "input_image/nama.jpeg"  # 
+    binary_image = preprocess_image(image_path)
 
-def segment_text_with_components(binary_image):
-    """Segments text using Connected Components for better accuracy."""
-    # Get connected components
-    num_labels, labels, stats, _ = cv2.connectedComponentsWithStats(binary_image, connectivity=8)
+    plt.imshow(binary_image, cmap="gray")
+    plt.show()
     
-    text_segments = []
-    for i in range(1, num_labels):  # Start from 1 to ignore background
-        x, y, w, h, area = stats[i]
-        
-        # 🔹 **Filter out small noise**
-        if area < 30:  
-            continue  
+    contours = find_text_contours(binary_image)
+    output = cv2.cvtColor(binary_image, cv2.COLOR_GRAY2BGR)  # Convert to color
+    cv2.drawContours(output, contours, -1, (0, 255, 0), 3)  # Draw detected regions
 
-        # 🔹 **Extract and store the text segment**
-        segment = binary_image[y:y+h, x:x+w]
-        text_segments.append((x, y, w, h, segment))
+    plt.imshow(output)
+    plt.show()
+
+    # Extracted segments
+    text_segments = extract_text_segments(binary_image, contours)
     
-    return text_segments
+   
+    
+    # Show extracted parts
+    print("Found text segment : ", len(text_segments))
+    display_segments(text_segments, 10)
 
-# Load trained model
+
+    
+
+"""
+# IGNORE THIS PART FOR NOW
+
+# Load label encoder
+with open("models_checkpoint/label_encoder.pkl", "rb") as f:
+    label_encoder = pickle.load(f)
+
 ocr_model = load_model("models_checkpoint/bandungbondowoso.keras")
 
 def predict_text(segment):
-    """Resizes and predicts text from a single segment."""
+    Resizes and predicts text from a single segment.
     segment = cv2.resize(segment, (128, 32))  # Match model input size
     segment = segment.astype("float32") / 255.0  # Normalize
     segment = np.expand_dims(segment, axis=[0, -1])  # Add batch & channel dims
@@ -294,9 +239,8 @@ def predict_text(segment):
     prediction = ocr_model.predict(segment)
     return prediction  # Decode this into text!
 
-
 def reconstruct_text(predictions):
-    """Combines recognized characters into words or sentences."""
+    Combines recognized characters into words or sentences.
     predicted_indices = np.argmax(predictions, axis=-1)  # Get the highest prob. class per timestep
 
     if predicted_indices.ndim == 2:  # If it's a sequence (batch_size, seq_len)
@@ -312,49 +256,19 @@ def reconstruct_text(predictions):
 
     else:
         raise ValueError(f"Unexpected shape for predicted_indices: {predicted_indices.shape}")
+# IGNORE THIS PART FOR NOW
 
-
-if __name__ == "__main__":
-    # Test
-    image_path = "input_image/niat_cropped.jpeg"  # Replace with your image
-    binary_image = preprocess_image(image_path)
-
-    plt.imshow(binary_image, cmap="gray")
-    plt.show()
-    
-    contours = find_text_contours(binary_image)
-    output = cv2.cvtColor(binary_image, cv2.COLOR_GRAY2BGR)  # Convert to color
-    cv2.drawContours(output, contours, -1, (0, 255, 0), 2)  # Draw detected regions
-
-    plt.imshow(output)
-    plt.show()
-
-    # # Extracted segments
-    # text_segments = extract_text_segments(binary_image, contours)
-
-    # 🔹 **Use Connected Components for better segmentation**
-    text_segments = extract_text_segments(binary_image, contours)
-    # 🔹 **Sort properly (line by line, then left to right)**
-    # sorted_text_segments = sort_text_segments(text_segments)
-    
-    # # Show a few extracted parts
-    # # Show first 5
-    print("Found text segment : ", len(text_segments))
-    display_segments(text_segments, 10)
-    # # for i, (_, _, _, _, segment) in enumerate(text_segments):  
-    # #     plt.subplot(1, len(text_segments), i + 1)
-    # #     plt.imshow(segment, cmap="gray")
-    # #     plt.show()
-    
+    # IGNORE THIS PART FOR NOW
     # # part of code where we actually feed the data into model
 
     # # Example: Run OCR on extracted segments
-    # # for _, _, _, _, segment in text_segments: 
-    # #     text = predict_text(segment)
-    # #     print("Predicted Text:", text)
+    # for segment in text_segments: 
+    #     text = predict_text(segment)
+    #     print("Predicted Text:", text)
 
-    # # Example usage
+
     # full_text = reconstruct_text([predict_text(seg) for seg in text_segments])
 
-    # # full_text = reconstruct_text([predict_text(seg) for _, _, _, _, seg in text_segments])
+    # # # full_text = reconstruct_text([predict_text(seg) for _, _, _, _, seg in text_segments])
     # print("Final OCR Output:\n", full_text)
+"""
