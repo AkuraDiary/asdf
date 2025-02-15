@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import math
 
-image_path = "input_image/nama.jpeg"
+image_path = "input_image/niat_cropped.jpeg"
 
 # IMAGE PREPROCESSING
 def preprocess_image(image):
@@ -238,7 +238,7 @@ def merge_vertical_bounding_boxes(bounding_boxes, vertical_threshold=3):
             x = min(x, mx)
             y = min(y, my)
             w = max(x + w, mx + mw) - x
-            h = max(y + h, my + mh) #- y
+            h = max(y + h, my + mh) - mh
             bounding_boxes.remove((mx, my, mw, mh))  # Remove merged boxes
 
     
@@ -381,6 +381,7 @@ if __name__ == "__main__":
     plt.title("Merge close Bounding Boxes ")
     plt.show()
 
+    merged_boxes = filter_noise(merged_boxes, 2)
     merged_boxes = merge_vertical_bounding_boxes(merged_boxes, vertical_threshold=3)
     mergevert_image = draw_bounding_boxes(color_img.copy(), merged_boxes)
     plt.imshow(mergevert_image)
