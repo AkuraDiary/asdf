@@ -4,17 +4,20 @@ import matplotlib.pyplot as plt
 from tensorflow.keras.models import load_model
 import pickle
 
+# Adjust threshold for line segmentation based on word spacing
+line_threshold = 20  # Increase if lines are spaced far apart
+word_threshold = 5  # Increase for large spaces between words
+
+# Refine contour filtering
+min_area = 50  # Higher threshold for minimum area (to avoid merging small characters)
+max_aspect_ratio = 3  # Max allowed aspect ratio for character-like shapes
+
+
 def preprocess_image(image_path):
     """Converts image to grayscale and applies adaptive thresholding."""
     image = cv2.imread(image_path, cv2.IMREAD_GRAYSCALE)
 
     print("preprocess")
-
-    # 🔹 **Increase contrast** (Optional, if text is faint)
-    # image = cv2.equalizeHist(image)
-    # plt.title("increase contrast")
-    # plt.imshow(image)
-    # plt.show()
 
     # Apply median blur to remove small specks
     denoised = cv2.medianBlur(image, 1)
@@ -45,15 +48,17 @@ def preprocess_image(image_path):
     plt.imshow(binary)
     plt.show()
 
-    # blurred = cv2.GaussianBlur(clean, (1,1), 0)  # Reduce noise
+    eroded = cv2.erode(binary, kernel, iterations=1)
+    plt.title("eroded")
+    plt.imshow(eroded)
+    plt.show()
+    
+    dilated_image = cv2.dilate(eroded_image, kernel, iterations=1)
+    plt.title("dilated")
+    plt.imshow(dilated_image)
+    plt.show()
 
-    # print("blur")
-    # plt.imshow(blurred)
-    # plt.show()
-
-    # binary = cv2.adaptiveThreshold(blurred, 255, cv2.ADAPTIVE_THRESH_GAUSSIAN_C, cv2.THRESH_BINARY_INV, 15, 5)  
-
-    return binary
+    return dilated_image
 
 def find_text_contours(binary_image):
     """Finds contours of potential text regions while filtering out unwanted noise and lines."""
@@ -138,10 +143,6 @@ def extract_text_segments(image, contours):
         w = min(image.shape[1] - x, w + 2 * padding)
         h = min(image.shape[0] - y, h + 2 * padding)
 
-        # Optionally, filter out excessively large contours (may be noise or merged regions)
-        # max_area = 1000  # Example: ignore contours larger than 1000px area
-        # if w * h > max_area:
-        #     continue
         segment = image[y:y+h, x:x+w]
         bounding_boxes.append((x, y, w, h, segment))  # Store bounding box info
 
