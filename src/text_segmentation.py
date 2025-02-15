@@ -9,36 +9,62 @@ def preprocess_image(image_path):
     image = cv2.imread(image_path, cv2.IMREAD_GRAYSCALE)
 
     print("preprocess")
+
+    # 🔹 **Increase contrast** (Optional, if text is faint)
+    # image = cv2.equalizeHist(image)
+    # plt.title("increase contrast")
+    # plt.imshow(image)
+    # plt.show()
+
     # Apply median blur to remove small specks
     denoised = cv2.medianBlur(image, 1)
 
-    print("denoised")
+    plt.title("denoised")
     plt.imshow(denoised)
+    plt.show()
+
+
+    blurred = cv2.GaussianBlur(denoised, (1,1), 0)  # Apply Gaussian blur to Reduce noise
+
+    plt.title("blur")
+    plt.imshow(blurred)
+    plt.show()
+
+
+    binary = cv2.adaptiveThreshold(blurred, 255, cv2.ADAPTIVE_THRESH_GAUSSIAN_C, cv2.THRESH_BINARY_INV, 15, 5)  
+
+    plt.title("apply adaptive threshold")
+    plt.imshow(binary)
     plt.show()
 
     # Apply morphological closing to remove noise (dilation followed by erosion)
     kernel = np.ones((1,3), np.uint8)  # Adjust kernel size if needed
-    clean = cv2.morphologyEx(denoised, cv2.MORPH_CLOSE, kernel)
+    binary = cv2.morphologyEx(binary, cv2.MORPH_CLOSE, kernel)
 
-    print("clean")
-    plt.imshow(clean)
+    plt.title("morphological")
+    plt.imshow(binary)
     plt.show()
 
-    blurred = cv2.GaussianBlur(clean, (1,1), 0)  # Reduce noise
+    # blurred = cv2.GaussianBlur(clean, (1,1), 0)  # Reduce noise
 
-    print("blur")
-    plt.imshow(blurred)
-    plt.show()
+    # print("blur")
+    # plt.imshow(blurred)
+    # plt.show()
 
-    binary = cv2.adaptiveThreshold(blurred, 255, cv2.ADAPTIVE_THRESH_GAUSSIAN_C, cv2.THRESH_BINARY_INV, 15, 5)  
+    # binary = cv2.adaptiveThreshold(blurred, 255, cv2.ADAPTIVE_THRESH_GAUSSIAN_C, cv2.THRESH_BINARY_INV, 15, 5)  
 
     return binary
 
 def find_text_contours(binary_image):
-    """Finds contours of potential text regions in the binary image."""
-    # Find all external contours (ignore nested ones)
-    contours, _ = cv2.findContours(binary_image, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
+    """Finds contours of potential text regions while filtering out unwanted noise and lines."""
+    
+    # 🔹 **Find contours with hierarchy (detect nested components)**
+    contours, hierarchy = cv2.findContours(
+        binary_image, cv2.RETR_CCOMP, cv2.CHAIN_APPROX_SIMPLE
+    )
+
     return contours
+
 
 def sort_text_segments(text_segments):
     """Sorts text segments into natural reading order: top-to-bottom, then left-to-right."""
@@ -106,12 +132,16 @@ def extract_text_segments(image, contours):
             continue  # Likely a long line or a very tall shape (not text)
 
         # **🔹 Expand bounding box slightly for better segmentation**
-        padding = 7
+        padding = 6
         x = max(0, x - padding)
         y = max(0, y - padding)
         w = min(image.shape[1] - x, w + 2 * padding)
         h = min(image.shape[0] - y, h + 2 * padding)
 
+        # Optionally, filter out excessively large contours (may be noise or merged regions)
+        # max_area = 1000  # Example: ignore contours larger than 1000px area
+        # if w * h > max_area:
+        #     continue
         segment = image[y:y+h, x:x+w]
         bounding_boxes.append((x, y, w, h, segment))  # Store bounding box info
 
@@ -196,13 +226,14 @@ def sort_segments_by_line(text_segments, line_threshold=15):
 
 if __name__ == "__main__":
     # Test
-    image_path = "input_image/nama.jpeg"  # 
+    image_path = "input_image/niat_cropped.jpeg"  # 
     binary_image = preprocess_image(image_path)
 
     plt.imshow(binary_image, cmap="gray")
     plt.show()
     
     contours = find_text_contours(binary_image)
+
     output = cv2.cvtColor(binary_image, cv2.COLOR_GRAY2BGR)  # Convert to color
     cv2.drawContours(output, contours, -1, (0, 255, 0), 3)  # Draw detected regions
 
@@ -211,8 +242,6 @@ if __name__ == "__main__":
 
     # Extracted segments
     text_segments = extract_text_segments(binary_image, contours)
-    
-   
     
     # Show extracted parts
     print("Found text segment : ", len(text_segments))
