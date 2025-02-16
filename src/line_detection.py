@@ -111,7 +111,11 @@ def process_words(image, structured_text):
             # detect_and_plot_characters(word_img)  # Pass to your function
 
     cv2.destroyAllWindows()
-        # tsn.detect_and_plot_characters(word_img)  # Process the word
+    tsn.detect_and_plot_characters(word_img)  # Process the word
+
+def flip_lines(structured_text):
+    """Reverses the order of lines in the structured text while keeping words in order."""
+    return structured_text[::-1]  # Reverse the list of lines
 
 
 ## PLOTTING AREA
@@ -156,7 +160,7 @@ if __name__ == "__main__":
     
     plot_structured_text(image, structured_text)
     
-    process_words(image_original, structured_text)  
+    process_words(image_original, flip_lines(structured_text))
     
     
   
