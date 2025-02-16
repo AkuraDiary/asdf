@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import math
 
-image_path = "input_image/random.jpeg"
+image_path = "input_image/cursive.png"
 
 # IMAGE PREPROCESSING
 def preprocess_image(image):
@@ -238,7 +238,7 @@ def merge_vertical_bounding_boxes(bounding_boxes, vertical_threshold=3):
             x = min(x, mx)
             y = min(y, my)
             w = max(x + w, mx + mw) - x
-            h = max(y + h, my + mh) + mh-(my-h)
+            h = max(y + h, my + mh) #- y #(my-mh)
             bounding_boxes.remove((mx, my, mw, mh))  # Remove merged boxes
 
     
@@ -349,8 +349,10 @@ def plot_segments(segments, max_cols=10):
     plt.tight_layout()
     plt.show()
 
-if __name__ == "__main__":
-    image = cv2.imread(image_path, cv2.IMREAD_GRAYSCALE)
+# if __name__ == "__main__":
+#     image = cv2.imread(image_path, cv2.IMREAD_GRAYSCALE)
+
+def detect_and_plot_characters(image):
     bin_img = preprocess_image(image)
     plt.imshow(bin_img, cmap="gray")
     plt.title("Preprocessed Image")
@@ -376,10 +378,6 @@ if __name__ == "__main__":
     print(f"Before merging: {len(bounding_boxes)}")
 
     lines, sorted_boxes = sort_bounding_boxes(bounding_boxes)
-    # image_bounded_sorted = draw_bounding_boxes(color_img.copy(), sorted_boxes[:5])
-    # plt.imshow(image_bounded_sorted)
-    # plt.title("Bounding Boxes Sorted")
-    # plt.show()
 
     merged_boxes = merge_close_bounding_boxes(sorted_boxes, merge_threshold=3)
 
@@ -407,3 +405,7 @@ if __name__ == "__main__":
 
     segments = prepare_segments(padded_image, final_boxes, target_size=(64, 64))
     plot_segments(segments)
+
+if __name__ == "__main__":
+    image = cv2.imread(image_path, cv2.IMREAD_GRAYSCALE)
+    detect_and_plot_characters(image)
