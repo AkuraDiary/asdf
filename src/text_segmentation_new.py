@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import math
 
-image_path = "input_image/niat_cropped.jpeg"
+image_path = "input_image/random.jpeg"
 
 # IMAGE PREPROCESSING
 def preprocess_image(image):
@@ -238,7 +238,7 @@ def merge_vertical_bounding_boxes(bounding_boxes, vertical_threshold=3):
             x = min(x, mx)
             y = min(y, my)
             w = max(x + w, mx + mw) - x
-            h = max(y + h, my + mh) - mh
+            h = max(y + h, my + mh) + mh-(my-h)
             bounding_boxes.remove((mx, my, mw, mh))  # Remove merged boxes
 
     
@@ -282,7 +282,7 @@ def prepare_segments(image, bounding_boxes, target_size=(32, 32)):
 
     return segments
 
-def resize_with_aspect_ratio(image, target_size):
+def resize_with_aspect_ratio(image, target_size, padding=3):
     """
     Resizes an image to fit within target_size while maintaining aspect ratio.
     Pads with black (zero) if needed.
@@ -294,7 +294,10 @@ def resize_with_aspect_ratio(image, target_size):
     Returns:
     - Resized and padded image.
     """
-    h, w = image.shape
+
+    padded_image = add_padding_to_image(image, 4)
+
+    h, w = padded_image.shape
     target_w, target_h = target_size
 
     # Compute scaling factor
@@ -302,7 +305,7 @@ def resize_with_aspect_ratio(image, target_size):
     new_w, new_h = int(w * scale), int(h * scale)
 
     # Resize while maintaining aspect ratio
-    resized = cv2.resize(image, (new_w, new_h), interpolation=cv2.INTER_AREA)
+    resized = cv2.resize(padded_image, (new_w, new_h), interpolation=cv2.INTER_AREA)
 
     # Create a blank (black) target image
     output = np.zeros((target_h, target_w), dtype=np.uint8)
@@ -313,7 +316,6 @@ def resize_with_aspect_ratio(image, target_size):
     output[y_offset:y_offset+new_h, x_offset:x_offset+new_w] = resized
 
     return output
-
 
 def plot_segments(segments, max_cols=10):
     """
@@ -365,6 +367,7 @@ if __name__ == "__main__":
 
     # Assuming binary_watershed is the segmented image from watershed
     bounding_boxes = get_bounding_boxes(bin_img)
+
     image_bounded_before = draw_bounding_boxes(color_img.copy(), bounding_boxes)
     plt.imshow(image_bounded_before)
     plt.title("Bounding Boxes on Color Image before Processed")
@@ -373,6 +376,10 @@ if __name__ == "__main__":
     print(f"Before merging: {len(bounding_boxes)}")
 
     lines, sorted_boxes = sort_bounding_boxes(bounding_boxes)
+    # image_bounded_sorted = draw_bounding_boxes(color_img.copy(), sorted_boxes[:5])
+    # plt.imshow(image_bounded_sorted)
+    # plt.title("Bounding Boxes Sorted")
+    # plt.show()
 
     merged_boxes = merge_close_bounding_boxes(sorted_boxes, merge_threshold=3)
 
@@ -398,5 +405,5 @@ if __name__ == "__main__":
     plt.title("Bounding Boxes on Color Image after Processed")
     plt.show()
 
-    segments = prepare_segments(padded_image, final_boxes, target_size=(32, 32))
+    segments = prepare_segments(padded_image, final_boxes, target_size=(64, 64))
     plot_segments(segments)
