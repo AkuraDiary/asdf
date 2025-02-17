@@ -5,8 +5,7 @@ import math
 import text_segmentation_new as tsn
 from pprint import pprint
 
-image_path = "input_image/niat_cropped.jpeg"
-
+image_path = "input_image/gk_niat_cropped.jpeg"
 
 
 def preprocess_image(image):
@@ -17,7 +16,7 @@ def preprocess_image(image):
     clean = cv2.morphologyEx(binary, cv2.MORPH_CLOSE, kernel)  # Noise removal
     return clean
 
-def detect_words(image, min_word_height=5, min_word_ratio=1.5, max_word_ratio=5.0):
+def detect_words(image, min_word_height=5, min_word_ratio=2, max_word_ratio=7.0):
     """Detects words in a preprocessed image and returns a structured format preserving line breaks."""
     contours, _ = cv2.findContours(image, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
 
@@ -35,7 +34,7 @@ def detect_words(image, min_word_height=5, min_word_ratio=1.5, max_word_ratio=5.
         if h < min_word_height :
             continue  # Skip this bounding box as it's too thin to be a word
         
-        if aspect_ratio > min_word_ratio:
+        if aspect_ratio > min_word_ratio and h <= (min_word_height):
                 continue  # Skip this bounding box if it's too extreme (resembles a line)
         
         if prev_y is not None and abs(y - prev_y) > h * 1:
@@ -94,25 +93,6 @@ def structure_text(words, space_threshold=15, vertical_threshold=1):
 
     return structured_text
 
-
-
-def process_words(image, structured_text):
-    """Extracts words from the image and sends them to the character detection function."""
-    for line in structured_text:
-        for (x, y, w, h) in line:  # Directly unpack word bounding boxes
-            word_img = image[y:y+h, x:x+w]  # Crop the word
-
-            # Ensure valid crop
-            if word_img.size == 0:
-                continue
-
-            cv2.imshow("Word to be fed into detection", word_img)
-            cv2.waitKey(0)  # Show for 500ms
-            # detect_and_plot_characters(word_img)  # Pass to your function
-
-    cv2.destroyAllWindows()
-    tsn.detect_and_plot_characters(word_img)  # Process the word
-
 def flip_lines(structured_text):
     """Reverses the order of lines in the structured text while keeping words in order."""
     return structured_text[::-1]  # Reverse the list of lines
@@ -133,7 +113,27 @@ def plot_structured_text(image, structured_text):
     cv2.waitKey(0)
     cv2.destroyAllWindows()
 
+# FINALS
 
+def process_words(image, structured_text):
+    """Extracts words from the image and sends them to the character detection function."""
+    for line in structured_text:
+        for (x, y, w, h) in line:  # Directly unpack word bounding boxes
+            word_img = image[y:y+h, x:x+w]  # Crop the word
+
+            # Ensure valid crop
+            if word_img.size == 0:
+                continue
+            
+            word_img = tsn.add_padding_to_image(word_img)
+
+            cv2.imshow("Word to be fed into detection", word_img)
+            cv2.waitKey(0)  # Show for 500ms
+            # tsn.detect_and_plot_characters(word_img) 
+            # detect_and_plot_characters(word_img)  # Pass to your function
+
+    cv2.destroyAllWindows()
+    # tsn.detect_and_plot_characters(word_img)  # Process the word
     
 if __name__ == "__main__":
     image_original = cv2.imread(image_path)
@@ -151,16 +151,16 @@ if __name__ == "__main__":
     
     words_detected = detect_words(image)
     
-    print("words detected")
-    pprint(words_detected)
+    # print("words detected")
+    # pprint(words_detected)
     
     structured_text = structure_text(words_detected)
-    print("structured text")
-    pprint(structured_text)
+    # print("structured text")
+    # pprint(structured_text)
     
     plot_structured_text(image, structured_text)
     
-    process_words(image_original, flip_lines(structured_text))
+    process_words(image, flip_lines(structured_text))
     
     
   

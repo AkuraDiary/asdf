@@ -238,7 +238,7 @@ def merge_vertical_bounding_boxes(bounding_boxes, vertical_threshold=3):
             x = min(x, mx)
             y = min(y, my)
             w = max(x + w, mx + mw) - x
-            h = max(y + h, my + mh) #- y #(my-mh)
+            h = max(y + h, my + mh) - y #(my-mh)
             bounding_boxes.remove((mx, my, mw, mh))  # Remove merged boxes
 
     
