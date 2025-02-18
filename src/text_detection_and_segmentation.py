@@ -5,7 +5,7 @@ import math
 import text_segmentation_new as tsn
 from pprint import pprint
 
-image_path = "input_image/gk_niat_cropped.jpeg"
+image_path = "input_image/random.jpeg"
 
 
 def preprocess_image(image):
@@ -16,7 +16,7 @@ def preprocess_image(image):
     clean = cv2.morphologyEx(binary, cv2.MORPH_CLOSE, kernel)  # Noise removal
     return clean
 
-def detect_words(image, min_word_height=5, min_word_ratio=2, max_word_ratio=7.0):
+def detect_words(image, min_word_height=5, min_word_ratio=2, max_word_ratio=7.0, max_word_width=30):
     """Detects words in a preprocessed image and returns a structured format preserving line breaks."""
     contours, _ = cv2.findContours(image, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
 
@@ -31,10 +31,11 @@ def detect_words(image, min_word_height=5, min_word_ratio=2, max_word_ratio=7.0)
         # Calculate the width-to-height ratio
         aspect_ratio = w / h
             
-        if h < min_word_height :
+        if h < min_word_height or w > max_word_width :
             continue  # Skip this bounding box as it's too thin to be a word
         
-        if aspect_ratio > min_word_ratio and h <= (min_word_height):
+        
+        if aspect_ratio > min_word_ratio and h < (min_word_height):
                 continue  # Skip this bounding box if it's too extreme (resembles a line)
         
         if prev_y is not None and abs(y - prev_y) > h * 1:
@@ -81,9 +82,11 @@ def structure_text(words, space_threshold=15, vertical_threshold=1):
                     new_w = max(prev_x + prev_w, x + w) - new_x
                     new_h = max(prev_y + prev_h, y + h) - new_y
                     current_cluster[-1] = (new_x, new_y, new_w, new_h)
+                     
                 else:
                     # If the gap is too large, finalize the current cluster and start a new one
-                    word_images.append(current_cluster[-1])
+                    word_images.append(current_cluster[-1]) # Finalize the cluster and add it to word image
+                    
                     current_cluster = [(x, y, w, h)]  # Start a new cluster
 
         if current_cluster:  # Don't forget to add the last cluster
@@ -115,7 +118,7 @@ def plot_structured_text(image, structured_text):
 
 # FINALS
 
-def process_words(image, structured_text):
+def process_words_to_feed_into_model(image, structured_text):
     """Extracts words from the image and sends them to the character detection function."""
     for line in structured_text:
         for (x, y, w, h) in line:  # Directly unpack word bounding boxes
@@ -126,9 +129,12 @@ def process_words(image, structured_text):
                 continue
             
             word_img = tsn.add_padding_to_image(word_img)
+            
+            words_detected = detect_words(word_img)
+    
 
-            cv2.imshow("Word to be fed into detection", word_img)
-            cv2.waitKey(0)  # Show for 500ms
+            # cv2.imshow("Word to be fed into detection", word_img)
+            # cv2.waitKey(0)  # Show for 500ms
             # tsn.detect_and_plot_characters(word_img) 
             # detect_and_plot_characters(word_img)  # Pass to your function
 
@@ -153,14 +159,16 @@ if __name__ == "__main__":
     
     # print("words detected")
     # pprint(words_detected)
+    # plot_per_words_sorted(image, words_detected)
     
     structured_text = structure_text(words_detected)
+    
     # print("structured text")
     # pprint(structured_text)
     
     plot_structured_text(image, structured_text)
     
-    process_words(image, flip_lines(structured_text))
+    process_words_to_feed_into_model(image, flip_lines(structured_text))
     
     
   
