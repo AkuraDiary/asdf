@@ -1,0 +1,13 @@
+<script>start("/Users/asthiseta/project/asdf/src/input_image/");</script>
+<script>onHasParentDirectory();</script>
+<script>addRow("aksara.png","aksara.png",0,1251628,"1.2 MB",1739721905,"2/16/25, 11:05:05 PM");</script>
+<script>addRow("apabila.jpeg","apabila.jpeg",0,1723,"1.7 kB",1739542265,"2/14/25, 9:11:05 PM");</script>
+<script>addRow("cursive.png","cursive.png",0,1025313,"1001 kB",1739722488,"2/16/25, 11:14:48 PM");</script>
+<script>addRow("gak niat.jpeg","gak%20niat.jpeg",0,150637,"147 kB",1739520829,"2/14/25, 3:13:49 PM");</script>
+<script>addRow("gk_niat_cropped.jpeg","gk_niat_cropped.jpeg",0,16394,"16.0 kB",1739755497,"2/17/25, 8:24:57 AM");</script>
+<script>addRow("image.png","image.png",0,217055,"212 kB",1739596417,"2/15/25, 12:13:37 PM");</script>
+<script>addRow("nama.jpeg","nama.jpeg",0,2717,"2.7 kB",1739537494,"2/14/25, 7:51:34 PM");</script>
+<script>addRow("niat_cropped.jpeg","niat_cropped.jpeg",0,12858,"12.6 kB",1739527008,"2/14/25, 4:56:48 PM");</script>
+<script>addRow("niat.jpeg","niat.jpeg",0,164947,"161 kB",1739520836,"2/14/25, 3:13:56 PM");</script>
+<script>addRow("random.jpeg","random.jpeg",0,4342,"4.2 kB",1739539582,"2/14/25, 8:26:22 PM");</script>
+<script>addRow("yanto.png","yanto.png",0,350537,"342 kB",1739793399,"2/17/25, 6:56:39 PM");</script>
